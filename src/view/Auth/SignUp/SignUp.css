@@ -1,5 +1,5 @@
 .sign-up {
-  background-color: #727171e8;
+  background-color: #B4B4B4;
   width: 100%;
   height: auto;
   display: flex;
@@ -18,7 +18,7 @@
 }
 
 .signup-form-header {
-  background-color: #ededed;
+  background-color: #EEEEEE;
   padding: 20px;
   display: flex;
   justify-content: space-between;
