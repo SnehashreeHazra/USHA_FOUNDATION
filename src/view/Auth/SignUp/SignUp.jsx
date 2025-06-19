@@ -9,6 +9,7 @@ import downBtn from "../../../assets/Polygon 3.png";
 import { NavLink, useNavigate } from "react-router-dom";
 
 const SignUp = () => {
+  const navigate = useNavigate();
   return (
     <div className="sign-up">
       <div className="signup-form">
@@ -17,7 +18,7 @@ const SignUp = () => {
             <i class="fa-solid fa-xmark"></i>
           </div>
           <p className="sign-up-heading">Sign up now!</p>
-          <button className="signup-btn">Sign Up</button>
+          <button className="signup-btn" onClick={()=>navigate("/login")}>Sign Up</button>
         </div>
         <div className="signup-form-body">
           <div className="signup-body-head">
@@ -82,7 +83,7 @@ const SignUp = () => {
           </div>
           <p className="already">
             Already have an Account! Please{" "}
-            <NavLink to="/login">Log In</NavLink>
+            <NavLink to="/login" onClick={()=>navigate("/login")}>Log In</NavLink>
           </p>
           <p className="privacy-policy">
             By signing up, I accept the USHA <span>Terms & Conditions</span>{" "}

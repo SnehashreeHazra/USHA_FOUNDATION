@@ -113,6 +113,10 @@
   font-family: "Poppins", sans-serif;
   color: #585454;
 }
+.already a{
+  color: #1a52b4;
+  text-decoration: none;
+}
 .privacy-policy {
   text-align: center;
   font-family: "Poppins", sans-serif;
