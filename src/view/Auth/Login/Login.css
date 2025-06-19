@@ -1,0 +1,8 @@
+.forgot-remember-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  padding: 0px 60px;
+  color: #585454;
+}

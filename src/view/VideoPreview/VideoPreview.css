@@ -1,0 +1,293 @@
+.ritual-banner {
+  position: relative;
+  background-image: url("../../assets/Snana Cover 1.png");
+  background-size: cover;
+  background-position: center;
+  /* border-radius: 10px; */
+  overflow: hidden;
+  color: white;
+  height: 600px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+}
+.ritual-banner-overlay {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 80%;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    #eeeeee 100%
+  );
+  backdrop-filter: blur(3px);
+  z-index: 1;
+}
+.ritual-banner-content {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  background-color: #eeeeee;
+  margin-top: 50px;
+  padding-bottom: 80px;
+  border-bottom: 2px solid #5d5c5c33;
+}
+.ritual-banner-content-left {
+  width: 100%;
+  max-width: 60%;
+  min-width: 60%;
+}
+.video-reviews {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.video-reviews1 {
+  display: flex;
+  column-gap: 15px;
+}
+.video-reviews-btn {
+  background-color: #f6f6f6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  color: #7f7f7f;
+  font-size: 13px;
+}
+.stars-div i {
+  font-size: 23px;
+  color: #f4b301;
+}
+.stars-div {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.overview-heading {
+  color: #666666;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 30px 0;
+}
+.video-overview-text {
+  margin: 20px 0;
+  color: #434343;
+  font-size: 15px;
+}
+.ritual-banner-content-right {
+  width: 100%;
+  max-width: 35%;
+  min-width: 35%;
+}
+.ritual-banner-content-right-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ritual-banner-content-right-top button {
+  background-color: #1a52b4;
+  padding: 10px 28px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.video-comments-section {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  border: 2px solid;
+  border-image-source: linear-gradient(
+    144.15deg,
+    #ffffff 4.49%,
+    rgba(147, 147, 147, 0.36) 96.32%
+  );
+  padding: 30px 20px;
+  margin-top: 30px;
+  background-color: white;
+}
+.video-comments-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #0000001c;
+}
+.video-comments-head img {
+  width: 25px;
+}
+.video-comments {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.video-comment-person {
+  color: #8c8c8c;
+  font-weight: 600;
+}
+.login-comment {
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  padding: 12px 0;
+  text-align: center;
+  color: #7b7b7b;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.live-sessions {
+  margin-top: 80px;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 80px;
+  border-bottom: 2px solid #5d5c5c73;
+}
+.live-sessions-heading {
+  color: #b1b1b1;
+  font-weight: 600;
+  font-size: 23px;
+}
+.live-session-topics {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  margin-top: 30px;
+}
+.live-session-topics-wrapper {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+.live-session-topics-wrapper button {
+  padding: 5px 10px;
+  border: 2px solid #8d8d8d;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #8d8d8d;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+.live-videos-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 30px;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+.live-video {
+  width: 100%;
+  max-width: 30%;
+  min-width: 30%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  position: relative;
+}
+.live-video2{
+  width: 100%;
+  max-width: 30%;
+  min-width: 30%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  /* position: relative; */
+}
+.video-author {
+  position: absolute;
+  width: 50px;
+  top: 175px;
+  /* bottom: 120px; */
+  right: 20px;
+}
+/* .priya-scholer-icon{
+  position: absolute;
+  right: 0;
+  width: 25px;
+  bottom: 0;
+} */
+.video-background {
+  background-image: url("../../assets/61xzwgm0r-L 1.png");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.live-video-body {
+  background-color: white;
+  padding: 25px 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.live-video-description {
+  margin-top: 15px;
+  color: #666666;
+}
+.live-video-description span {
+  color: #1a52b4;
+  font-weight: 600;
+  cursor: pointer;
+}
+.live-see-more {
+  padding: 12px 20px;
+  background-color: #1a52b4;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  font-size: 15px;
+}
+.live-video2-img {
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+}
+.live-video2-body {
+  background-color: #b7deff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 25px 20px;
+}
+.live-video2-body-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.video-play-btn {
+  padding: 10px 20px;
+  background-color: #f4b301;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  column-gap: 3px;
+  align-items: center;
+}
+.live-video2-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.live-video2-bottom1{
+  display: flex;
+  align-items: center;
+  column-gap: 2px;
+  color: #7D7D7D;
+  font-size: 12px;
+}

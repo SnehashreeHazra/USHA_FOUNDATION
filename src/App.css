@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #eeeeee;
+}
+
+:root {
+  font-family: "Cinzel", serif;
+}
+.header-top {
+  background-color: #f4b301;
+  color: #000;
+  padding: 10px 0px;
+  text-align: center;
+}
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  background-color: white;
+}
+.header-bottom .logo {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+.header-bottom .logo img {
+  width: 60px;
+}
+.header-bottom .logo span {
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
+}
+.header-bottom-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 50%;
+  min-width: 50%;
+}
+.sign-in-btn {
+  background-color: #1a52b4;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.search-box {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+.search-box input {
+  background-color: #e2e2e2;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+  width: 250px;
+  outline: none;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header-bottom-right .search-box i {
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+}
+.uni-container {
+  width: 100%;
+  max-width: 80%;
+  min-width: 80%;
+  margin: 0 auto;
+}
+.about-us {
+  color: #000;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+.feature-stack-icon{
+  width: 50px;
+  cursor: pointer;
+}
+
+
+
+
+/* **********************Footer********************** */
+
+.footer{
+  background-color: #EEEEEE;
+  padding: 80px 0px;
+  text-align: center;
+}
+.have-gift{
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.redeem-here-btn{
+  padding: 10px 20px;
+  border: 3px solid #F4B301;
+  border-radius: 5px;
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 15px;
+}
+.usha-dialogue-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.usha-dialogue-logo p{
+  font-size: 50px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.uni-spiritual{
+  margin-top: 20px;
+  font-size: 28px;
+  font-weight: 500;
+  
+}
+
+.separator {
+  width: 3px;
+  height: 100px;
+  background-color: black;
+  margin: 0px 20px;
+}
+
+.footer-bottom{
+  background-color: white;
+  padding: 50px 0px;
+}
+
+.footer-bottom-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright{
+  color: #B1B1B1;
+  font-size: 23px;
+}
+.social-icons{
+  width: 100%;
+  max-width: 40%;
+  min-width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.social-icons i{
+  color: #B1B1B1;
+  font-size: 20px;
+  cursor: pointer;
+}
