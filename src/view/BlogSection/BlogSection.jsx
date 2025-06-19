@@ -9,7 +9,7 @@ import likeIcon from "../../assets/like 1 2.png";
 import commentIcon from "../../assets/Comments icon 1.png";
 import shareIcon from "../../assets/Share 4.png";
 import UshaEvent from "../socialFeed/UshaEvent";
-import followPerson1 from "../../assets/Group 25 (1).png";
+import followPerson1 from "../../assets/image 20.png";
 import followPerson2 from "../../assets/image 63.png";
 import followPerson3 from "../../assets/image 8 (1).png";
 import followPerson4 from "../../assets/image 9 (2).png";
@@ -39,7 +39,7 @@ const BlogSection = () => {
               <div className="msg-type">Saved</div>
               <div className="msg-type active">Your Article</div>
             </div>
-            <div className="aricle-div" >
+            <div className="aricle-div">
               <div className="article-head">
                 <div className="article-head1">
                   <img src={articleAuthor} alt="" />
@@ -53,7 +53,10 @@ const BlogSection = () => {
               </div>
               <div className="article-body">
                 <div className="aricle-body1">
-                  <h2 style={{cursor:'pointer'}} onClick={() => navigate("/blog2")}>
+                  <h2
+                    style={{ cursor: "pointer" }}
+                    onClick={() => navigate("/blog2")}
+                  >
                     The Soul in Daily Life—Hinduism and the Concepts of the
                     Atman
                   </h2>
@@ -95,7 +98,7 @@ const BlogSection = () => {
               </div>
               <div className="article-body">
                 <div className="aricle-body1">
-                  <h2 style={{cursor:'pointer'}}>
+                  <h2 style={{ cursor: "pointer" }}>
                     Unlocking the Mysteries of Hinduism: 10 Captivating Books to
                     Deepen Your Spiritual Quest
                   </h2>
@@ -137,7 +140,7 @@ const BlogSection = () => {
               </div>
               <div className="article-body">
                 <div className="aricle-body1">
-                  <h2 style={{cursor:'pointer'}}>
+                  <h2 style={{ cursor: "pointer" }}>
                     Unlocking the Mysteries of Hinduism: 10 Captivating Books to
                     Deepen Your Spiritual Quest
                   </h2>
@@ -188,12 +191,29 @@ const BlogSection = () => {
               <p className="follow-div-heading">You Can Follow</p>
               <div className="follow-body">
                 <div className="follow-div1">
-                <div className="follow-div12">
-                  <img src={followPerson1} alt="" />
-                  <p>Priya Viswanathan</p>
+                  <div className="follow-div12">
+                    <img src={followPerson1} alt="" />
+                    <p style={{ fontWeight: "600" }}>Priya Viswanathan</p>
+                  </div>
+                  <img className="follow-add-btn00" src={followAdd} alt="" />
                 </div>
-                  <img src={followAdd} alt="" />
+                <div className="follow-div1">
+                  <div className="follow-div12">
+                    <img src={followPerson2} alt="" />
+                    <p style={{ fontWeight: "600" }}>
+                      Sabyasachi Chattopadhyay
+                    </p>
+                  </div>
+                  <img className="follow-add-btn00" src={followAdd} alt="" />
                 </div>
+                <div className="follow-div1">
+                  <div className="follow-div12">
+                    <img src={followPerson3} alt="" />
+                    <p style={{ fontWeight: "600" }}>Nethan Hedler</p>
+                  </div>
+                  <img className="follow-add-btn00" src={followAdd} alt="" />
+                </div>
+                <p style={{textAlign:'center',color:"#1a52b4",fontWeight:"600",marginTop:'10px'}}>See more</p>
               </div>
             </div>
           </div>
