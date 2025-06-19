@@ -6,8 +6,10 @@ import emailLogo from "../../../assets/Msg Icon 2.png";
 import passwordLogo from "../../../assets/noun-key-5633618 3.png";
 import phoneLogo from "../../../assets/Voice Call 3.png";
 import downBtn from "../../../assets/Polygon 3.png";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+  const navigate = useNavigate();
   return (
     <div className="sign-up">
       <div className="signup-form">
@@ -16,7 +18,7 @@ const Login = () => {
             <i class="fa-solid fa-xmark"></i>
           </div>
           <p className="sign-up-heading">Welcome Back!</p>
-          <button className="signup-btn">Log in</button>
+          <button className="signup-btn" onClick={()=>navigate("/about")}>Log in</button>
         </div>
         <div className="signup-form-body">
           <div className="signup-body-head">
