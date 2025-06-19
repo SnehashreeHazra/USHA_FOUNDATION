@@ -21,8 +21,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<MainLayout />}>
-            <Route path="/about" element={<UshaAbout />} />
+          <Route  element={<MainLayout />}>
+            <Route path="/" element={<UshaAbout />} />
             <Route path="/sign-up" element={<SignUp />} />
             <Route path="/login" element={<Login />} />
             <Route path="/market-place" element={<MarketPlace />} />

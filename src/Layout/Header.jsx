@@ -1,11 +1,12 @@
 import React from "react";
 import logo from "../assets/USA New Logo 1 2.png";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import featureStackIcon from '../assets/All feature stack 1.png'
 
 const Header = () => {
   const location = useLocation();
   const isSocialOrCirclePage = location.pathname === "/social-feed" || location.pathname === "/messaging-section" || location.pathname === "/blog-section" || location.pathname === "/personal-profile" || location.pathname === "/video-preview";
+  const navigate = useNavigate();
   return (
     <div className="header">
       <div className="header-top">
@@ -27,8 +28,8 @@ const Header = () => {
                 <img className="feature-stack-icon" src={featureStackIcon} alt="" />
               ) : (
                 <>
-                  <p className="about-us">About Us</p>
-                  <button className="sign-in-btn">Sign In</button>
+                  <p className="about-us" onClick={()=>navigate("/about")}>About Us</p>
+                  <button className="sign-in-btn" onClick={()=>navigate("/login")}>Sign In</button>
                 </>
               )}
             </div>
