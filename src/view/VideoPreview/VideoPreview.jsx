@@ -10,7 +10,7 @@ import LiveVideo2 from "./LiveVideo2";
 
 const VideoPreview = () => {
   useEffect(()=>{
-    window.scrollTo({top:0,behavior:true})
+    window.scrollTo({top:0,behavior:"smooth"})
   },[])
   return (
     <>
