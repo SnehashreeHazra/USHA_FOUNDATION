@@ -197,10 +197,36 @@ const Blog2 = () => {
                 <div className="follow-div1">
                   <div className="follow-div12">
                     <img src={followPerson1} alt="" />
-                    <p>Priya Viswanathan</p>
+                    <p style={{ fontWeight: "600" }}>Priya Viswanathan</p>
                   </div>
-                  <img src={followAdd} alt="" />
+                  <img className="follow-add-btn00" src={followAdd} alt="" />
                 </div>
+                <div className="follow-div1">
+                  <div className="follow-div12">
+                    <img src={followPerson2} alt="" />
+                    <p style={{ fontWeight: "600" }}>
+                      Sabyasachi Chattopadhyay
+                    </p>
+                  </div>
+                  <img className="follow-add-btn00" src={followAdd} alt="" />
+                </div>
+                <div className="follow-div1">
+                  <div className="follow-div12">
+                    <img src={followPerson3} alt="" />
+                    <p style={{ fontWeight: "600" }}>Nethan Hedler</p>
+                  </div>
+                  <img className="follow-add-btn00" src={followAdd} alt="" />
+                </div>
+                <p
+                  style={{
+                    textAlign: "center",
+                    color: "#1a52b4",
+                    fontWeight: "600",
+                    marginTop: "10px",
+                  }}
+                >
+                  See more
+                </p>
               </div>
             </div>
           </div>
