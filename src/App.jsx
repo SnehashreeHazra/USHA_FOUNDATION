@@ -28,8 +28,8 @@ function App() {
             <Route path="/market-place" element={<MarketPlace />} />
             <Route path="/market-place2" element={<MarketPlace2 />} />
             <Route path="/social-feed" element={<SocialFeed />} />
-            <Route path="/messaging-section" element={<Messaging />} />
-            <Route path="/blog-section" element={<BlogSection />} />
+            <Route path="/message" element={<Messaging />} />
+            <Route path="/blog" element={<BlogSection />} />
             <Route path="/blog2" element={<Blog2 />} />
             <Route path="/personal-profile" element={<PersonalProfile/>} />
             <Route path="/video-preview" element={<VideoPreview />} />

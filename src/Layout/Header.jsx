@@ -28,7 +28,7 @@ const Header = () => {
                 <img className="feature-stack-icon" src={featureStackIcon} alt="" />
               ) : (
                 <>
-                  <p className="about-us" onClick={()=>navigate("/about")}>About Us</p>
+                  <p className="about-us" onClick={()=>navigate("/")}>About Us</p>
                   <button className="sign-in-btn" onClick={()=>navigate("/login")}>Sign In</button>
                 </>
               )}

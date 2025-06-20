@@ -129,6 +129,7 @@
   display: flex;
   column-gap: 5px;
   align-items: center;
+  justify-content: space-between;
 }
 .starts-div00 {
   display: flex;
@@ -174,4 +175,14 @@
   padding: 5px 10px;
   width: 80px;
   cursor: pointer;
+}
+
+
+@media (max-width:1300px){
+  .review-person{
+    width: 50%;
+  }
+  .reviews-div-head {
+    column-gap: 13px;
+  }
 }

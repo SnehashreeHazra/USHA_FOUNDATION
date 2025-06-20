@@ -51,7 +51,7 @@ const MarketPlaceCards = () => {
         </div>
       </div>
 
-      <div className="market-card">
+      <div className="market-card" onClick={() => navigate("/market-place2")}>
         <div className="market-card-img">
           <img src={cardImg} alt="" />
         </div>
@@ -96,7 +96,7 @@ const MarketPlaceCards = () => {
         </div>
       </div>
 
-      <div className="market-card">
+      <div className="market-card" onClick={() => navigate("/market-place2")}>
         <div className="market-card-img">
           <img src={cardImg} alt="" />
         </div>
@@ -141,7 +141,7 @@ const MarketPlaceCards = () => {
         </div>
       </div>
 
-      <div className="market-card">
+      <div className="market-card" onClick={() => navigate("/market-place2")}>
         <div className="market-card-img">
           <img src={cardImg} alt="" />
         </div>
@@ -186,7 +186,7 @@ const MarketPlaceCards = () => {
         </div>
       </div>
 
-      <div className="market-card">
+      <div className="market-card" onClick={() => navigate("/market-place2")}>
         <div className="market-card-img">
           <img src={cardImg} alt="" />
         </div>

@@ -833,3 +833,10 @@
   height: 3px;
   margin: 20px 0 !important;
 }
+
+
+@media (max-width:1300px){
+  .profile-bottom-left{
+    width: 65%;
+  }
+}

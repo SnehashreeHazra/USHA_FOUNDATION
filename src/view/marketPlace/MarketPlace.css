@@ -394,3 +394,13 @@
   color: #989898;
   margin-left: 6px;
 }
+
+
+@media (max-width:1300px){
+  .profile-body-left{
+    width: 65%;
+  }
+  .profile-right-body-text{
+    font-size: 13px;
+  }
+}
