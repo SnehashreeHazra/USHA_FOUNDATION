@@ -21,7 +21,7 @@ const Login = () => {
             <i class="fa-solid fa-xmark"></i>
           </div>
           <p className="sign-up-heading">Welcome Back!</p>
-          <button className="signup-btn" onClick={()=>navigate("/")}>Log in</button>
+          <button className="signup-btn" onClick={()=>navigate("/social-feed")}>Log in</button>
         </div>
         <div className="signup-form-body">
           <div className="signup-body-head">
