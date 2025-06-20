@@ -12,13 +12,19 @@ import sendIcon from "../../assets/Send icon 2.png";
 import profilePerson from "../../assets/Group 3.png";
 
 import seekerImg from "../../assets/Group 26.png";
+import { useNavigate } from "react-router-dom";
 
 const OwnPost = () => {
+  const navigate = useNavigate();
   return (
     <div className="follower-post">
       <div className="follower-post-head">
         <div className="follower-post-head-left">
-          <img className="follower-post-profile-img" src={profilePerson} alt="" />
+          <img
+            className="follower-post-profile-img"
+            src={profilePerson}
+            alt=""
+          />
           <div>
             <div className="frnd-name-div">
               <p style={{ fontWeight: "600" }}>Pragyan Gupta</p>
@@ -32,14 +38,18 @@ const OwnPost = () => {
         <img src={threedot} alt="" style={{ width: "18px" }} />
       </div>
       <div className="post-body">
-        <p style={{ marginBottom: "15px" }}>Decoding the Mystery of Snāna? Why do millions take a sacred dip during Makar Sankranti? What makes water a force of spiritual transformation?
-Dive into the timeless Hindu ritual of Snāna—where karma is cleansed, the soul is reborn, and science meets sacredness.</p>
+        <p style={{ marginBottom: "15px" }}>
+          Decoding the Mystery of Snāna? Why do millions take a sacred dip
+          during Makar Sankranti? What makes water a force of spiritual
+          transformation? Dive into the timeless Hindu ritual of Snāna—where
+          karma is cleansed, the soul is reborn, and science meets sacredness.
+        </p>
         <p style={{ color: "#1a52b4", marginBottom: "20px" }}>
           #Snana #SpiritualAwakening #HinduRituals #SacredBath #KumbhMela
           #USHAChannel #ScienceInRitual #SanatanDharma #AncientWisdom
           #PinakiGangopadhyay
         </p>
-        <img className="post-img" src={postImg} alt="" />
+        <img onClick={()=>navigate("/video-preview")} className="post-img" src={postImg} alt="" />
         <div className="like-comment">
           <div className="like-div">
             <img src={likeIcon} alt="" />

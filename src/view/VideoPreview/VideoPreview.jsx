@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./VideoPreview.css";
 import Footer from "../../Layout/Footer";
 import likeBtn from "../../assets/like 1 5.png";
@@ -9,6 +9,9 @@ import LiveVideo from "./LiveVideo";
 import LiveVideo2 from "./LiveVideo2";
 
 const VideoPreview = () => {
+  useEffect(()=>{
+    window.scrollTo({top:0,behavior:true})
+  },[])
   return (
     <>
       <div style={{ marginBottom: "50px" }}>

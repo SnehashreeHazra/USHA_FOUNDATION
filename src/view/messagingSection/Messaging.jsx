@@ -20,8 +20,10 @@ import shareSmallIcon from "../../assets/Share 5.png";
 import threeDot2 from "../../assets/Group 41.png";
 import img44 from "../../assets/image 63.png";
 import chatVideoImg from "../../assets/Group 43 (1).png";
+import { useNavigate } from "react-router-dom";
 
 const Messaging = () => {
+  const navigate = useNavigate();
   return (
     <div style={{ paddingBottom: "50px" }}>
       <div className="uni-container">
