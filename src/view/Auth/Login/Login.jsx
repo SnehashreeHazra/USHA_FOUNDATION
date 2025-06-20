@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Login.css";
 import signupLogo from "../../../assets/USA New Logo 1 2.png";
 import userLogo from "../../../assets/User Icon 2.png";
@@ -10,6 +10,9 @@ import { useNavigate } from "react-router-dom";
 
 const Login = () => {
   const navigate = useNavigate();
+  useEffect(()=>{
+    window.scrollTo({top:0,behavior:'smooth'})
+  },[])
   return (
     <div className="sign-up">
       <div className="signup-form">
@@ -18,7 +21,7 @@ const Login = () => {
             <i class="fa-solid fa-xmark"></i>
           </div>
           <p className="sign-up-heading">Welcome Back!</p>
-          <button className="signup-btn" onClick={()=>navigate("/about")}>Log in</button>
+          <button className="signup-btn" onClick={()=>navigate("/")}>Log in</button>
         </div>
         <div className="signup-form-body">
           <div className="signup-body-head">
@@ -52,7 +55,7 @@ const Login = () => {
             <p>Forgot Password?</p>
           </div>
           <p className="already" style={{ marginTop: "10px" }}>
-            Don't have an Account! Please <span>Sign Up</span>
+            Don't have an Account! Please <span style={{cursor:'pointer'}} onClick={()=>navigate("/sign-up")}>Sign Up</span>
           </p>
         </div>
       </div>

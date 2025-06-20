@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./SignUp.css";
 import signupLogo from "../../../assets/USA New Logo 1 2.png";
 import userLogo from "../../../assets/User Icon 2.png";
@@ -10,6 +10,9 @@ import { NavLink, useNavigate } from "react-router-dom";
 
 const SignUp = () => {
   const navigate = useNavigate();
+  useEffect(()=>{
+      window.scrollTo({top:0,behavior:'smooth'})
+    },[])
   return (
     <div className="sign-up">
       <div className="signup-form">
