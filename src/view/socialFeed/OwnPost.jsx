@@ -1,7 +1,7 @@
 import React from "react";
 import followerImg from "../../assets/Group 25.png";
 import threedot from "../../assets/Group 2.png";
-import postImg from "../../assets/Snana Cover 1.png";
+import postImg from "../../assets/Group 43 (1).png";
 import likeIcon from "../../assets/like 1 2.png";
 import msgIcon from "../../assets/Comments icon 1.png";
 import shareIcon from "../../assets/Share 4.png";
