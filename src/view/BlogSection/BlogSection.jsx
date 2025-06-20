@@ -98,7 +98,7 @@ const BlogSection = () => {
               </div>
               <div className="article-body">
                 <div className="aricle-body1">
-                  <h2 style={{ cursor: "pointer" }}>
+                  <h2 onClick={() => navigate("/blog2")} style={{ cursor: "pointer" }}>
                     Unlocking the Mysteries of Hinduism: 10 Captivating Books to
                     Deepen Your Spiritual Quest
                   </h2>
@@ -140,7 +140,7 @@ const BlogSection = () => {
               </div>
               <div className="article-body">
                 <div className="aricle-body1">
-                  <h2 style={{ cursor: "pointer" }}>
+                  <h2 onClick={() => navigate("/blog2")} style={{ cursor: "pointer" }}>
                     Unlocking the Mysteries of Hinduism: 10 Captivating Books to
                     Deepen Your Spiritual Quest
                   </h2>

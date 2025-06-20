@@ -18,7 +18,8 @@ import sendBtn from "../../assets/Send icon 2.png";
 import smileIcon from "../../assets/Emoji icon 1.png";
 import shareSmallIcon from "../../assets/Share 5.png";
 import threeDot2 from "../../assets/Group 41.png";
-import img44 from "../../assets/image 63.png"
+import img44 from "../../assets/image 63.png";
+import chatVideoImg from "../../assets/Group 43 (1).png";
 
 const Messaging = () => {
   return (
@@ -58,7 +59,7 @@ const Messaging = () => {
                   </div>
                 </div>
               </div>
-              <div className="friend">
+              <div className="friend active">
                 <div className="friend-div1">
                   <img src={friendLogo} alt="" />
                   <div className="friend-div2">
@@ -130,6 +131,7 @@ const Messaging = () => {
                   <img src={threeDot2} alt="" />
                 </div>
               </div>
+
               <div className="owner-chat">
                 <div className="msg-react-icons">
                   <img src={smileIcon} alt="" />
@@ -146,6 +148,17 @@ const Messaging = () => {
                 </div>
                 <img className="chat-frnd-img" src={img44} alt="" />
               </div>
+            <div className="owner-chat">
+              <div className="chatbox1">
+                <img src={chatVideoImg} alt="" />
+                <p>
+                  Vestibulum et porttitor lacus. Vivamus iaculis, orci et
+                  gravida tincidunt, massa ipsum tincidunt ex, a interdum massa
+                  velit vitae lacus. 
+                </p>
+              </div>
+              <img className="chat-frnd-img" src={img44} alt="" />
+            </div>
             </div>
             <div className="message-send-div">
               <img className="msg-box-btn" src={addIcon} alt="" />
