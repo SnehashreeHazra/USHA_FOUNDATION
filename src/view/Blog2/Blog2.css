@@ -90,4 +90,18 @@
 .comment-post-btn img{
   width: 20px;
 }
-
+.priya-comment-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.priya-comment-head1{
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+}
+.more-btn{
+  width: 20px;
+  cursor: pointer;
+}

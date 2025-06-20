@@ -199,15 +199,25 @@ const Blog2 = () => {
                 </div>
 
                 <div className="priya-comment-head">
-                <div>
+                <div className="priya-comment-head1">
                   <img src={priyaAvater} alt="" />
                   <div>
-                    <p>Priya Viswanathan</p>
-                    <p>1st May 2025 at 14:10</p>
+                    <p style={{fontWeight:'600'}}>Priya Viswanathan</p>
+                    <p style={{color:"#8C8C8C",fontSize:'12px',marginTop:'5px'}}>1st May 2025 at 14:10</p>
                   </div>
                   <img src={seekerIcon} alt="" />
                 </div>
-                <img src={moreIcon} alt="" />
+                <img className="more-btn" src={moreIcon} alt="" />
+                </div>
+                <p style={{marginTop:'10px',fontSize:"13px"}}>This is sweet but it doesn't address the more pressing issues with communication on the website, which is the ergonomy of the comment section and the notifications. I would love to see progress in these areas.Thanks for the hard work, keep going!</p>
+                <div className="article-footer2" style={{marginTop:'10px'}}>
+                  <div className="article-bottom2">
+                    <img src={likeIcon} alt="" /> <span>2 Liked</span>
+                  </div>
+                  <div className="article-bottom2">
+                    <img src={shareIcon} alt="" /> <span>1 Reply</span>
+                  </div>
+                  
                 </div>
               </div>
             </div>
