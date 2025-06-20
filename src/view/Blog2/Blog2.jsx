@@ -16,6 +16,7 @@ import followPerson4 from "../../assets/image 9 (2).png";
 import followAdd from "../../assets/add 2 white.png";
 import likeIcon2 from "../../assets/like 1 3.png";
 import dislikeIcon from "../../assets/like 1 4.png";
+import sendIcon from "../../assets/Send icon 2.png"
 
 const Blog2 = () => {
   return (
@@ -150,7 +151,7 @@ const Blog2 = () => {
               <hr style={{ margin: "30px 0" }} />
               <div className="article-footer">
                 <p>Do you liked this article: </p>
-                <div>
+                <div className="blog-reaction">
                   <img src={likeIcon2} alt="" />
                   <img src={dislikeIcon} alt="" />
                 </div>
@@ -169,6 +170,28 @@ const Blog2 = () => {
                   <img className="save-icon" src={followAdd} alt="" />
                   <img className="save-icon" src={shareIcon} alt="" />
                   <img className="save-icon" src={saveIcon} alt="" />
+                </div>
+              </div>
+              <p className="blog-total-comment">Comment (5)</p>
+              <div className="blog-comments">
+                <div className="article-head1">
+                  <img src={articleAuthor} alt="" />
+                  <p className="article-author">Pragyan Gupta</p>
+                  <div className="sage-div00">
+                    <img src={scholerIcon} alt="" />
+                    <span>SAGE</span>
+                  </div>
+                </div>
+                <div class="comment-box">
+                  <input
+                    type="text"
+                    placeholder="What are your thoughts?"
+                    class="comment-box-input"
+                  />
+                  <button class="comment-post-btn">
+                    POST{" "}
+                    <img src={sendIcon} alt="Send" class="send-icon" />
+                  </button>
                 </div>
               </div>
             </div>
