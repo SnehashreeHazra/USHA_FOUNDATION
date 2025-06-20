@@ -16,7 +16,11 @@ import followPerson4 from "../../assets/image 9 (2).png";
 import followAdd from "../../assets/add 2 white.png";
 import likeIcon2 from "../../assets/like 1 3.png";
 import dislikeIcon from "../../assets/like 1 4.png";
+import seekerIcon from "../../assets/Group 9.png"
+import priyaAvater from "../../assets/Group 25.png"
+import moreIcon from "../../assets/Group 2 1.png"
 import sendIcon from "../../assets/Send icon 2.png"
+
 
 const Blog2 = () => {
   return (
@@ -192,6 +196,18 @@ const Blog2 = () => {
                     POST{" "}
                     <img src={sendIcon} alt="Send" class="send-icon" />
                   </button>
+                </div>
+
+                <div className="priya-comment-head">
+                <div>
+                  <img src={priyaAvater} alt="" />
+                  <div>
+                    <p>Priya Viswanathan</p>
+                    <p>1st May 2025 at 14:10</p>
+                  </div>
+                  <img src={seekerIcon} alt="" />
+                </div>
+                <img src={moreIcon} alt="" />
                 </div>
               </div>
             </div>
