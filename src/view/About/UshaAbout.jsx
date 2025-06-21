@@ -4,9 +4,9 @@ import invertedComma from "../../assets/”.png";
 import Footer from "../../Layout/Footer";
 
 const UshaAbout = () => {
-  useEffect(()=>{
-    window.scrollTo({top:0,behavior:'smooth'})
-  },[])
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
   return (
     <div className="about-container">
       <div className="uni-container about-container0">
@@ -32,7 +32,7 @@ const UshaAbout = () => {
               <p className="mission-left-div-heading">
                 01 Unification Of Mankind{" "}
               </p>
-              <p className="mission-left-div-text" style={{color:"#C41C1C"}}>
+              <p className="mission-left-div-text" style={{ color: "#C41C1C" }}>
                 Creating a common platform aimed at unification of mankind
                 irrespective of religion, language, history and geography.{" "}
               </p>
@@ -50,7 +50,7 @@ const UshaAbout = () => {
               <p className="mission-left-div-heading">
                 Universal Brotherhood 02
               </p>
-              <p className="mission-left-div-text" style={{color:"#C41C1C"}}>
+              <p className="mission-left-div-text" style={{ color: "#C41C1C" }}>
                 Creating a universal brotherhood based on spiritual advancement
                 rising above narrow boundaries of the mind.{" "}
               </p>
