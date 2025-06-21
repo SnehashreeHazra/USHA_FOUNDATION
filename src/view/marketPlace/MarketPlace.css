@@ -23,7 +23,7 @@
   display: flex;
   flex-direction: column;
   row-gap: 20px;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
 }
@@ -45,7 +45,7 @@
 .profile-body-left {
   margin-top: 60px;
 }
-.profile-sage-div{
+.profile-sage-div {
   display: flex;
   align-items: center;
   column-gap: 20px;
@@ -119,7 +119,7 @@
   margin-right: 5px;
 }
 .profile-photo {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   padding: 10px;
   border-radius: 50%;
   display: flex;
@@ -395,12 +395,11 @@
   margin-left: 6px;
 }
 
-
-@media (max-width:1300px){
-  .profile-body-left{
+@media (max-width: 1300px) {
+  .profile-body-left {
     width: 65%;
   }
-  .profile-right-body-text{
+  .profile-right-body-text {
     font-size: 13px;
   }
 }
