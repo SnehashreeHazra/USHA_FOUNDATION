@@ -1,5 +1,5 @@
 .sign-up {
-  background-color: #B4B4B4;
+  background-color: #b4b4b4;
   width: 100%;
   height: auto;
   display: flex;
@@ -18,7 +18,7 @@
 }
 
 .signup-form-header {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -113,7 +113,7 @@
   font-family: "Poppins", sans-serif;
   color: #585454;
 }
-.already a{
+.already a {
   color: #1a52b4;
   text-decoration: none;
 }
