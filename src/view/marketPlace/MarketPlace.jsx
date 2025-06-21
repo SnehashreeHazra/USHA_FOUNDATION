@@ -9,7 +9,7 @@ const MarketPlace = () => {
   return (
     <div className="market-place">
       <div className="uni-container market-place-container">
-        <div className="market-place-left" style={{marginTop:'95px'}}>
+        <div className="market-place-left" style={{ marginTop: "95px" }}>
           <Profile />
 
           <div className="market-place-fiters">
