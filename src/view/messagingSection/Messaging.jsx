@@ -150,17 +150,17 @@ const Messaging = () => {
                 </div>
                 <img className="chat-frnd-img" src={img44} alt="" />
               </div>
-            <div className="owner-chat">
-              <div className="chatbox1">
-                <img src={chatVideoImg} alt="" />
-                <p>
-                  Vestibulum et porttitor lacus. Vivamus iaculis, orci et
-                  gravida tincidunt, massa ipsum tincidunt ex, a interdum massa
-                  velit vitae lacus. 
-                </p>
+              <div className="owner-chat">
+                <div className="chatbox1">
+                  <img src={chatVideoImg} alt="" />
+                  <p>
+                    Vestibulum et porttitor lacus. Vivamus iaculis, orci et
+                    gravida tincidunt, massa ipsum tincidunt ex, a interdum
+                    massa velit vitae lacus. 
+                  </p>
+                </div>
+                <img className="chat-frnd-img" src={img44} alt="" />
               </div>
-              <img className="chat-frnd-img" src={img44} alt="" />
-            </div>
             </div>
             <div className="message-send-div">
               <img className="msg-box-btn" src={addIcon} alt="" />
