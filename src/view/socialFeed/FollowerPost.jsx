@@ -13,8 +13,8 @@ import profilePerson from "../../assets/Group 3.png";
 import arrowImg from "../../assets/Enter Icon 1.png";
 import commentPersonImg from "../../assets/image 9 (2).png";
 import commentPerson2Img from "../../assets/image 20.png";
-import seekerImg from "../../assets/Group 26.png"
-import seekerImg2 from "../../assets/Group 9.png"
+import seekerImg from "../../assets/Group 26.png";
+import seekerImg2 from "../../assets/Group 9.png";
 
 const FollowerPost = () => {
   return (
@@ -23,10 +23,10 @@ const FollowerPost = () => {
         <div className="follower-post-head-left">
           <img src={followerImg} alt="" />
           <div>
-          <div className="frnd-name-div">
-            <p style={{ fontWeight: "600" }}>Priya Viswanathan</p>
-            <img src={seekerImg} alt="" />
-          </div>
+            <div className="frnd-name-div">
+              <p style={{ fontWeight: "600" }}>Priya Viswanathan</p>
+              <img src={seekerImg} alt="" />
+            </div>
             <p style={{ color: "#8C8C8C", fontSize: "13px", marginTop: "5px" }}>
               1st May 2025 at 14:10
             </p>
@@ -113,13 +113,14 @@ const FollowerPost = () => {
           <img src={arrowImg} alt="" />
           <img className="comment-avatar" src={commentPerson2Img} alt="user" />
           <div className="reply-content">
-          <div className="priya-div">
-
-            <p className="comment-author">
-              Priya Viswanathan{" "}
-            </p>
-              <img src={seekerImg2} alt="Seeker badge" className="seeker-badge" />
-          </div>
+            <div className="priya-div">
+              <p className="comment-author">Priya Viswanathan </p>
+              <img
+                src={seekerImg2}
+                alt="Seeker badge"
+                className="seeker-badge"
+              />
+            </div>
             <p className="comment-text">Yes... It is!</p>
           </div>
         </div>
