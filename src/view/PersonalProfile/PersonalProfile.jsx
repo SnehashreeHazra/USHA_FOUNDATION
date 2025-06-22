@@ -16,9 +16,9 @@ import OwnPost from "../socialFeed/OwnPost";
 
 const PersonalProfile = () => {
   const [showModal, setShowModal] = useState(false);
-  useEffect(()=>{
-    window.scrollTo({top:0,behavior:'smooth'})
-  },[])
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
   return (
     <div style={{ paddingBottom: "50px" }}>
       {showModal && <CreatePostModal onClose={() => setShowModal(false)} />}
@@ -108,7 +108,7 @@ const PersonalProfile = () => {
               </div>
             </div>
           </div>
-          <hr style={{margin:"50px 0"}} />
+          <hr style={{ margin: "50px 0" }} />
           <OwnPost />
           <FollowerPost />
         </div>
