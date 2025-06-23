@@ -202,12 +202,34 @@
 }
 .edit-profile-modal-container{
   border-radius: 30px;
-
+  width: 100%;
+  max-width: 50%;
+  min-width: 50%;
 }
 .edit-profile-modal-header{
   background-color: #EEEEEE;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.edit-profile-modal-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+}
+.profile-img55-div{
+  background-color: #D9D9D9;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-img55-div img{
+  width: 200px;
 }

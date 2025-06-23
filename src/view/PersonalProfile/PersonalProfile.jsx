@@ -13,6 +13,7 @@ import CreatePostModal from "../socialFeed/CreatePostModal";
 import Tribes from "../socialFeed/Tribes";
 import UshaEvent from "../socialFeed/UshaEvent";
 import OwnPost from "../socialFeed/OwnPost";
+import EditProfileModal from "./EditProfileModal";
 
 const PersonalProfile = () => {
   const [showModal, setShowModal] = useState(false);
@@ -21,7 +22,7 @@ const PersonalProfile = () => {
   }, []);
   return (
     <div style={{ paddingBottom: "50px" }}>
-      {showModal && <CreatePostModal onClose={() => setShowModal(false)} />}
+      {showModal && <EditProfileModal onClose={() => setShowModal(false)} />}
       <div className="profile-section">
         <div className="profile-cover-img">
           <div className="profile-cover-edit-btn">
@@ -46,7 +47,7 @@ const PersonalProfile = () => {
                   <img src={circlePlus} alt="" />
                   <span>Add Your Story</span>
                 </div>
-                <button>Edit Profile</button>
+                <button onClick={()=>setShowModal(true)}>Edit Profile</button>
               </div>
             </div>
             <div className="profile-body-right00">
