@@ -21,7 +21,7 @@ const PersonalProfile = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
   return (
-    <div style={{ paddingBottom: "50px" }}>
+    <div style={{ paddingBottom: "50px", overflow:'hidden' }}>
       {showModal && <EditProfileModal onClose={() => setShowModal(false)} />}
       <div className="profile-section">
         <div className="profile-cover-img">
