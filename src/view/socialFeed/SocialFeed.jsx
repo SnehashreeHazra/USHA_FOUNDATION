@@ -13,12 +13,15 @@ import FollowerPost from "./FollowerPost";
 import CreatePostModal from "./CreatePostModal";
 import UshaEvent from "./UshaEvent";
 import OwnPost from "./OwnPost";
+import NotificationModal from "./NotificationModal";
 
 const SocialFeed = () => {
   const [showModal, setShowModal] = useState(false);
+  const [showNotification, setShowNotification] = useState(false);
   return (
     <div style={{ backgroundColor: "#eeeeee",paddingBottom:"50px" }}>
     {showModal && <CreatePostModal onClose={() => setShowModal(false)} />}
+    {showNotification && <NotificationModal />}
       <div className="uni-container">
         <div className="social-feed">
           <div className="stories-div">
@@ -68,7 +71,7 @@ const SocialFeed = () => {
                     <img src={emailIcon} alt="" />
                   </div>
                   <div className="email-icon-div">
-                    <img src={bellIcon} alt="" />
+                    <img src={bellIcon} onClick={()=>setShowNotification(true)} alt="" />
                   </div>
                   <div className="email-icon-div">
                     <img src={shareIcon} alt="" />
