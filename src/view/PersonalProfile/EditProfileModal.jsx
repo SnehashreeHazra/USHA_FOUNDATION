@@ -42,8 +42,21 @@ const EditProfileModal = ({ onClose }) => {
               </div>
               <div className="edit-form-input">
                 <p style={{ visibility: "hidden" }}>Your Name</p>
-                <div style={{display:'flex', alignItems:'center',gap: '8px',maxWidth:'fit-content'}}>
-                  <input type="checkbox" style={{width:'18px', height:'18px', cursor:'pointer'}} /> <span style={{ color: "#8C8C8C", whiteSpace: 'nowrap' }}>Make it Private</span>
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "8px",
+                    maxWidth: "fit-content",
+                  }}
+                >
+                  <input
+                    type="checkbox"
+                    style={{ width: "18px", height: "18px", cursor: "pointer" }}
+                  />{" "}
+                  <span style={{ color: "#8C8C8C", whiteSpace: "nowrap" }}>
+                    Make it Private
+                  </span>
                 </div>
               </div>
             </div>
