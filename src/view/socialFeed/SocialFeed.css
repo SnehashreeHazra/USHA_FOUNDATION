@@ -874,6 +874,8 @@
   column-gap: 30px;
   background-color: white;
   padding: 0px 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #C7C7C7;
 }
 
 @media (max-width: 1300px) {
