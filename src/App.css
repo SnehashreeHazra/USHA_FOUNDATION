@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: #eeeeee;
 }
 
@@ -88,55 +88,51 @@ body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   cursor: pointer;
 }
-.feature-stack-icon{
+.feature-stack-icon {
   width: 50px;
   cursor: pointer;
 }
 
-
-
-
 /* **********************Footer********************** */
 
-.footer{
-  background-color: #EEEEEE;
+.footer {
+  background-color: #eeeeee;
   padding: 80px 0px;
   text-align: center;
 }
-.have-gift{
+.have-gift {
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   margin-bottom: 20px;
   font-size: 15px;
 }
-.redeem-here-btn{
+.redeem-here-btn {
   padding: 10px 20px;
-  border: 3px solid #F4B301;
+  border: 3px solid #f4b301;
   border-radius: 5px;
   color: #000;
   font-weight: 700;
   cursor: pointer;
   font-size: 15px;
 }
-.usha-dialogue-logo{
+.usha-dialogue-logo {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
 }
 
-.usha-dialogue-logo p{
+.usha-dialogue-logo p {
   font-size: 50px;
   font-weight: 500;
   text-align: left;
 }
 
-.uni-spiritual{
+.uni-spiritual {
   margin-top: 20px;
   font-size: 28px;
   font-weight: 500;
-  
 }
 
 .separator {
@@ -146,29 +142,29 @@ body{
   margin: 0px 20px;
 }
 
-.footer-bottom{
+.footer-bottom {
   background-color: white;
   padding: 50px 0px;
 }
 
-.footer-bottom-container{
+.footer-bottom-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.copyright{
-  color: #B1B1B1;
+.copyright {
+  color: #b1b1b1;
   font-size: 23px;
 }
-.social-icons{
+.social-icons {
   width: 100%;
   max-width: 40%;
   min-width: 40%;
   display: flex;
   justify-content: space-between;
 }
-.social-icons i{
-  color: #B1B1B1;
+.social-icons i {
+  color: #b1b1b1;
   font-size: 20px;
   cursor: pointer;
 }
