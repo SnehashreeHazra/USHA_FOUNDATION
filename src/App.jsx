@@ -21,7 +21,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route  element={<MainLayout />}>
+          <Route element={<MainLayout />}>
             <Route path="/" element={<UshaAbout />} />
             <Route path="/sign-up" element={<SignUp />} />
             <Route path="/login" element={<Login />} />
@@ -31,7 +31,7 @@ function App() {
             <Route path="/message" element={<Messaging />} />
             <Route path="/blog" element={<BlogSection />} />
             <Route path="/blog2" element={<Blog2 />} />
-            <Route path="/personal-profile" element={<PersonalProfile/>} />
+            <Route path="/personal-profile" element={<PersonalProfile />} />
             <Route path="/video-preview" element={<VideoPreview />} />
           </Route>
         </Routes>
