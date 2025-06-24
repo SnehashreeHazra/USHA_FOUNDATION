@@ -192,7 +192,7 @@
   border-radius: 10px;
   position: relative;
 }
-.live-video2{
+.live-video2 {
   width: 100%;
   max-width: 30%;
   min-width: 30%;
@@ -278,16 +278,16 @@
   column-gap: 3px;
   align-items: center;
 }
-.live-video2-bottom{
+.live-video2-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 15px;
 }
-.live-video2-bottom1{
+.live-video2-bottom1 {
   display: flex;
   align-items: center;
   column-gap: 2px;
-  color: #7D7D7D;
+  color: #7d7d7d;
   font-size: 12px;
 }
