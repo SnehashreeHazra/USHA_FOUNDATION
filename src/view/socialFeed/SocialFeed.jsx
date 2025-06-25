@@ -19,9 +19,9 @@ const SocialFeed = () => {
   const [showModal, setShowModal] = useState(false);
   const [showNotification, setShowNotification] = useState(false);
   return (
-    <div style={{ backgroundColor: "#eeeeee",paddingBottom:"50px" }}>
-    {showModal && <CreatePostModal onClose={() => setShowModal(false)} />}
-    {showNotification && <NotificationModal />}
+    <div style={{ backgroundColor: "#eeeeee", paddingBottom: "50px" }}>
+      {showModal && <CreatePostModal onClose={() => setShowModal(false)} />}
+      {showNotification && <NotificationModal />}
       <div className="uni-container">
         <div className="social-feed">
           <div className="stories-div">
@@ -63,15 +63,28 @@ const SocialFeed = () => {
             <div className="social-feed-right">
               <div className="social-feed-right-head">
                 <div className="create-post-input">
-                  <input type="text" placeholder="Create Post" onClick={() => setShowModal(true)} />
-                  <div className="create-post-btn" onClick={() => setShowModal(true)}>Add</div>
+                  <input
+                    type="text"
+                    placeholder="Create Post"
+                    onClick={() => setShowModal(true)}
+                  />
+                  <div
+                    className="create-post-btn"
+                    onClick={() => setShowModal(true)}
+                  >
+                    Add
+                  </div>
                 </div>
                 <div className="social-div">
                   <div className="email-icon-div">
                     <img src={emailIcon} alt="" />
                   </div>
                   <div className="email-icon-div">
-                    <img src={bellIcon} onClick={()=>setShowNotification(true)} alt="" />
+                    <img
+                      src={bellIcon}
+                      onClick={() => setShowNotification(true)}
+                      alt=""
+                    />
                   </div>
                   <div className="email-icon-div">
                     <img src={shareIcon} alt="" />
