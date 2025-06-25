@@ -899,7 +899,7 @@
 }
 .notify-body-div1{
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   column-gap: 5px;
   margin: 20px 0;
@@ -909,6 +909,16 @@
 }
 .notify-body-div2 p{
   font-size: 14px;
+}
+.notify-see-all{
+  background-color: #C9C9C9;
+  border-radius: 20px;
+  padding: 8px 15px;
+  border: none;
+  margin: 10px 0;
+  margin-left: 10px;
+  margin-bottom: 25px;
+  cursor: pointer;
 }
 
 @media (max-width: 1300px) {

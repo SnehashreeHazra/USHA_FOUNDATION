@@ -25,17 +25,18 @@ const NotificationModal = () => {
           <div className="notify-body-div1">
             <img src={priyaImg} alt="" />
             <div className="notify-body-div2">
-              <p><span style={{fontWeight:'600'}}>Priya Vishwanathan and 4 other people</span> recently  liked your article.</p>
+              <p><span style={{fontWeight:'600'}}>Priya Vishwanathan</span> recently comment on your article.</p>
               <p style={{color:'#1a52b4', fontSize:'12px', fontWeight:'600', marginTop:'5px'}}>10h</p>
             </div>
           </div>
           <div className="notify-body-div1">
             <img src={priyaImg} alt="" />
             <div className="notify-body-div2">
-              <p><span style={{fontWeight:'600'}}>Priya Vishwanathan and 4 other people</span> recently  liked your article.</p>
+              <p><span style={{fontWeight:'600'}}>Priya Vishwanathan</span> liked your reply on her comment.</p>
               <p style={{color:'#1a52b4', fontSize:'12px', fontWeight:'600', marginTop:'5px'}}>10h</p>
             </div>
           </div>
+          <button className="notify-see-all">See all</button>
         </div>
       </div>
     </div>
