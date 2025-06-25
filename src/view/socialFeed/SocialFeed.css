@@ -921,6 +921,26 @@
   cursor: pointer;
 }
 
+
+/* *********************Share Modal CSS******************* */
+
+.share-modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* *****************Media Quries*************** */
+
 @media (max-width: 1300px) {
   .profile-bottom-left {
     width: 65%;
