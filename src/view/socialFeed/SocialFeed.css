@@ -854,8 +854,8 @@
 }
 .notification-modal-container {
   width: 100%;
-  max-width: 400px;
-  min-width: 400px;
+  max-width: 450px;
+  min-width: 450px;
   border-radius: 10px;
 }
 .notification-modal-head {
@@ -893,6 +893,22 @@
 }
 .notification-modal-body {
   background-color: white;
+  padding: 5px 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.notify-body-div1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 5px;
+  margin: 20px 0;
+}
+.notify-body-div1 img{
+  width: 45px;
+}
+.notify-body-div2 p{
+  font-size: 14px;
 }
 
 @media (max-width: 1300px) {

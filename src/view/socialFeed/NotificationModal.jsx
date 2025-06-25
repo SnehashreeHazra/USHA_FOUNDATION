@@ -15,11 +15,25 @@ const NotificationModal = () => {
           <div className="unread-btn">Unread</div>
         </div>
         <div className="notification-modal-body">
-          <div>
+          <div className="notify-body-div1">
             <img src={priyaImg} alt="" />
-            <div>
-              <p><span>Priya Vishwanathan and 4 other people</span> recently  liked your article.</p>
-              <p>10h</p>
+            <div className="notify-body-div2">
+              <p><span style={{fontWeight:'600'}}>Priya Vishwanathan and 4 other people</span> recently  liked your article.</p>
+              <p style={{color:'#1a52b4', fontSize:'12px', fontWeight:'600', marginTop:'5px'}}>10h</p>
+            </div>
+          </div>
+          <div className="notify-body-div1">
+            <img src={priyaImg} alt="" />
+            <div className="notify-body-div2">
+              <p><span style={{fontWeight:'600'}}>Priya Vishwanathan and 4 other people</span> recently  liked your article.</p>
+              <p style={{color:'#1a52b4', fontSize:'12px', fontWeight:'600', marginTop:'5px'}}>10h</p>
+            </div>
+          </div>
+          <div className="notify-body-div1">
+            <img src={priyaImg} alt="" />
+            <div className="notify-body-div2">
+              <p><span style={{fontWeight:'600'}}>Priya Vishwanathan and 4 other people</span> recently  liked your article.</p>
+              <p style={{color:'#1a52b4', fontSize:'12px', fontWeight:'600', marginTop:'5px'}}>10h</p>
             </div>
           </div>
         </div>
