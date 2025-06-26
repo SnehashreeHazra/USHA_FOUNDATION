@@ -21,7 +21,7 @@ const PersonalProfile = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
   return (
-    <div style={{ paddingBottom: "50px", overflow:'hidden' }}>
+    <div style={{ paddingBottom: "50px", overflow: "hidden" }}>
       {showModal && <EditProfileModal onClose={() => setShowModal(false)} />}
       <div className="profile-section">
         <div className="profile-cover-img">
@@ -47,7 +47,7 @@ const PersonalProfile = () => {
                   <img src={circlePlus} alt="" />
                   <span>Add Your Story</span>
                 </div>
-                <button onClick={()=>setShowModal(true)}>Edit Profile</button>
+                <button onClick={() => setShowModal(true)}>Edit Profile</button>
               </div>
             </div>
             <div className="profile-body-right00">
