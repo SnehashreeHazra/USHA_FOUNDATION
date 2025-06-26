@@ -897,21 +897,21 @@
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-.notify-body-div1{
+.notify-body-div1 {
   display: flex;
   /* justify-content: space-between; */
   align-items: center;
   column-gap: 5px;
   margin: 20px 0;
 }
-.notify-body-div1 img{
+.notify-body-div1 img {
   width: 45px;
 }
-.notify-body-div2 p{
+.notify-body-div2 p {
   font-size: 14px;
 }
-.notify-see-all{
-  background-color: #C9C9C9;
+.notify-see-all {
+  background-color: #c9c9c9;
   border-radius: 20px;
   padding: 8px 15px;
   border: none;
@@ -921,10 +921,9 @@
   cursor: pointer;
 }
 
-
 /* *********************Share Modal CSS******************* */
 
-.share-modal{
+.share-modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -937,7 +936,6 @@
   z-index: 1000;
   font-family: "Poppins", sans-serif;
 }
-
 
 /* *****************Media Quries*************** */
 
