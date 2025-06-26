@@ -49,7 +49,12 @@ const OwnPost = () => {
           #USHAChannel #ScienceInRitual #SanatanDharma #AncientWisdom
           #PinakiGangopadhyay
         </p>
-        <img onClick={()=>navigate("/video-preview")} className="post-img" src={postImg} alt="" />
+        <img
+          onClick={() => navigate("/video-preview")}
+          className="post-img"
+          src={postImg}
+          alt=""
+        />
         <div className="like-comment">
           <div className="like-div">
             <img src={likeIcon} alt="" />
