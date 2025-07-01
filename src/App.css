@@ -14,8 +14,11 @@ body {
 .header-top {
   background-color: #f4b301;
   color: #000;
-  padding: 10px 0px;
+  padding: 3px 0px;
   text-align: center;
+}
+.header-top-text{
+  font-size: 12px;
 }
 .header-bottom {
   display: flex;
@@ -32,10 +35,10 @@ body {
   align-items: center;
 }
 .header-bottom .logo img {
-  width: 60px;
+  width: 40px;
 }
 .header-bottom .logo span {
-  font-size: 18px;
+  font-size: 28px;
   color: #000;
   font-weight: 500;
 }
@@ -44,17 +47,34 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 50%;
-  min-width: 50%;
+  max-width: 60%;
+  min-width: 60%;
+}
+.ai-search-box{
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 8px 15px;
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+  width: 150px;
+}
+.ai-search-box img{
+  width: 22px;
+}
+.ai-search-box input{
+  outline: none;
+  border: none;
+  width: 100%;
 }
 .sign-in-btn {
   background-color: #1a52b4;
   border: none;
   color: white;
-  padding: 10px 25px;
-  border-radius: 10px;
+  padding: 8px 25px;
+  border-radius: 20px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .search-box {
@@ -85,6 +105,7 @@ body {
 .about-us {
   color: #000;
   font-weight: 500;
+  font-size: 14px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   cursor: pointer;
 }
