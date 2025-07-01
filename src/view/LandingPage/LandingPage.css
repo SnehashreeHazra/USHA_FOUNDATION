@@ -1,39 +1,59 @@
-.landing-banner{
-  background-image: url('../../assets/ChatGPT Image Jun 13, 2025, 10_31_31 AM 1.png');
+.landing-banner {
+  background-image: url("../../assets/ChatGPT Image Jun 13, 2025, 10_31_31 AM 1.png");
   background-position: center;
   background-size: cover;
   height: 100vh;
-
 }
-.landing-banner-text{
+.landing-banner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding-top: 180px;
+  padding-top: 70px;
 }
-.landing-banner-heading{
+.landing-banner-heading {
   color: white;
   font-weight: 500;
   font-size: 90px;
   margin: 0px !important;
 }
-.landing-banner-heading p{
+.landing-banner-heading p {
   margin: 0px !important;
 }
-.landing-banner-subheading{
+.landing-banner-subheading {
   color: white;
   font-weight: 500;
   font-size: 30px;
 }
-.banner-about-us-btn{
+.banner-about-us-btn {
+  margin-top: 20px;
   color: white;
-  padding: 10px;
-  border-radius: 20px;
+  padding: 5px 10px;
+  border-radius: 25px;
   border: 1px solid white;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 150px;
+  width: 180px;
+  font-family: "poppins", sans-serif;
+  cursor: pointer;
 }
-.banner-about-us-btn img{
+.banner-about-us-btn img {
   width: 50px;
 }
-  
+.place-for-everyone {
+  background: linear-gradient(to bottom, #021f52, #1a52b4);
+  display: flex;
+  justify-content: space-between;
+}
+.place-for-everyone-left {
+  width: 100%;
+  max-width: 30%;
+  min-width: 30%;
+}
+.place-for-everyone-left {
+  width: 100%;
+  max-width: 60%;
+  min-width: 60%;
+}
