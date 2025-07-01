@@ -7,6 +7,7 @@ import ushaStream from "../../assets/Group 183.png";
 import blueArrow from "../../assets/Group 188.png"
 import ushaSparks from "../../assets/Group 182.png"
 import ushaInsights from "../../assets/Group 187.png"
+import LatestEvent from "./LatestEvent";
 
 const LandingPage = () => {
   return (
@@ -87,6 +88,8 @@ Ancient wisdom meets modern inquiry.
           </div>
         </div>
       </div>
+
+      <LatestEvent />
     </div>
   );
 };

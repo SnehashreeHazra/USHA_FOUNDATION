@@ -143,3 +143,26 @@
   max-width: 60%;
   min-width: 60%;
 }
+
+.latest-event{
+  background-color: #1A52B4;
+  border-radius: 20px;
+  padding: 80px;
+}
+.latest-event-big-img{
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid white;
+}
+.latest-event-heading{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: "Sora", sans-serif;
+  margin-top: 50px;
+}
+.latest-events-cards{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
