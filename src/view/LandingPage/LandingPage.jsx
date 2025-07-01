@@ -5,6 +5,8 @@ import placeEveryone from "../../assets/Group 180.png";
 import yellowArrow from "../../assets/Group 181.png";
 import ushaStream from "../../assets/Group 183.png";
 import blueArrow from "../../assets/Group 188.png"
+import ushaSparks from "../../assets/Group 182.png"
+import ushaInsights from "../../assets/Group 187.png"
 
 const LandingPage = () => {
   return (
@@ -49,19 +51,38 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <div className="uni-container usha-sparks">
-        <div className="usha-stream-left">
-          <img src={ushaStream} alt="" />
-        </div>
-        <div className="usha-stream-right">
-          <p className="usha-stream-heading">USHA Stream</p>
-          <p className="usha-stream-text">
+      <div className="uni-container usha-stream">
+        <div className="usha-sparks-left">
+        <p className="usha-stream-heading" style={{textAlign:'left'}}>USHA Sparks</p>
+          <p className="usha-stream-text" style={{textAlign:'left'}}>
             Watch timeless stories and civilisational insights come alive
             through original documentaries, series, and visual essays. Streaming
             Vedic wisdom for the modern seeker.
           </p>
           <div className="explore-original-btn">
-            <span>Explore Originals</span>
+            <span>Ignite Your Mind</span>
+            <img src={blueArrow} alt="" />
+          </div>
+          
+        </div>
+        <div className="usha-sparks-right">
+          <img src={ushaSparks} alt="" />
+        </div>
+      </div>
+
+      <div className="uni-container usha-stream">
+        <div className="usha-stream-left">
+          <img src={ushaInsights} alt="" />
+        </div>
+        <div className="usha-stream-right">
+          <p className="usha-stream-heading">USHA Insights</p>
+          <p className="usha-stream-text">
+            Read transformative articles, decoded scriptures, and cross-cultural thought-pieces from modern Dhārmic thinkers.
+Ancient wisdom meets modern inquiry.
+
+          </p>
+          <div className="explore-original-btn">
+            <span>Explore Articles</span>
             <img src={blueArrow} alt="" />
           </div>
         </div>
