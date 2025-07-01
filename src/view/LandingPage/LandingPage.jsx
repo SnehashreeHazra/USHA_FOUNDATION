@@ -3,6 +3,8 @@ import "./LandingPage.css";
 import LandingBanner from "./LandingBanner";
 import placeEveryone from "../../assets/Group 180.png";
 import yellowArrow from "../../assets/Group 181.png";
+import ushaStream from "../../assets/Group 183.png";
+import blueArrow from "../../assets/Group 188.png"
 
 const LandingPage = () => {
   return (
@@ -26,6 +28,41 @@ const LandingPage = () => {
           </div>
           <div className="place-for-everyone-right">
             <img src={placeEveryone} alt="" />
+          </div>
+        </div>
+      </div>
+      <div className="uni-container usha-stream">
+        <div className="usha-stream-left">
+          <img src={ushaStream} alt="" />
+        </div>
+        <div className="usha-stream-right">
+          <p className="usha-stream-heading">USHA Stream</p>
+          <p className="usha-stream-text">
+            Watch timeless stories and civilisational insights come alive
+            through original documentaries, series, and visual essays. Streaming
+            Vedic wisdom for the modern seeker.
+          </p>
+          <div className="explore-original-btn">
+            <span>Explore Originals</span>
+            <img src={blueArrow} alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div className="uni-container usha-sparks">
+        <div className="usha-stream-left">
+          <img src={ushaStream} alt="" />
+        </div>
+        <div className="usha-stream-right">
+          <p className="usha-stream-heading">USHA Stream</p>
+          <p className="usha-stream-text">
+            Watch timeless stories and civilisational insights come alive
+            through original documentaries, series, and visual essays. Streaming
+            Vedic wisdom for the modern seeker.
+          </p>
+          <div className="explore-original-btn">
+            <span>Explore Originals</span>
+            <img src={blueArrow} alt="" />
           </div>
         </div>
       </div>
