@@ -1,0 +1,39 @@
+.landing-banner{
+  background-image: url('../../assets/ChatGPT Image Jun 13, 2025, 10_31_31 AM 1.png');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+
+}
+.landing-banner-text{
+  text-align: center;
+  padding-top: 180px;
+}
+.landing-banner-heading{
+  color: white;
+  font-weight: 500;
+  font-size: 90px;
+  margin: 0px !important;
+}
+.landing-banner-heading p{
+  margin: 0px !important;
+}
+.landing-banner-subheading{
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+}
+.banner-about-us-btn{
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+}
+.banner-about-us-btn img{
+  width: 50px;
+}
+  

@@ -15,6 +15,7 @@ import BlogSection from "./view/BlogSection/BlogSection";
 import Blog2 from "./view/Blog2/Blog2";
 import PersonalProfile from "./view/PersonalProfile/PersonalProfile";
 import VideoPreview from "./view/VideoPreview/VideoPreview";
+import LandingPage from "./view/LandingPage/LandingPage";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route element={<MainLayout />}>
-            <Route path="/" element={<UshaAbout />} />
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/about" element={<UshaAbout />} />
             <Route path="/sign-up" element={<SignUp />} />
             <Route path="/login" element={<Login />} />
             <Route path="/market-place" element={<MarketPlace />} />
