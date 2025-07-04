@@ -32,7 +32,7 @@ const SocialFeed = () => {
   return (
     <div
       style={{
-        backgroundColor: "#fff",
+        background: 'linear-gradient(to bottom, #F6D362 5%, #FBE8B1 8%, #ffffff 100%)',
         paddingTop: "80px",
         paddingBottom: "50px",
       }}
