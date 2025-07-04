@@ -95,13 +95,13 @@ const OwnPost = () => {
       <div className="comment-input-container">
         <img className="follower-post-profile-img" src={profilePerson} alt="" />
         <div className="comment-input-box">
-          <div>
+          <div className="comment-input-box1">
             <input type="text" placeholder="Comment Here" />
             <button className="post-agree-btn">Agree</button>
             <button className="post-disagree-btn">Disagree</button>
             <button className="post-neutral-btn">Neutral</button>
           </div>
-          <div>
+          <div className="comment-input-box2">
           <div>
             <img src={linkIcon} alt="" />
             <img src={cameraIcon} alt="" />

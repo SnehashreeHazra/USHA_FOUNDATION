@@ -469,11 +469,25 @@
 .comment-input-box {
   flex: 1;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  background-color: #f2f2f2;
+  background-color: #fff;
   border-radius: 30px;
   padding: 5px;
   justify-content: space-between;
+}
+.comment-input-box1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.comment-input-box2{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
 }
 
 .comment-input-box input {
@@ -505,6 +519,8 @@
   padding: 8px 10px;
   border-radius: 20px;
   font-size: 14px;
+  background-color: transparent;
+  cursor: pointer;
 }
 .post-disagree-btn{
   color: #D90368;
@@ -512,6 +528,8 @@
   padding: 8px 10px;
   border-radius: 20px;
   font-size: 14px;
+  background-color: transparent;
+  cursor: pointer;
 }
 .post-neutral-btn{
   color: #1A52B4;
@@ -519,6 +537,8 @@
   padding: 8px 10px;
   border-radius: 20px;
   font-size: 14px;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .comment-send-btn img {
