@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import "./SocialFeed.css";
 import storyProfile1 from "../../assets/image 63.png";
 import storyProfile2 from "../../assets/Group 25.png";
-import nextBtn from "../../assets/Polygon 2.png";
+import storyProfile3 from "../../assets/Group 191.png"
+import nextBtn from "../../assets/Polygon 2 (1).png";
 import Profile from "../marketPlace/Profile";
 import bellIcon from "../../assets/Notification bell 1.png";
 import emailIcon from "../../assets/Msg Icon 1.png";
@@ -26,7 +27,7 @@ const SocialFeed = () => {
   const [showModal, setShowModal] = useState(false);
   const [showNotification, setShowNotification] = useState(false);
   return (
-    <div style={{ backgroundColor: "#eeeeee", paddingBottom: "50px" }}>
+    <div style={{ backgroundColor: "#fff", paddingTop:'80px', paddingBottom: "50px" }}>
       {/* {showModal && <CreatePostModal onClose={() => setShowModal(false)} />} */}
       {/* {showNotification && <NotificationModal />} */}
       <div className="uni-container">
@@ -46,13 +47,12 @@ const SocialFeed = () => {
           <div className="sidebar-menu"><img src={acadeymIcon} alt="" /><span>USHA Academy</span></div>
           <div className="sidebar-menu"><img src={marketIcon} alt="" /><span>USHA Market</span></div>
           <div className="sidebar-menu"><img src={insightIcon} alt="" /><span>USHA Insight</span></div>
-          <p>About Us-Terms-Help Desk-Settings</p>
-          <p>USHA©2025</p>
+          <p className="sidebar-about-us">About Us-Terms-Help Desk-Settings</p>
+          <p style={{color:'#8F8F8F', marginTop:"5px", marginBottom:'10px'}}>USHA©2025</p>
           <button className="sidebar-logout-btn">Log Out</button>
         </div>
-        <div className="social-div-middle"></div>
-        <div className="social-div-right"></div>
-          {/* <div className="stories-div">
+        <div className="social-div-middle">
+          <div className="stories-div">
             <div className="story-div01">
               <div className="story-add-icon">
                 <i class="fa-solid fa-circle-plus"></i>
@@ -70,13 +70,18 @@ const SocialFeed = () => {
             <div className="story-div03">
               <img className="story-div03-profile" src={storyProfile2} alt="" />
             </div>
-            <div className="story-div04"></div>
-            <div className="story-div04"></div>
-            <div className="story-div04"></div>
+            <div className="story-div04">
+              <img className="story-div04-profile" src={storyProfile3} alt="" />
+            </div>
+            
             <div className="story-next-btn">
               <img src={nextBtn} alt="" />
             </div>
-          </div> */}
+          </div>
+          <OwnPost />
+        </div>
+        <div className="social-div-right"></div>
+          
           {/* <div className="social-feed-container">
             <div className="social-feed-left">
               <Profile />
