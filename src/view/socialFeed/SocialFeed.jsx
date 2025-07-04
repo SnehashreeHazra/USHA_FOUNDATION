@@ -148,10 +148,10 @@ const SocialFeed = () => {
           <div className="social-div-right">
             <Profile />
             <div className="profile-friends-div">
-              <div><img src={fndIcon} alt="" /><span>Friends</span></div>
-              <div><img src={addfndIcon} alt="" /><span>Followers</span></div>
-              <div><img src={cohortsIcon} alt="" /><span>Cohorts</span></div>
-              <div><img src={saveIcon} alt="" /><span>Saved Items</span></div>
+              <div className="profile-friends-div1"><img src={fndIcon} alt="" /><span>Friends</span></div>
+              <div className="profile-friends-div1"><img src={addfndIcon} alt="" /><span>Followers</span></div>
+              <div className="profile-friends-div1"><img src={cohortsIcon} alt="" /><span>Cohorts</span></div>
+              <div className="profile-friends-div1"><img src={saveIcon} alt="" /><span>Saved Items</span></div>
             </div>
             <UshaEvent />
           </div>

@@ -4,9 +4,8 @@
   font-family: "Sora", sans-serif;
   display: flex;
   justify-content: space-between;
-
 }
-.social-div-left{
+.social-div-left {
   width: 100%;
   max-width: 20%;
   min-width: 20%;
@@ -113,7 +112,7 @@
   left: 15px;
 }
 .story-div04 {
-  background-image: url('../../assets/image 104.png');
+  background-image: url("../../assets/image 104.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -141,22 +140,22 @@
 .story-next-btn img {
   width: 14px;
 }
-.sidebar-menu{
+.sidebar-menu {
   display: flex;
   align-items: center;
   column-gap: 5px;
-  color: #8F8F8F;
+  color: #8f8f8f;
   margin: 30px 0;
   cursor: pointer;
 }
-.sidebar-menu img{
+.sidebar-menu img {
   width: 32px;
 }
-.sidebar-menu span{
+.sidebar-menu span {
   font-size: 15px;
 }
-.sidebar-logout-btn{
-  background-color: #D9D9D9;
+.sidebar-logout-btn {
+  background-color: #d9d9d9;
   border-radius: 20px;
   padding: 8px 20px;
   color: #000;
@@ -165,23 +164,23 @@
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.sidebar-about-us{
-  color: #F4B301;
+.sidebar-about-us {
+  color: #f4b301;
   font-size: 12px;
   cursor: pointer;
-  text-decoration: underline  ;
+  text-decoration: underline;
 }
 .social-feed-container {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
 }
-.social-div-middle{
+.social-div-middle {
   width: 100%;
   max-width: 50%;
   min-width: 50%;
 }
-.social-div-right{
+.social-div-right {
   width: 100%;
   max-width: 25%;
   min-width: 25%;
@@ -195,7 +194,7 @@
   align-items: center;
   width: 100%;
 }
-.create-post-container{
+.create-post-container {
   display: flex;
   column-gap: 20px;
   background-color: #eeeeee;
@@ -203,7 +202,7 @@
   padding: 10px 20px;
   margin-top: 30px;
 }
-.create-post-container img{
+.create-post-container img {
   width: 40px;
   height: 40px;
 }
@@ -223,9 +222,23 @@
   color: #9f9f9f;
   background-color: transparent;
 }
+.profile-friends-div {
+  margin: 50px 0;
+}
+.profile-friends-div1 {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  font-size: 13px;
+  margin: 30px 0;
+  color: #8f8f8f;
+}
+.profile-friends-div1 img {
+  width: 40px;
+}
 .create-post-btn {
-  color: #A35B13;
-  border: 3px solid #A35B13;
+  color: #a35b13;
+  border: 3px solid #a35b13;
   border-radius: 20px;
   padding: 3px 10px;
   cursor: pointer;
@@ -995,29 +1008,28 @@
   font-family: "Poppins", sans-serif;
 }
 
-.social-feed-navbar{
+.social-feed-navbar {
   width: 100%;
-  
-  border: 1px solid #170E13;
+
+  border: 1px solid #170e13;
   border-radius: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   /* margin-top: 80px; */
-   font-family: "Sora", sans-serif;
+  font-family: "Sora", sans-serif;
 }
-.social-feed-navbar p{
+.social-feed-navbar p {
   padding: 10px 30px;
   cursor: pointer;
 }
-.social-feed-navbar p.active{
-  background-color: #A35B13;
+.social-feed-navbar p.active {
+  background-color: #a35b13;
   border-radius: 20px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: #fff;
   /* padding: 10px 20px; */
 }
-
 
 /* *****************Media Quries*************** */
 
