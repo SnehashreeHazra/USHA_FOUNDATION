@@ -20,9 +20,17 @@ const SocialFeed = () => {
   const [showNotification, setShowNotification] = useState(false);
   return (
     <div style={{ backgroundColor: "#eeeeee", paddingBottom: "50px" }}>
-      {showModal && <CreatePostModal onClose={() => setShowModal(false)} />}
-      {showNotification && <NotificationModal />}
+      {/* {showModal && <CreatePostModal onClose={() => setShowModal(false)} />} */}
+      {/* {showNotification && <NotificationModal />} */}
       <div className="uni-container">
+      <div className="social-feed-navbar">
+        <p>USHA Stream</p>
+        <p>USHA Sparks</p>
+        <p>USHA Insights</p>
+        <p>USHA Dialouge</p>
+        <p>USHA Social</p>
+        <p>USHA Academy</p>
+      </div>
         <div className="social-feed">
           <div className="stories-div">
             <div className="story-div01">
