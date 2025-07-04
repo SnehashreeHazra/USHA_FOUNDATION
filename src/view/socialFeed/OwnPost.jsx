@@ -91,6 +91,9 @@ const OwnPost = () => {
         <img className="follower-post-profile-img" src={profilePerson} alt="" />
         <div className="comment-input-box">
           <input type="text" placeholder="Comment Here" />
+          <button className="post-agree-btn">Agree</button>
+          <button className="post-disagree-btn">Disagree</button>
+          <button className="post-neutral-btn">Neutral</button>
           <button>
             Send <img src={sendIcon} alt="" />
           </button>
