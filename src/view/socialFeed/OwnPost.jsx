@@ -10,6 +10,11 @@ import msgIcon2 from "../../assets/Comments icon 4.png";
 import shareIcon2 from "../../assets/Share 3.png";
 import sendIcon from "../../assets/Send icon 2.png";
 import profilePerson from "../../assets/Group 3.png";
+import linkIcon from "../../assets/Attach 1.png"
+import cameraIcon from "../../assets/Camera 1.png"
+import videoIcon from "../../assets/Video 1.png"
+import smileIcon from "../../assets/Emoji 1.png"
+import gifIcon from "../../assets/GIF 1.png"
 
 import seekerImg from "../../assets/Group 26.png";
 import { useNavigate } from "react-router-dom";
@@ -90,13 +95,24 @@ const OwnPost = () => {
       <div className="comment-input-container">
         <img className="follower-post-profile-img" src={profilePerson} alt="" />
         <div className="comment-input-box">
-          <input type="text" placeholder="Comment Here" />
-          <button className="post-agree-btn">Agree</button>
-          <button className="post-disagree-btn">Disagree</button>
-          <button className="post-neutral-btn">Neutral</button>
-          <button>
+          <div>
+            <input type="text" placeholder="Comment Here" />
+            <button className="post-agree-btn">Agree</button>
+            <button className="post-disagree-btn">Disagree</button>
+            <button className="post-neutral-btn">Neutral</button>
+          </div>
+          <div>
+          <div>
+            <img src={linkIcon} alt="" />
+            <img src={cameraIcon} alt="" />
+            <img src={videoIcon} alt="" />
+            <img src={gifIcon} alt="" />
+            <img src={smileIcon} alt="" />
+          </div>
+          <button className="comment-send-btn">
             Send <img src={sendIcon} alt="" />
           </button>
+          </div>
         </div>
       </div>
     </div>

@@ -486,7 +486,7 @@
   color: #bfbfbf;
 }
 
-.comment-input-box button {
+.comment-send-btn {
   background-color: #A35B13;
   border: none;
   color: white;
@@ -499,8 +499,29 @@
   cursor: pointer;
   transition: background 0.2s ease;
 }
+.post-agree-btn{
+  color: #47A025;
+  border: 1px solid #47A025;
+  padding: 8px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.post-disagree-btn{
+  color: #D90368;
+  border: 1px solid #D90368;
+  padding: 8px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.post-neutral-btn{
+  color: #1A52B4;
+  border: 1px solid #1A52B4;
+  padding: 8px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
 
-.comment-input-box button img {
+.comment-send-btn img {
   width: 16px;
   height: 16px;
 }
