@@ -21,6 +21,10 @@ import researchIcon from "../../assets/Research 3.png";
 import acadeymIcon from "../../assets/Learning 5.png";
 import marketIcon from "../../assets/Marketplace 2.png";
 import insightIcon from "../../assets/Blogging 2.png";
+import fndIcon from "../../assets/Friends 3.png"
+import addfndIcon from "../../assets/followers 1.png"
+import cohortsIcon from "../../assets/Group 101.png"
+import saveIcon from "../../assets/Save Icon 3.png"
 
 const SocialFeed = () => {
   const [showModal, setShowModal] = useState(false);
@@ -141,7 +145,16 @@ const SocialFeed = () => {
 
             <OwnPost />
           </div>
-          <div className="social-div-right"></div>
+          <div className="social-div-right">
+            <Profile />
+            <div className="profile-friends-div">
+              <div><img src={fndIcon} alt="" /><span>Friends</span></div>
+              <div><img src={addfndIcon} alt="" /><span>Followers</span></div>
+              <div><img src={cohortsIcon} alt="" /><span>Cohorts</span></div>
+              <div><img src={saveIcon} alt="" /><span>Saved Items</span></div>
+            </div>
+            <UshaEvent />
+          </div>
 
           {/* <div className="social-feed-container">
             <div className="social-feed-left">
