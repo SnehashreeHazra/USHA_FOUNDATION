@@ -14,6 +14,9 @@ import CreatePostModal from "./CreatePostModal";
 import UshaEvent from "./UshaEvent";
 import OwnPost from "./OwnPost";
 import NotificationModal from "./NotificationModal";
+import socialIcon from '../../assets/Feed_ 1.png'
+import youtubeIcon from '../../assets/iconoir_add-media-video.png'
+
 
 const SocialFeed = () => {
   const [showModal, setShowModal] = useState(false);
@@ -32,7 +35,12 @@ const SocialFeed = () => {
         <p>USHA Academy</p>
       </div>
         <div className="social-feed">
-          <div className="stories-div">
+        <div className="social-div-left">
+          <div className="sidebar-menu"><img src={} alt="" /></div>
+        </div>
+        <div className="social-div-middle"></div>
+        <div className="social-div-right"></div>
+          {/* <div className="stories-div">
             <div className="story-div01">
               <div className="story-add-icon">
                 <i class="fa-solid fa-circle-plus"></i>
@@ -56,8 +64,8 @@ const SocialFeed = () => {
             <div className="story-next-btn">
               <img src={nextBtn} alt="" />
             </div>
-          </div>
-          <div className="social-feed-container">
+          </div> */}
+          {/* <div className="social-feed-container">
             <div className="social-feed-left">
               <Profile />
               <hr />
@@ -103,7 +111,7 @@ const SocialFeed = () => {
               <OwnPost />
               <FollowerPost />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
