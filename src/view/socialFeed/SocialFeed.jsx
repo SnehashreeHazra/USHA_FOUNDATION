@@ -28,7 +28,7 @@ const SocialFeed = () => {
         <p>USHA Sparks</p>
         <p>USHA Insights</p>
         <p>USHA Dialouge</p>
-        <p>USHA Social</p>
+        <p className="active">USHA Social</p>
         <p>USHA Academy</p>
       </div>
         <div className="social-feed">

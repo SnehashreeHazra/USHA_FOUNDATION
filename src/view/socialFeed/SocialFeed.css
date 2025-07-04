@@ -937,6 +937,18 @@
   font-family: "Poppins", sans-serif;
 }
 
+.social-feed-navbar{
+  width: 100%;
+  padding: 10px 30px;
+  border: 1px solid #170E13;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+
 /* *****************Media Quries*************** */
 
 @media (max-width: 1300px) {
