@@ -15,7 +15,11 @@ import UshaEvent from "./UshaEvent";
 import OwnPost from "./OwnPost";
 import NotificationModal from "./NotificationModal";
 import socialIcon from '../../assets/Feed_ 1.png'
-import youtubeIcon from '../../assets/iconoir_add-media-video.png'
+import youtubeIcon from '../../assets/OTT & live Icon 8.png'
+import researchIcon from "../../assets/Research 3.png"
+import acadeymIcon from "../../assets/Learning 5.png"
+import marketIcon from "../../assets/Marketplace 2.png"
+import insightIcon from '../../assets/Blogging 2.png'
 
 
 const SocialFeed = () => {
@@ -36,7 +40,15 @@ const SocialFeed = () => {
       </div>
         <div className="social-feed">
         <div className="social-div-left">
-          <div className="sidebar-menu"><img src={} alt="" /></div>
+          <div className="sidebar-menu active"><img src={socialIcon} alt="" /><span>USHA Social</span></div>
+          <div className="sidebar-menu"><img src={youtubeIcon} alt="" /><span>USHA Stream</span></div>
+          <div className="sidebar-menu"><img src={researchIcon} alt="" /><span>USHA Research</span></div>
+          <div className="sidebar-menu"><img src={acadeymIcon} alt="" /><span>USHA Academy</span></div>
+          <div className="sidebar-menu"><img src={marketIcon} alt="" /><span>USHA Market</span></div>
+          <div className="sidebar-menu"><img src={insightIcon} alt="" /><span>USHA Insight</span></div>
+          <p>About Us-Terms-Help Desk-Settings</p>
+          <p>USHA©2025</p>
+          <button className="sidebar-logout-btn">Log Out</button>
         </div>
         <div className="social-div-middle"></div>
         <div className="social-div-right"></div>

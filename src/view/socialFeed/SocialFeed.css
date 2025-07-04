@@ -134,6 +134,29 @@
 .story-next-btn img {
   width: 14px;
 }
+.sidebar-menu{
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  color: #8F8F8F;
+  margin: 30px 0;
+  cursor: pointer;
+}
+.sidebar-menu img{
+  width: 32px;
+}
+.sidebar-menu span{
+  font-size: 15px;
+}
+.sidebar-logout-btn{
+  background-color: #D9D9D9;
+  border-radius: 20px;
+  padding: 8px 20px;
+  color: #000;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
 .social-feed-container {
   display: flex;
   justify-content: space-between;
