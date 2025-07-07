@@ -20,14 +20,14 @@ const Footer = () => {
           <button>Click Here</button>
         </div>
         <div className="footer-right">
-          <p>Subscribe</p>
-          <img src={youtubeImg} alt="" />
-          <p>Join our Worldfamily.</p>
-          <p>
+          <p className="footer-subscribe">Subscribe</p>
+          <img className="youtube-img" src={youtubeImg} alt="" />
+          <p className="join-family">Join our Worldfamily.</p>
+          <p style={{fontSize:"13px"}}>
             Subscribe to our YouTube and social media handles for free for all
             updates.
           </p>
-          <button>
+          <button className="footer-right-btn">
             <span>Subscribe Here</span> <img src={brownArrow} alt="" />
           </button>
         </div>

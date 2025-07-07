@@ -12,12 +12,12 @@ body {
   font-family: "Cinzel", serif;
 }
 .header-top {
-  background-color: #A35B13;
+  background-color: #a35b13;
   color: #fff;
   padding: 3px 0px;
   text-align: center;
 }
-.header-top-text{
+.header-top-text {
   font-size: 12px;
 }
 .header-bottom {
@@ -50,7 +50,7 @@ body {
   max-width: 60%;
   min-width: 60%;
 }
-.ai-search-box{
+.ai-search-box {
   border: 1px solid black;
   border-radius: 20px;
   padding: 8px 15px;
@@ -59,10 +59,10 @@ body {
   align-items: center;
   width: 150px;
 }
-.ai-search-box img{
+.ai-search-box img {
   width: 22px;
 }
-.ai-search-box input{
+.ai-search-box input {
   outline: none;
   border: none;
   width: 100%;
@@ -116,34 +116,62 @@ body {
 
 /* **********************Footer********************** */
 
-.footer{
+.footer {
   font-family: "Cinzel", serif;
 }
-.footer-container{
+.footer-container {
   display: flex;
   justify-content: space-between;
 }
-.footer-left{
+.footer-left {
   width: 100%;
   max-width: 25%;
   min-width: 25%;
   padding-top: 50px;
   padding-bottom: 20px;
 }
-.footer-right{
+.footer-right {
   width: 100%;
   max-width: 25%;
   min-width: 25%;
+  font-family: "Sora", sans-serif;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
-.usha-foundation-heading{
+.usha-foundation-heading {
   font-size: 50px;
   line-height: 50px;
 }
-.usha-foundation-heading span{
+.usha-foundation-heading span {
   font-size: 35px;
 }
-.usha-spiritual-foundation{
+.usha-spiritual-foundation {
   margin-top: 10px;
   width: 80px;
   font-weight: 500;
+}
+.footer-subscribe{
+  color: #8D8D8D;
+  font-size: 15px;
+}
+.youtube-img{
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.join-family{
+  margin-top: 20px;
+  font-size: 13px;
+}
+.footer-right-btn{
+  border: 1px solid #A35B13;
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.footer-right-btn img{
+  width: 60px;
 }
