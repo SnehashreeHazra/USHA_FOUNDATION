@@ -3,6 +3,7 @@ import profileCover from "../../assets/image 62.png";
 import sageIcon from "../../assets/Scholar Icon 4.png";
 import profileImg from "../../assets/image 63.png";
 import { useNavigate } from "react-router-dom";
+import sageBadge from "../../assets/Group 193.png"
 
 const Profile = () => {
   const navigate = useNavigate();
@@ -16,48 +17,14 @@ const Profile = () => {
         <img src={profileImg} alt="" />
       </div>
       <div className="profile-body">
-        <div className="profile-body-wrapper">
-          <div className="profile-body-left">
-            <h2
-              style={{ cursor: "pointer" }}
-              onClick={() => navigate("/personal-profile")}
-            >
-              Pragyan Gupta
-            </h2>
-
-            {/* <p className="user-about" style={{ marginTop: "10px" }}>
-              Assistant Faculty
-            </p> */}
-            {/* <p className="user-about">Jaipuria College, Kolkata</p> */}
-          </div>
-          <div className="profile-body-right">
-            {/* <p className="profile-right-body-text">
-              <span>490</span> Friends
-            </p> */}
-            {/* <p
-              className="profile-right-body-text"
-              style={{ marginTop: "10px" }}
-            >
-              <span>1.2K</span> Followers
-            </p> */}
-            <div className="sage-div">
-              <img src={sageIcon} alt="" />
-              <span>SAGE</span>
-            </div>
-          </div>
-        </div>
-        <div className="profile-bottom-div">
-          <div className="profile-bottom-left">
+      <img className="sage-badge" src={sageBadge} alt="" />
+      <h2>Pragyan Gupta</h2>
+      <div className="profile-bottom-left">
             <div className="separator-line"></div>
             <p>Highest form of cleansing is Wisdom</p>
           </div>
-          {/* <button
-            className="edit-bio-btn"
-            onClick={() => navigate("/personal-profile")}
-          >
-            Edit Bio
-          </button> */}
-        </div>
+      <div></div>
+        
       </div>
     </div>
   );
