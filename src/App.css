@@ -116,6 +116,9 @@ body {
 
 /* **********************Footer********************** */
 
+.footer{
+  font-family: "Sora", sans-serif;
+}
 .footer-container{
   display: flex;
   justify-content: space-between;

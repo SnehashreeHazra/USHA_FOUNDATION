@@ -1,6 +1,7 @@
 import React from "react";
 import brownArrow from "../assets/Group 190.png";
 import youtubeImg from "../assets/Group 189.png";
+import ushaLogo from "../assets/USA New Logo 1 2.png"
 
 const Footer = () => {
   return (
@@ -12,7 +13,7 @@ const Footer = () => {
           <p>UNIVERSAL SPIRITUAL HUMAN AWAKENING</p>
         </div>
         <div className="footer-middle">
-          <img src="" alt="" />
+          <img src={ushaLogo} alt="" />
           <p>
             Want to <span>Donate?</span>
           </p>
