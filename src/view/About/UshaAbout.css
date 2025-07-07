@@ -119,3 +119,24 @@
 .usha-manifesto-text p {
   margin-top: 15px;
 }
+.quarry-form-heading{
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+.quarry-form-btn{
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  border: 1px solid #5D5B5B;
+  border-radius: 20px;
+  padding: 5px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.quarry-form{
+  padding: 50px 0;
+}
+.quarry-form-btn img{
+  width: 50px;
+}

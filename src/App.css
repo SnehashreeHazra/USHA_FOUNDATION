@@ -177,6 +177,7 @@ body {
   column-gap: 15px;
   cursor: pointer;
   margin-top: 20px;
+  background: transparent;
 }
 .footer-right-btn img {
   width: 60px;
