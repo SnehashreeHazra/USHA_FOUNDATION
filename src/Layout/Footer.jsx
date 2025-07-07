@@ -1,13 +1,38 @@
-import React from 'react'
+import React from "react";
+import brownArrow from "../assets/Group 190.png";
+import youtubeImg from "../assets/Group 189.png";
 
 const Footer = () => {
   return (
-    <div className='footer'>
-      <div className="uni-container">
-        
+    <div className="footer">
+      <div className="uni-container footer-container">
+        <div className="footer-left">
+          <p>USHA FOUNDATION</p>
+          <div className="footer-left-separator"></div>
+          <p>UNIVERSAL SPIRITUAL HUMAN AWAKENING</p>
+        </div>
+        <div className="footer-middle">
+          <img src="" alt="" />
+          <p>
+            Want to <span>Donate?</span>
+          </p>
+          <button>Click Here</button>
+        </div>
+        <div className="footer-right">
+          <p>Subscribe</p>
+          <img src={youtubeImg} alt="" />
+          <p>Join our Worldfamily.</p>
+          <p>
+            Subscribe to our YouTube and social media handles for free for all
+            updates.
+          </p>
+          <button>
+            <span>Subscribe Here</span> <img src={brownArrow} alt="" />
+          </button>
+        </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
