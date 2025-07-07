@@ -25,21 +25,21 @@ const Profile = () => {
               Pragyan Gupta
             </h2>
 
-            <p className="user-about" style={{ marginTop: "10px" }}>
+            {/* <p className="user-about" style={{ marginTop: "10px" }}>
               Assistant Faculty
-            </p>
-            <p className="user-about">Jaipuria College, Kolkata</p>
+            </p> */}
+            {/* <p className="user-about">Jaipuria College, Kolkata</p> */}
           </div>
           <div className="profile-body-right">
-            <p className="profile-right-body-text">
+            {/* <p className="profile-right-body-text">
               <span>490</span> Friends
-            </p>
-            <p
+            </p> */}
+            {/* <p
               className="profile-right-body-text"
               style={{ marginTop: "10px" }}
             >
               <span>1.2K</span> Followers
-            </p>
+            </p> */}
             <div className="sage-div">
               <img src={sageIcon} alt="" />
               <span>SAGE</span>
@@ -51,12 +51,12 @@ const Profile = () => {
             <div className="separator-line"></div>
             <p>Highest form of cleansing is Wisdom</p>
           </div>
-          <button
+          {/* <button
             className="edit-bio-btn"
             onClick={() => navigate("/personal-profile")}
           >
             Edit Bio
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
