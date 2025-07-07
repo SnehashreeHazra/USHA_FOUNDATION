@@ -151,21 +151,21 @@ body {
   width: 80px;
   font-weight: 500;
 }
-.footer-subscribe{
-  color: #8D8D8D;
+.footer-subscribe {
+  color: #8d8d8d;
   font-size: 15px;
 }
-.youtube-img{
+.youtube-img {
   margin-top: 15px;
   border-radius: 10px;
   width: 100%;
 }
-.join-family{
+.join-family {
   margin-top: 20px;
   font-size: 13px;
 }
-.footer-right-btn{
-  border: 1px solid #A35B13;
+.footer-right-btn {
+  border: 1px solid #a35b13;
   padding: 5px 10px;
   border-radius: 20px;
   display: flex;
@@ -174,10 +174,10 @@ body {
   cursor: pointer;
   margin-top: 20px;
 }
-.footer-right-btn img{
+.footer-right-btn img {
   width: 60px;
 }
-.footer-middle{
+.footer-middle {
   margin-top: 50px;
   margin-bottom: 20px;
   width: 100%;
@@ -189,19 +189,19 @@ body {
   align-items: center;
   font-family: "Sora", sans-serif;
 }
-.footer-middle img{
+.footer-middle img {
   width: 130px;
 }
-.footer-middle p{
+.footer-middle p {
   margin-top: 30px;
   font-size: 18px;
 }
-.footer-middle p span{
+.footer-middle p span {
   font-weight: 600;
 }
-.footer-middle-btn{
+.footer-middle-btn {
   cursor: pointer;
-  border: 1px solid #A35B13;
+  border: 1px solid #a35b13;
   padding: 10px 20px;
   border-radius: 15px;
   margin-top: 20px;
