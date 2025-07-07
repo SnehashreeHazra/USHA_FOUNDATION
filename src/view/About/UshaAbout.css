@@ -22,13 +22,12 @@
   line-height: 90px;
   font-weight: 500;
 }
-.about-banner{
-  background-image: url('../../assets/Indian Flag Colour 2.png');
+.about-banner {
+  background-image: url("../../assets/Indian Flag Colour 2.png");
   background-size: cover;
   background-position: center;
 }
 .about-container0 {
-  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -36,7 +35,7 @@
   padding: 80px 0px;
   /* border-bottom: 1px solid #00000054; */
 }
-.about-banner-text{
+.about-banner-text {
   margin-top: 20px;
   text-align: center;
   font-family: "Sora", sans-serif;

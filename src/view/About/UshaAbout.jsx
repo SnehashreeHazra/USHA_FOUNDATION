@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./UshaAbout.css";
 import invertedComma from "../../assets/”.png";
 import Footer from "../../Layout/Footer";
+import yellowArrow from "../../assets/Group 194.png"
 
 const UshaAbout = () => {
   useEffect(() => {
@@ -27,7 +28,6 @@ const UshaAbout = () => {
             ṛta, the cosmic order. A conscious civilisation built on truth,
             reason, and oneness.
           </p>
-          
         </div>
       </div>
 
@@ -222,6 +222,20 @@ const UshaAbout = () => {
             towards a new dawn—USHA: Universal Spiritual Human Awakening.
           </p>
         </div>
+        <p>For any quarry or collaboration</p>
+        <form>
+        <div className="about-form-group">
+          <input type="text" placeholder="Full Name" />
+          <input type="text" placeholder="Email address" />
+
+        </div>
+        <div className="about-form-group">
+          <input type="text" placeholder="Country" />
+          <input type="text" placeholder="Language" />
+
+        </div>
+        <button><span>Conatact Now!</span><img src={yellowArrow} alt="" /></button>
+        </form>
       </div>
       <Footer />
     </div>
