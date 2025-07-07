@@ -22,12 +22,18 @@
   line-height: 90px;
   font-weight: 500;
 }
+.about-banner{
+  background-image: url('../../assets/Indian Flag Colour 2.png');
+  background-size: cover;
+  background-position: center;
+}
 .about-container0 {
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 80px 0px;
-  border-bottom: 1px solid #00000054;
+  /* border-bottom: 1px solid #00000054; */
 }
 .about-left-subheading {
   margin-top: 20px;

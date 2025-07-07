@@ -9,21 +9,31 @@ const UshaAbout = () => {
   }, []);
   return (
     <div className="about-container">
-      <div className="uni-container about-container0">
-        <div className="about-left">
+      <div className="about-banner">
+        <div className="uni-container about-container0">
           <p className="about-left-heading">the power of one</p>
           <p className="about-left-subheading">the one place for everyone</p>
-        </div>
-        <div className="about-right">
-          <img src={invertedComma} alt="" />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            expedita harum, aliquam commodi cupiditate odio voluptas, quos
-            labore blanditiis, veritatis suscipit. Voluptatibus iste cum ipsum
-            cupiditate officia similique esse repellendus.
+            USHA – Universal Spiritual Human Awakening is a civilisational
+            movement rooted in Vedic thought and cosmic consciousness. It is a
+            response to the growing fragmentation of identity, faith, and
+            society—a call to reconnect with universal principles that transcend
+            time, geography, and doctrine. USHA aims to awaken a new global
+            order anchored in spiritual harmony, knowledge equity, and Dhārmic
+            living.
           </p>
+          <p>
+            At its core, USHA is not a religion, but a revival—a restoration of
+            ṛta, the cosmic order. A conscious civilisation built on truth,
+            reason, and oneness.
+          </p>
+          <div className="about-left"></div>
+          <div className="about-right">
+            <img src={invertedComma} alt="" />
+          </div>
         </div>
       </div>
+
       <div className="uni-container">
         <p className="our-mission-heading">Our Mission</p>
         <div className="misson-container">
