@@ -101,8 +101,9 @@ const OwnPost = () => {
             <button className="post-disagree-btn">Disagree</button>
             <button className="post-neutral-btn">Neutral</button>
           </div>
+          <hr />
           <div className="comment-input-box2">
-          <div>
+          <div style={{display:'flex', columnGap:'5px', alignItems:'center'}}>
             <img src={linkIcon} alt="" />
             <img src={cameraIcon} alt="" />
             <img src={videoIcon} alt="" />

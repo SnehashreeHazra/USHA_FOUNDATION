@@ -473,21 +473,25 @@
   align-items: center;
   background-color: #fff;
   border-radius: 30px;
-  padding: 5px;
+  /* padding: 5px; */
   justify-content: space-between;
 }
 .comment-input-box1{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  column-gap: 10px;
+  padding: 10px 15px;
+  border-bottom: 1px solid #BFBFBF;
 }
 .comment-input-box2{
   width: 100%;
-  margin-top: 20px;
+  /* margin-top: 20px; */
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 20px;
+  padding: 10px 20px;
 }
 
 .comment-input-box input {

@@ -13,11 +13,15 @@ const Profile = () => {
   return (
     <div className="profile">
       <img className="profile-cover" src={profileCover} alt="" />
+    
       <div className="profile-photo">
         <img src={profileImg} alt="" />
       </div>
       <div className="profile-body">
+      <div style={{display:'flex', justifyContent:'flex-end', width:'100%'}}>
+
       <img className="sage-badge" src={sageBadge} alt="" />
+    </div>
       <h2>Pragyan Gupta</h2>
       <div className="profile-bottom-left">
             <div className="separator-line"></div>
