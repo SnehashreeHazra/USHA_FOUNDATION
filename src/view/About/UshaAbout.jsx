@@ -223,7 +223,7 @@ const UshaAbout = () => {
           </p>
         </div>
         <p className="quarry-form-heading">For any quarry or collaboration</p>
-        <form  className="quarry-form">
+        <form className="quarry-form">
           <div className="about-form-group">
             <input type="text" placeholder="Full Name" />
             <input type="text" placeholder="Email address" />
