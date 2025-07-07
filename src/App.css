@@ -117,7 +117,7 @@ body {
 /* **********************Footer********************** */
 
 .footer{
-  font-family: "Sora", sans-serif;
+  font-family: "Cinzel", serif;
 }
 .footer-container{
   display: flex;
@@ -127,9 +127,23 @@ body {
   width: 100%;
   max-width: 25%;
   min-width: 25%;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 .footer-right{
   width: 100%;
   max-width: 25%;
   min-width: 25%;
+}
+.usha-foundation-heading{
+  font-size: 50px;
+  line-height: 50px;
+}
+.usha-foundation-heading span{
+  font-size: 35px;
+}
+.usha-spiritual-foundation{
+  margin-top: 10px;
+  width: 80px;
+  font-weight: 500;
 }

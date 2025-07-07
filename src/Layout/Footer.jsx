@@ -8,9 +8,9 @@ const Footer = () => {
     <div className="footer">
       <div className="uni-container footer-container">
         <div className="footer-left">
-          <p>USHA FOUNDATION</p>
+          <p className="usha-foundation-heading">USHA <span>FOUNDATION</span></p>
           <div className="footer-left-separator"></div>
-          <p>UNIVERSAL SPIRITUAL HUMAN AWAKENING</p>
+          <p className="usha-spiritual-foundation">UNIVERSAL SPIRITUAL HUMAN AWAKENING</p>
         </div>
         <div className="footer-middle">
           <img src={ushaLogo} alt="" />
