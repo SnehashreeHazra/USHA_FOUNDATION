@@ -1,5 +1,5 @@
 .about-container {
-  background-color: #eeeeee;
+  background-color: #fff;
 }
 .about-left {
   width: 100%;
@@ -119,24 +119,42 @@
 .usha-manifesto-text p {
   margin-top: 15px;
 }
-.quarry-form-heading{
+.quarry-form-heading {
   font-family: "Sora", sans-serif;
   font-size: 18px;
   text-align: center;
 }
-.quarry-form-btn{
+.quarry-form-btn {
   display: flex;
   column-gap: 20px;
   align-items: center;
-  border: 1px solid #5D5B5B;
+  border: 1px solid #5d5b5b;
   border-radius: 20px;
   padding: 5px 20px;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 30px;
+  background-color: transparent;
+  margin-left: 50px;
 }
-.quarry-form{
+.quarry-form {
   padding: 50px 0;
 }
-.quarry-form-btn img{
+.quarry-form-btn img {
   width: 50px;
+}
+.about-form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  margin-top: 20px;
+}
+.about-form-group input {
+  width: 48%;
+  padding: 15px 20px;
+  border-radius: 15px;
+  font-family: "Sora", sans-serif;
+  border: 1px solid #5d5b5b;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  outline: none;
 }
