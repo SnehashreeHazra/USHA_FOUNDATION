@@ -17,7 +17,7 @@ const Footer = () => {
           <p>
             Want to <span>Donate?</span>
           </p>
-          <button>Click Here</button>
+          <button className="footer-middle-btn">Click Here</button>
         </div>
         <div className="footer-right">
           <p className="footer-subscribe">Subscribe</p>
