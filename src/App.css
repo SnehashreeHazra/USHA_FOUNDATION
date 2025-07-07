@@ -68,9 +68,9 @@ body {
   width: 100%;
 }
 .sign-in-btn {
-  background-color: #1a52b4;
+  background-color: #F8BF3A;
   border: none;
-  color: white;
+  color: #000;
   padding: 8px 25px;
   border-radius: 20px;
   cursor: pointer;
