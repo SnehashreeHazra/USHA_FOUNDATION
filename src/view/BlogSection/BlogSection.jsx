@@ -5,25 +5,39 @@ import scholerIcon from "../../assets/Scholar Icon 4.png";
 import saveIcon from "../../assets/noun-save-5791622 1.png";
 import articleImg1 from "../../assets/61xzwgm0r-L 1.png";
 import articleImg2 from "../../assets/de17dc290a3d91085e2486e7228a870d 1.png";
-import likeIcon from "../../assets/like 1 2.png";
-import commentIcon from "../../assets/Comments icon 1.png";
-import shareIcon from "../../assets/Share 4.png";
+import articleImg3 from "../../assets/image 133.png"
+import likeIcon from "../../assets/like 1 2 (1).png";
+import commentIcon from "../../assets/Comments icon 1 (1).png";
+import shareIcon from "../../assets/Share 2.png";
 import UshaEvent from "../socialFeed/UshaEvent";
 import followPerson1 from "../../assets/image 20.png";
 import followPerson2 from "../../assets/image 63.png";
 import followPerson3 from "../../assets/image 8 (1).png";
 import followPerson4 from "../../assets/image 9 (2).png";
 import followAdd from "../../assets/add 2 white.png";
+import searchIcon from "../../assets/magnifying 3.png"
 import { useNavigate } from "react-router-dom";
 
 const BlogSection = () => {
   const navigate = useNavigate();
   return (
-    <div style={{ paddingBottom: "50px" }}>
+    <div style={{
+        background: 'linear-gradient(to bottom, #F6D362 5%, #FBE8B1 8%, #ffffff 100%)',
+        paddingTop: "80px",
+        paddingBottom: "50px",
+      }}>
       <div className="uni-container">
+      <div className="social-feed-navbar">
+          <p>USHA Stream</p>
+          <p>USHA Sparks</p>
+          <p className="active">USHA Insights</p>
+          <p>USHA Dialouge</p>
+          <p >USHA Social</p>
+          <p>USHA Academy</p>
+        </div>
         <div className="blog">
           <div className="blog-left">
-            <div className="blog-left-head">
+            {/* <div className="blog-left-head">
               <div className="create-new-article">
                 <input type="text" placeholder="Create New Article Here" />
                 <button>Add</button>
@@ -31,12 +45,13 @@ const BlogSection = () => {
               <div className="search-div00">
                 <i class="fa-solid fa-magnifying-glass"></i>
               </div>
-            </div>
+            </div> */}
             <div className="types-of-messages">
               <div className="msg-type">All</div>
               <div className="msg-type">Latest</div>
               <div className="msg-type">Following</div>
               <div className="msg-type">Saved</div>
+              <div className="article-search-div"><input type="text" placeholder="Search Here" /><div className="article-search"><img src={searchIcon} alt="" /></div></div>
               <div className="msg-type active">Your Article</div>
             </div>
             <div className="aricle-div">
@@ -44,10 +59,10 @@ const BlogSection = () => {
                 <div className="article-head1">
                   <img src={articleAuthor} alt="" />
                   <p className="article-author">Pragyan Gupta</p>
-                  <div className="sage-div00">
+                  {/* <div className="sage-div00">
                     <img src={scholerIcon} alt="" />
                     <span>SAGE</span>
-                  </div>
+                  </div> */}
                 </div>
                 <img className="save-icon" src={saveIcon} alt="" />
               </div>
@@ -89,10 +104,10 @@ const BlogSection = () => {
                 <div className="article-head1">
                   <img src={articleAuthor} alt="" />
                   <p className="article-author">Pragyan Gupta</p>
-                  <div className="sage-div00">
+                  {/* <div className="sage-div00">
                     <img src={scholerIcon} alt="" />
                     <span>SAGE</span>
-                  </div>
+                  </div> */}
                 </div>
                 <img className="save-icon" src={saveIcon} alt="" />
               </div>
@@ -134,10 +149,10 @@ const BlogSection = () => {
                 <div className="article-head1">
                   <img src={articleAuthor} alt="" />
                   <p className="article-author">Pragyan Gupta</p>
-                  <div className="sage-div00">
+                  {/* <div className="sage-div00">
                     <img src={scholerIcon} alt="" />
                     <span>SAGE</span>
-                  </div>
+                  </div> */}
                 </div>
                 <img className="save-icon" src={saveIcon} alt="" />
               </div>
@@ -171,7 +186,7 @@ const BlogSection = () => {
                     </div>
                   </div>
                 </div>
-                <img className="article-img" src={articleImg1} alt="" />
+                <img className="article-img" src={articleImg3} alt="" />
               </div>
             </div>
           </div>
