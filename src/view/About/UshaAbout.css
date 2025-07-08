@@ -57,56 +57,6 @@
   padding-bottom: 50px;
   border-bottom: 1px solid #00000054;
 }
-.our-mission-heading {
-  font-size: 40px;
-  font-weight: 500;
-  text-align: center;
-  margin-top: 50px;
-}
-.mission-left {
-  width: 100%;
-  max-width: 50%;
-  min-width: 50%;
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  row-gap: 60px;
-}
-
-.mission-right {
-  width: 100%;
-  max-width: 50%;
-  min-width: 50%;
-  margin-top: 100px;
-  display: flex;
-  flex-direction: column;
-  row-gap: 60px;
-}
-.mission-left-div {
-  display: flex;
-  flex-direction: column;
-  row-gap: 10px;
-  /* margin-top: 40px; */
-}
-.mission-right-div {
-  text-align: right;
-  display: flex;
-  flex-direction: column;
-  row-gap: 10px;
-  /* margin-top: 40px; */
-}
-.mission-left-div-heading {
-  font-size: 20px;
-  font-weight: 500;
-  color: #000000;
-}
-.mission-left-div-text {
-  font-size: 16px;
-  color: #8e8e8e;
-  /* font-weight: 300; */
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-left: 20px;
-}
 
 .usha-manifesto-text {
   margin-top: 40px;
@@ -159,4 +109,54 @@
   border: 1px solid #5d5b5b;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   outline: none;
+}
+.join-awakening{
+  font-family: "Sora", sans-serif;
+  text-align: center;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.join-awakening-btn{
+  /* padding: 0px 10px; */
+  border: 1px solid #F4B301;
+  border-radius: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #000;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  font-family: "Sora", sans-serif;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.join-awakening-btn span{
+  margin-left: 15px;
+}
+.join-awakening-btn img{
+  width: 60px;
+}
+.mission-why-usha-btn{
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-top: 20px;
+  /* padding: 10px 0px; */
+  display: flex;
+  align-items: center;
+  column-gap: 35px;
+}
+.mission-why-usha-btn span{
+  padding: 8px 20px;
+  font-family: "Sora", sans-serif;
+  color: #000;
+  font-size: 15px;
+  cursor: pointer;
+}
+.mission-why-usha-btn span.active{
+  background-color: #A35B13;
+  color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
 }

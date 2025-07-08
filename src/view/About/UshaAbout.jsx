@@ -35,7 +35,7 @@ const UshaAbout = () => {
         </div>
       </div>
 
-      <div className="uni-container">
+      <div className="uni-container" style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
         {/* <p className="our-mission-heading">Our Mission</p>
         <div className="misson-container">
           <div className="mission-left">
@@ -76,12 +76,12 @@ const UshaAbout = () => {
             </div>
           </div>
         </div> */}
-        <p>Join the awakening. Be the light</p>
-        <button>
+        <p className="join-awakening">Join the awakening. Be the light.</p>
+        <button className="join-awakening-btn">
           <span>Join Our Movement</span> <img src={yellowArrow2} alt="" />
         </button>
-        <div>
-          <span>Mission</span> <span>Why USHA</span>
+        <div className="mission-why-usha-btn">
+          <span>Mission</span> <span className="active">Why USHA</span>
         </div>
         <p>A CALL TO WHOLENESS</p>
         <p>Pūrṇatā, Prāṇa, and Puruṣārtha</p>
