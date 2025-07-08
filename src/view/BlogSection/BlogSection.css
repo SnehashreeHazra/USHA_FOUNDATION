@@ -8,11 +8,13 @@
   width: 100%;
   max-width: 75%;
   min-width: 75%;
+  border-right: 1px solid #979797;
+  padding-right: 20px;
 }
 .blog-right {
   width: 100%;
-  max-width: 20%;
-  min-width: 20%;
+  max-width: 23%;
+  min-width: 23%;
 }
 .blog-left-head {
   display: flex;
@@ -53,6 +55,10 @@
 }
 .search-div00 i {
   color: white;
+}
+.msg-type0.active{
+  color: #A35B13;
+  /* font-weight: 600; */
 }
 .aricle-div {
   padding: 50px 0;
@@ -173,7 +179,8 @@
   color: #8d8d8d;
   border: 2px solid #8d8d8d;
   border-radius: 20px;
-  padding: 8px 15px;
+  padding: 8px 10px;
+  background-color: transparent;
 }
 .follow-div {
   margin-top: 50px;
@@ -184,8 +191,8 @@
 }
 .follow-body {
   background-color: white;
-  border-radius: 10px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
   row-gap: 20px;
@@ -202,9 +209,9 @@
   align-items: center;
 }
 .follow-div12 img {
-  width: 50px;
+  width: 40px;
 }
 .follow-add-btn00 {
-  width: 30px;
+  width: 25px;
   cursor: pointer;
 }

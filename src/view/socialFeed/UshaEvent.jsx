@@ -11,7 +11,7 @@ import shareIcon from "../../assets/noun-share-5492448 1.png";
 
 const UshaEvent = () => {
   return (
-    <div className="usha-event" style={{ marginTop: "50px" }}>
+    <div className="usha-event">
       <div className="usha-event-head">
         <div className="images-div">
           <img src={img1} alt="" />

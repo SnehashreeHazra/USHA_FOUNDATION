@@ -60,7 +60,7 @@ const BlogSection = () => {
                   <img src={searchIcon} alt="" />
                 </div>
               </div>
-              <div className="msg-type active">Your Article</div>
+              <div className="msg-type0 active">Your Article</div>
             </div>
             <div className="aricle-div">
               <div className="article-head">
@@ -199,7 +199,8 @@ const BlogSection = () => {
             </div>
           </div>
           <div className="blog-right">
-            <p style={{ fontWeight: "600" }}>Topics You May Like</p>
+            <UshaEvent />
+            <p style={{ fontWeight: "600", marginTop:'50px' }}>Topics You May Like</p>
             <div className="blog-topics-div">
               <button>Entrepreneurship</button>
               <button>Health & Wellness</button>
@@ -215,21 +216,20 @@ const BlogSection = () => {
               <button>Music</button>
               <button>Education</button>
             </div>
-            <UshaEvent />
             <div className="follow-div">
               <p className="follow-div-heading">You Can Follow</p>
               <div className="follow-body">
                 <div className="follow-div1">
                   <div className="follow-div12">
                     <img src={followPerson1} alt="" />
-                    <p style={{ fontWeight: "600" }}>Priya Viswanathan</p>
+                    <p style={{ fontWeight: "600",fontSize:'14px' }}>Priya Viswanathan</p>
                   </div>
                   <img className="follow-add-btn00" src={followAdd} alt="" />
                 </div>
                 <div className="follow-div1">
                   <div className="follow-div12">
                     <img src={followPerson2} alt="" />
-                    <p style={{ fontWeight: "600" }}>
+                    <p style={{ fontWeight: "600", fontSize:'14px' }}>
                       Sabyasachi Chattopadhyay
                     </p>
                   </div>
@@ -238,7 +238,7 @@ const BlogSection = () => {
                 <div className="follow-div1">
                   <div className="follow-div12">
                     <img src={followPerson3} alt="" />
-                    <p style={{ fontWeight: "600" }}>Nethan Hedler</p>
+                    <p style={{ fontWeight: "600", fontSize:'14px' }}>Nethan Hedler</p>
                   </div>
                   <img className="follow-add-btn00" src={followAdd} alt="" />
                 </div>
@@ -254,6 +254,18 @@ const BlogSection = () => {
                 </p>
               </div>
             </div>
+            <p className="sidebar-about-us" style={{ marginTop: "50px" }}>
+              About Us-Terms-Help Desk-Settings
+            </p>
+            <p
+              style={{
+                color: "#8F8F8F",
+                marginTop: "5px",
+                marginBottom: "10px",
+              }}
+            >
+              USHA©2025
+            </p>
           </div>
         </div>
       </div>
