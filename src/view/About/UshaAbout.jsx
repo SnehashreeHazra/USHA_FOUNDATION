@@ -83,8 +83,8 @@ const UshaAbout = () => {
         <div className="mission-why-usha-btn">
           <span>Mission</span> <span className="active">Why USHA</span>
         </div>
-        <p>A CALL TO WHOLENESS</p>
-        <p>Pūrṇatā, Prāṇa, and Puruṣārtha</p>
+        <p className="call-to-wholeness">A CALL TO WHOLENESS</p>
+        <p className="call-to-wholeness-subheading">Pūrṇatā, Prāṇa, and Puruṣārtha</p>
         {/* <p className="our-mission-heading">USHA MANIFESTO</p> */}
         <div className="usha-manifesto-text">
           <p>

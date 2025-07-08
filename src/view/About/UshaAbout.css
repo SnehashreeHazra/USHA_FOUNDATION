@@ -141,7 +141,7 @@
 .mission-why-usha-btn{
   border: 1px solid #000;
   border-radius: 20px;
-  margin-top: 20px;
+  margin-top: 40px;
   /* padding: 10px 0px; */
   display: flex;
   align-items: center;
@@ -159,4 +159,19 @@
   color: #fff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
+}
+.call-to-wholeness{
+  font-family: "Cinzel", serif;
+  font-size: 40px;
+  margin-top: 80px;
+  text-align: center;
+  font-weight: 500;
+}
+.call-to-wholeness-subheading{
+  margin-top: 10px;
+  font-family: "Cinzel", serif;
+  font-size: 23px;
+  text-align: center;
+  /* text-transform:uppercase ; */
+  font-weight: 500;
 }
