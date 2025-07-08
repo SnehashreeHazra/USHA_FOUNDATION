@@ -175,3 +175,20 @@
   /* text-transform:uppercase ; */
   font-weight: 500;
 }
+.ushaayatan{
+  color: #F4B301;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+.ushaayatan-subheading{
+  color: #000;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.ushaayatan-text{
+  font-family: "Sora", sans-serif;
+  color: #000;
+  
+}

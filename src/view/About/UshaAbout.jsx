@@ -169,9 +169,12 @@ const UshaAbout = () => {
           <p>
             • Jijñāsu – The Seeker: One who begins with curiosity and longing •
             Sādhaka – The Practitioner: One who commits to discipline and
-            practice • Jñānī – The Knower: One who understands through study and
-            introspection • Boddha – The Awakened: One who lives in conscious
-            alignment • Darśī – The Seer: One who becomes a guide and mirror for
+            practice 
+            • Jñānī – The Knower: One who understands through study and
+            introspection 
+            • Boddha – The Awakened: One who lives in conscious
+            alignment 
+            • Darśī – The Seer: One who becomes a guide and mirror for
             others
           </p>{" "}
           <p>
@@ -198,17 +201,17 @@ const UshaAbout = () => {
           </p>{" "}
         </div>
         <img src={rigvedaImg} alt="" />
-        <p>
+        <p style={{textAlign:'center', marginTop:'30px'}}>
           As the Rigveda declares, “Usha avartayati prajah” — Usha awakens all
           living beings. USHAAYATAN is that awakening made manifest—through
           knowledge, inquiry, remembrance, and renaissance.
         </p>
-        <p>USHAAYATAN</p>
-        <p>
+        <p className="ushaayatan">USHAAYATAN</p>
+        <p className="ushaayatan-subheading">
           A Dharmic research campus to reawaken civilisation through Sanātana
           wisdom.
         </p>
-        <p>
+        <p className="ushaayatan-text">
           USHAAYATAN is a radiant and deeply meaningful name that captures the
           soul of the movement. It unites Usha, the Vedic goddess of dawn and
           illumination, with Ayatan, a Sanskrit word meaning sanctuary, seat, or
@@ -222,7 +225,7 @@ const UshaAbout = () => {
           — Usha awakens all living beings. USHAAYATAN is that awakening, made
           manifest.
         </p>
-        <p>
+        <p className="ushaayatan-text" style={{marginTop:'20px'}}>
           To bring this vision fully to life, we are laying the groundwork for a
           physical institute of Vedic research—a space where scholars, seekers,
           scientists, linguists, and thinkers can come together under one roof
@@ -230,7 +233,7 @@ const UshaAbout = () => {
           be a sanctuary for inquiry and innovation, rooted in Dharma and open
           to the world.
         </p>
-        <p>
+        <p className="ushaayatan-text" style={{marginTop:'20px'}}>
           We invite your generous support and blessings to help build
           USHAAYATAN. Your contribution is not just a donation—it is an
           investment in the future of human consciousness, in the revival of a
