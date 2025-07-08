@@ -7,6 +7,7 @@ import yellowArrow2 from "../../assets/Group 196.png";
 import rigvedaImg from "../../assets/Group 195.png";
 import preyerImg from "../../assets/Group 197.png";
 import brownArrow from "../../assets/Group 190.png";
+import ushaLogo from "../../assets/USA New Logo 1 2.png";
 
 const UshaAbout = () => {
   useEffect(() => {
@@ -243,12 +244,12 @@ const UshaAbout = () => {
           This is not a project. It is a movement. A civilisational renaissance.
           A spiritual re-architecture of humanity.
         </p>
-        <div>
+        <div className="donate-now-btn">
           Donate Now For <span>USHAAYATAN</span> <img src={preyerImg} alt="" />
         </div>
-        <img src="" alt="" />
-        <p>Our Symbol: A Living Mandala</p>
-        <p>
+        <img src={ushaLogo} alt="" />
+        <p className="our-symbol">Our Symbol: A Living Mandala</p>
+        <p className="ushaayatan-text">
           The USHA logo is a sunflower—not by accident, but by deep design. The
           sunflower reflects an infinitely scalable fractal—where the micro and
           macro mirror each other. Its spiral symmetry represents the threefold
@@ -263,25 +264,25 @@ const UshaAbout = () => {
           and order and chaos are not in conflict, but in conscious interplay.
           The logo, like USHA itself, is a mandala of wholeness.
         </p>
-        <p>
+        <p className="ushaayatan-text" style={{marginTop:'20px'}}>
           This is no longer the age of belief. It is the age of becoming. The
           age where we must ask ourselves—what kind of ancestors do we wish to
           be? Will we leave behind fragments or foundations?
         </p>
-        <p>
+        <p className="ushaayatan-text" style={{marginTop:'20px'}}>
           We are not followers of a fading world. We are the founders of a
           future one.
         </p>
-        <p>
+        <p className="ushaayatan-text" style={{marginTop:'20px',}}>
           Let us rise—together—with the light. Let us choose unity over
           division. Inquiry over imposition. Wholeness over fragmentation. Let
           us reawaken the Power of One, in One Place for Everyone.
         </p>
-        <p>
+        <p className="symbol-last-text" style={{marginTop:'20px'}}>
           Let us build USHA. Let us become USHA. The Universal Spiritual Human
           Awakening.
         </p>
-        <button>
+        <button className="join-awakening-btn" style={{marginBottom:'100px',marginTop:'30px'}}>
           <span>Join Our Movement</span> <img src={brownArrow} alt="" />
         </button>
         <p className="quarry-form-heading">For any quarry or collaboration</p>
