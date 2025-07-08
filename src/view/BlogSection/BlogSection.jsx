@@ -5,7 +5,7 @@ import scholerIcon from "../../assets/Scholar Icon 4.png";
 import saveIcon from "../../assets/noun-save-5791622 1.png";
 import articleImg1 from "../../assets/61xzwgm0r-L 1.png";
 import articleImg2 from "../../assets/de17dc290a3d91085e2486e7228a870d 1.png";
-import articleImg3 from "../../assets/image 133.png"
+import articleImg3 from "../../assets/image 133.png";
 import likeIcon from "../../assets/like 1 2 (1).png";
 import commentIcon from "../../assets/Comments icon 1 (1).png";
 import shareIcon from "../../assets/Share 2.png";
@@ -15,24 +15,27 @@ import followPerson2 from "../../assets/image 63.png";
 import followPerson3 from "../../assets/image 8 (1).png";
 import followPerson4 from "../../assets/image 9 (2).png";
 import followAdd from "../../assets/add 2 white.png";
-import searchIcon from "../../assets/magnifying 3.png"
+import searchIcon from "../../assets/magnifying 3.png";
 import { useNavigate } from "react-router-dom";
 
 const BlogSection = () => {
   const navigate = useNavigate();
   return (
-    <div style={{
-        background: 'linear-gradient(to bottom, #F6D362 5%, #FBE8B1 8%, #ffffff 100%)',
+    <div
+      style={{
+        background:
+          "linear-gradient(to bottom, #F6D362 5%, #FBE8B1 8%, #ffffff 100%)",
         paddingTop: "80px",
         paddingBottom: "50px",
-      }}>
+      }}
+    >
       <div className="uni-container">
-      <div className="social-feed-navbar">
+        <div className="social-feed-navbar">
           <p>USHA Stream</p>
           <p>USHA Sparks</p>
           <p className="active">USHA Insights</p>
           <p>USHA Dialouge</p>
-          <p >USHA Social</p>
+          <p>USHA Social</p>
           <p>USHA Academy</p>
         </div>
         <div className="blog">
@@ -51,7 +54,12 @@ const BlogSection = () => {
               <div className="msg-type">Latest</div>
               <div className="msg-type">Following</div>
               <div className="msg-type">Saved</div>
-              <div className="article-search-div"><input type="text" placeholder="Search Here" /><div className="article-search"><img src={searchIcon} alt="" /></div></div>
+              <div className="article-search-div">
+                <input type="text" placeholder="Search Here" />
+                <div className="article-search">
+                  <img src={searchIcon} alt="" />
+                </div>
+              </div>
               <div className="msg-type active">Your Article</div>
             </div>
             <div className="aricle-div">

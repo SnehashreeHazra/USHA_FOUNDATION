@@ -140,12 +140,22 @@
   align-items: center;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25) ;
   background-color: #DBDBDB;
-  width: 300px;
+  width: 250px;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.article-search-div input{
+  border: none;
+  outline: none;
+  background-color: transparent;
 }
 .article-search{
   background-color: #A35B13;
-  padding: 2px 5px;
+  padding: 3px 10px;
   border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .article-bottom2 span {
   font-size: 10px;
