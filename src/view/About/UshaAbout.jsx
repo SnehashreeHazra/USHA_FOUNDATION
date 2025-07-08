@@ -239,7 +239,7 @@ const UshaAbout = () => {
           investment in the future of human consciousness, in the revival of a
           knowledge system that belongs not only to India, but to the world.
         </p>
-        <p>
+        <p className="ushaayatan-bottom-text">
           This is not a project. It is a movement. A civilisational renaissance.
           A spiritual re-architecture of humanity.
         </p>
