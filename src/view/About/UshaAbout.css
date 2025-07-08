@@ -55,16 +55,16 @@
   justify-content: space-between;
   /* align-items: center; */
   padding-bottom: 50px;
-  border-bottom: 1px solid #00000054;
+  /* border-bottom: 1px solid #00000054; */
 }
 
 .usha-manifesto-text {
-  margin-top: 40px;
-  color: #8e8e8e;
+  margin-top: 25px;
+  color: #000;
   font-family: "Poppins", sans-serif;
   text-align: justify;
   padding-bottom: 50px;
-  border-bottom: 1px solid #00000054;
+  /* border-bottom: 1px solid #00000054; */
 }
 .usha-manifesto-text p {
   margin-top: 15px;
