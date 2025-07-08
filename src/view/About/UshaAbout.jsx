@@ -3,6 +3,10 @@ import "./UshaAbout.css";
 import invertedComma from "../../assets/”.png";
 import Footer from "../../Layout/Footer";
 import yellowArrow from "../../assets/Group 194.png";
+import yellowArrow2 from "../../assets/Group 196.png";
+import rigvedaImg from "../../assets/Group 195.png";
+import preyerImg from "../../assets/Group 197.png";
+import brownArrow from "../../assets/Group 190.png";
 
 const UshaAbout = () => {
   useEffect(() => {
@@ -32,7 +36,7 @@ const UshaAbout = () => {
       </div>
 
       <div className="uni-container">
-        <p className="our-mission-heading">Our Mission</p>
+        {/* <p className="our-mission-heading">Our Mission</p>
         <div className="misson-container">
           <div className="mission-left">
             <div className="mission-left-div">
@@ -71,8 +75,17 @@ const UshaAbout = () => {
               </p>
             </div>
           </div>
+        </div> */}
+        <p>Join the awakening. Be the light</p>
+        <button>
+          <span>Join Our Movement</span> <img src={yellowArrow2} alt="" />
+        </button>
+        <div>
+          <span>Mission</span> <span>Why USHA</span>
         </div>
-        <p className="our-mission-heading">USHA MANIFESTO</p>
+        <p>A CALL TO WHOLENESS</p>
+        <p>Pūrṇatā, Prāṇa, and Puruṣārtha</p>
+        {/* <p className="our-mission-heading">USHA MANIFESTO</p> */}
         <div className="usha-manifesto-text">
           <p>
             If you have reached this far, there is a purpose, the purpose is
@@ -222,6 +235,90 @@ const UshaAbout = () => {
             towards a new dawn—USHA: Universal Spiritual Human Awakening.
           </p>
         </div>
+        <img src={rigvedaImg} alt="" />
+        <p>
+          As the Rigveda declares, “Usha avartayati prajah” — Usha awakens all
+          living beings. USHAAYATAN is that awakening made manifest—through
+          knowledge, inquiry, remembrance, and renaissance.
+        </p>
+        <p>USHAAYATAN</p>
+        <p>
+          A Dharmic research campus to reawaken civilisation through Sanātana
+          wisdom.
+        </p>
+        <p>
+          USHAAYATAN is a radiant and deeply meaningful name that captures the
+          soul of the movement. It unites Usha, the Vedic goddess of dawn and
+          illumination, with Ayatan, a Sanskrit word meaning sanctuary, seat, or
+          sacred centre. More than an organisation, USHAAYATAN is envisioned as
+          a living space of awakening—a spiritual and intellectual refuge where
+          ancient wisdom meets the curiosity of the modern seeker. It stands as
+          a civilisational centre, a mandala of consciousness, a solar temple of
+          knowledge that bridges the timeless with the emerging, the inner self
+          with the shared world. It is where light becomes learning, and
+          learning becomes life. As the Rigveda declares, “उषा आवर्तयति प्रजाः”
+          — Usha awakens all living beings. USHAAYATAN is that awakening, made
+          manifest.
+        </p>
+        <p>
+          To bring this vision fully to life, we are laying the groundwork for a
+          physical institute of Vedic research—a space where scholars, seekers,
+          scientists, linguists, and thinkers can come together under one roof
+          to study, collaborate, and advance civilisational knowledge. This will
+          be a sanctuary for inquiry and innovation, rooted in Dharma and open
+          to the world.
+        </p>
+        <p>
+          We invite your generous support and blessings to help build
+          USHAAYATAN. Your contribution is not just a donation—it is an
+          investment in the future of human consciousness, in the revival of a
+          knowledge system that belongs not only to India, but to the world.
+        </p>
+        <p>
+          This is not a project. It is a movement. A civilisational renaissance.
+          A spiritual re-architecture of humanity.
+        </p>
+        <div>
+          Donate Now For <span>USHAAYATAN</span> <img src={preyerImg} alt="" />
+        </div>
+        <img src="" alt="" />
+        <p>Our Symbol: A Living Mandala</p>
+        <p>
+          The USHA logo is a sunflower—not by accident, but by deep design. The
+          sunflower reflects an infinitely scalable fractal—where the micro and
+          macro mirror each other. Its spiral symmetry represents the threefold
+          structure of existence: Bhu (Earth), Bhuva (Atmosphere), and Svah
+          (Heaven). At its base sits a meditating sage—symbol of stillness,
+          health, and harmony. At its centre, two entwined serpents, the eternal
+          guardians of knowledge. Within this whorl rests the Shaṭkoṇa, a
+          six-pointed star—symbolising the union of Śiva and Śakti, of fire and
+          water, of Purusha and Prakṛti. And within that union lies a gentle
+          echo of Yin-Yang—a concept of balance rooted deeply in Hindu
+          cosmology, where dualities like day and night, masculine and feminine,
+          and order and chaos are not in conflict, but in conscious interplay.
+          The logo, like USHA itself, is a mandala of wholeness.
+        </p>
+        <p>
+          This is no longer the age of belief. It is the age of becoming. The
+          age where we must ask ourselves—what kind of ancestors do we wish to
+          be? Will we leave behind fragments or foundations?
+        </p>
+        <p>
+          We are not followers of a fading world. We are the founders of a
+          future one.
+        </p>
+        <p>
+          Let us rise—together—with the light. Let us choose unity over
+          division. Inquiry over imposition. Wholeness over fragmentation. Let
+          us reawaken the Power of One, in One Place for Everyone.
+        </p>
+        <p>
+          Let us build USHA. Let us become USHA. The Universal Spiritual Human
+          Awakening.
+        </p>
+        <button>
+          <span>Join Our Movement</span> <img src={brownArrow} alt="" />
+        </button>
         <p className="quarry-form-heading">For any quarry or collaboration</p>
         <form className="quarry-form">
           <div className="about-form-group">
