@@ -2,12 +2,13 @@ import React from "react";
 import "./LandingPage.css";
 import LandingBanner from "./LandingBanner";
 import placeEveryone from "../../assets/Group 180.png";
-import yellowArrow from "../../assets/Group 181.png";
+import blackArrow from "../../assets/Group 206.png";
 import ushaStream from "../../assets/Group 183.png";
 import blueArrow from "../../assets/Group 188.png"
 import ushaSparks from "../../assets/Group 182.png"
 import ushaInsights from "../../assets/Group 187.png"
 import LatestEvent from "./LatestEvent";
+import Footer from "../../Layout/Footer";
 
 const LandingPage = () => {
   return (
@@ -26,11 +27,11 @@ const LandingPage = () => {
             </p>
             <div className="banner-about-us-btn">
               <span>Sign up now!</span>
-              <img src={yellowArrow} alt="" />
+              <img src={blackArrow} alt="" />
             </div>
           </div>
           <div className="place-for-everyone-right">
-            <img src={placeEveryone} alt="" />
+            {/* <img src={placeEveryone} alt="" /> */}
           </div>
         </div>
       </div>
@@ -90,6 +91,7 @@ Ancient wisdom meets modern inquiry.
       </div>
 
       <LatestEvent />
+      <Footer />
     </div>
   );
 };

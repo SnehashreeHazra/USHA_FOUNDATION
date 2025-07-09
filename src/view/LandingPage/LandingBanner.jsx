@@ -1,5 +1,5 @@
 import React from "react";
-import yellowArrow from "../../assets/Group 181.png";
+import yellowArrow from "../../assets/Group 205.png";
 
 const LandingBanner = () => {
   return (
