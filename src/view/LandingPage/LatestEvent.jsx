@@ -1,6 +1,6 @@
 import React from 'react'
 import BigImage from "../../assets/image 36.png"
-import blueArrow from "../../assets/Group 188.png"
+import blueArrow from "../../assets/Group 190.png"
 import cardImg from "../../assets/Snana Cover 16.png"
 
 const LatestEvent = () => {
