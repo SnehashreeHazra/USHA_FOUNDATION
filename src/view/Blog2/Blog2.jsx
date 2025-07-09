@@ -6,9 +6,9 @@ import scholerIcon from "../../assets/Scholar Icon 4.png";
 import saveIcon from "../../assets/noun-save-5791622 1.png";
 import articleImg1 from "../../assets/61xzwgm0r-L 1.png";
 import articleImg2 from "../../assets/de17dc290a3d91085e2486e7228a870d 1.png";
-import likeIcon from "../../assets/like 1 2.png";
-import commentIcon from "../../assets/Comments icon 1.png";
-import shareIcon from "../../assets/Share 4.png";
+import likeIcon from "../../assets/like 1 2 (1).png";
+import commentIcon from "../../assets/Comments icon 1 (1).png";
+import shareIcon from "../../assets/Share 2.png";
 import followPerson1 from "../../assets/Group 25 (1).png";
 import followPerson2 from "../../assets/image 63.png";
 import followPerson3 from "../../assets/image 8 (1).png";
@@ -20,6 +20,7 @@ import seekerIcon from "../../assets/Group 9.png";
 import priyaAvater from "../../assets/Group 25.png";
 import moreIcon from "../../assets/Group 2 1.png";
 import sendIcon from "../../assets/Send icon 2.png";
+import searchIcon from "../../assets/magnifying 3.png";
 
 const Blog2 = () => {
   return (
@@ -27,19 +28,11 @@ const Blog2 = () => {
       style={{
         background:
           "linear-gradient(to bottom, #F6D362 5%, #FBE8B1 8%, #ffffff 100%)",
-        paddingTop: "80px",
+        paddingTop: "10px",
         paddingBottom: "50px",
       }}
     >
       <div className="uni-container">
-        <div className="social-feed-navbar">
-          <p>USHA Stream</p>
-          <p>USHA Sparks</p>
-          <p className="active">USHA Insights</p>
-          <p>USHA Dialouge</p>
-          <p>USHA Social</p>
-          <p>USHA Academy</p>
-        </div>
         <div className="blog">
           <div className="blog-left">
             {/* <div className="blog-left-head">
@@ -80,6 +73,14 @@ const Blog2 = () => {
                   <img className="save-icon" src={saveIcon} alt="" />
                 </div>
               </div>
+              
+              <h2 className="article-topic">
+                The Soul in Daily Life—Hinduism and the Concepts of the Atman
+              </h2>
+              <p className="article-subheading">
+                The term and concept of Hinduism was coined only in recent
+                times. Otherwise, there was really no such thing.{" "}
+              </p>
               <div className="article-bottom00">
                 <p className="article-bottom1">
                   3rd May 2025 at <span>20:35</span>
@@ -94,13 +95,6 @@ const Blog2 = () => {
                   <img src={shareIcon} alt="" /> <span>2 Forwrds</span>
                 </div>
               </div>
-              <h2 className="article-topic">
-                The Soul in Daily Life—Hinduism and the Concepts of the Atman
-              </h2>
-              <p className="article-subheading">
-                The term and concept of Hinduism was coined only in recent
-                times. Otherwise, there was really no such thing.{" "}
-              </p>
               <p className="two-minutes-read">2 Min Read</p>
               <img className="article-page-image" src={articleImg1} alt="" />
               <p className="article-main-text">
@@ -254,7 +248,8 @@ const Blog2 = () => {
             </div>
           </div>
           <div className="blog-right">
-            <p style={{ fontWeight: "600" }}>Topics You May Like</p>
+            <UshaEvent />
+            <p style={{ fontWeight: "600", marginTop:'50px' }}>Topics You May Like</p>
             <div className="blog-topics-div">
               <button>Entrepreneurship</button>
               <button>Health & Wellness</button>
@@ -270,21 +265,20 @@ const Blog2 = () => {
               <button>Music</button>
               <button>Education</button>
             </div>
-            <UshaEvent />
             <div className="follow-div">
               <p className="follow-div-heading">You Can Follow</p>
               <div className="follow-body">
                 <div className="follow-div1">
                   <div className="follow-div12">
                     <img src={followPerson1} alt="" />
-                    <p style={{ fontWeight: "600" }}>Priya Viswanathan</p>
+                    <p style={{ fontWeight: "600",fontSize:'14px' }}>Priya Viswanathan</p>
                   </div>
                   <img className="follow-add-btn00" src={followAdd} alt="" />
                 </div>
                 <div className="follow-div1">
                   <div className="follow-div12">
                     <img src={followPerson2} alt="" />
-                    <p style={{ fontWeight: "600" }}>
+                    <p style={{ fontWeight: "600", fontSize:'14px' }}>
                       Sabyasachi Chattopadhyay
                     </p>
                   </div>
@@ -293,7 +287,7 @@ const Blog2 = () => {
                 <div className="follow-div1">
                   <div className="follow-div12">
                     <img src={followPerson3} alt="" />
-                    <p style={{ fontWeight: "600" }}>Nethan Hedler</p>
+                    <p style={{ fontWeight: "600", fontSize:'14px' }}>Nethan Hedler</p>
                   </div>
                   <img className="follow-add-btn00" src={followAdd} alt="" />
                 </div>
@@ -309,6 +303,18 @@ const Blog2 = () => {
                 </p>
               </div>
             </div>
+            <p className="sidebar-about-us" style={{ marginTop: "50px" }}>
+              About Us-Terms-Help Desk-Settings
+            </p>
+            <p
+              style={{
+                color: "#8F8F8F",
+                marginTop: "5px",
+                marginBottom: "10px",
+              }}
+            >
+              USHA©2025
+            </p>
           </div>
         </div>
       </div>
