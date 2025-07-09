@@ -591,7 +591,7 @@
 }
 
 .comment-text {
-  margin: 4px 0 0;
+  margin: 10px 0 0;
   font-size: 14px;
   color: #333;
 }
@@ -601,7 +601,8 @@
 }
 .priya-div {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  /* align-items: center; */
   column-gap: 0px;
 }
 .priya-div img {
@@ -633,7 +634,7 @@
 }
 
 .reply-content {
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
   padding: 10px 14px;
   border-radius: 10px;
   flex: 1;

@@ -18,11 +18,12 @@ import likeIcon2 from "../../assets/like 1 3.png";
 import dislikeIcon from "../../assets/like 1 4.png";
 import seekerIcon from "../../assets/Group 9.png";
 import priyaAvater from "../../assets/Group 25.png";
-import moreIcon from "../../assets/Group 2 1.png";
+import moreIcon from "../../assets/Group 2 black.png";
 import sendIcon from "../../assets/Send icon 2.png";
 import searchIcon from "../../assets/magnifying 3.png";
-import shareIcon2 from "../../assets/Share 3.png"
-import saveIcon2 from "../../assets/noun-save-5791622 2.png"
+import shareIcon2 from "../../assets/Share 3.png";
+import saveIcon2 from "../../assets/noun-save-5791622 2.png";
+import arrowImg from "../../assets/Enter Icon 1.png";
 
 const Blog2 = () => {
   return (
@@ -75,7 +76,6 @@ const Blog2 = () => {
                   <img className="save-icon" src={saveIcon2} alt="" />
                 </div>
               </div>
-              
               <h2 className="article-topic">
                 The Soul in Daily Life—Hinduism and the Concepts of the Atman
               </h2>
@@ -246,12 +246,50 @@ const Blog2 = () => {
                     <img src={shareIcon} alt="" /> <span>1 Reply</span>
                   </div>
                 </div>
+                <div className="comment-reply">
+                  <img src={arrowImg} alt="" />
+                  <img
+                    className="comment-avatar"
+                    src={articleAuthor}
+                    alt="user"
+                  />
+                  <div className="reply-content">
+                    <div className="priya-div">
+                      <p className="comment-author">Pragyan Gupta </p>
+                      <p
+                        style={{
+                          color: "#8C8C8C",
+                          fontSize: "12px",
+                          marginTop: "5px",
+                        }}
+                      >
+                        1st May 2025 at 14:10
+                      </p>
+                    </div>
+                    <p className="comment-text">
+                      Thank You very much for the support.
+                    </p>
+                    <div
+                      className="article-footer2"
+                      style={{ marginTop: "10px" }}
+                    >
+                      <div className="article-bottom2">
+                        <img src={likeIcon} alt="" /> <span>1 Liked</span>
+                      </div>
+                      <div className="article-bottom2">
+                        <img src={shareIcon} alt="" /> <span>0 Reply</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div className="blog-right">
             <UshaEvent />
-            <p style={{ fontWeight: "600", marginTop:'50px' }}>Topics You May Like</p>
+            <p style={{ fontWeight: "600", marginTop: "50px" }}>
+              Topics You May Like
+            </p>
             <div className="blog-topics-div">
               <button>Entrepreneurship</button>
               <button>Health & Wellness</button>
@@ -273,14 +311,16 @@ const Blog2 = () => {
                 <div className="follow-div1">
                   <div className="follow-div12">
                     <img src={followPerson1} alt="" />
-                    <p style={{ fontWeight: "600",fontSize:'14px' }}>Priya Viswanathan</p>
+                    <p style={{ fontWeight: "600", fontSize: "14px" }}>
+                      Priya Viswanathan
+                    </p>
                   </div>
                   <img className="follow-add-btn00" src={followAdd} alt="" />
                 </div>
                 <div className="follow-div1">
                   <div className="follow-div12">
                     <img src={followPerson2} alt="" />
-                    <p style={{ fontWeight: "600", fontSize:'14px' }}>
+                    <p style={{ fontWeight: "600", fontSize: "14px" }}>
                       Sabyasachi Chattopadhyay
                     </p>
                   </div>
@@ -289,7 +329,9 @@ const Blog2 = () => {
                 <div className="follow-div1">
                   <div className="follow-div12">
                     <img src={followPerson3} alt="" />
-                    <p style={{ fontWeight: "600", fontSize:'14px' }}>Nethan Hedler</p>
+                    <p style={{ fontWeight: "600", fontSize: "14px" }}>
+                      Nethan Hedler
+                    </p>
                   </div>
                   <img className="follow-add-btn00" src={followAdd} alt="" />
                 </div>
