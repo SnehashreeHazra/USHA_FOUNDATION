@@ -6,6 +6,7 @@
   /* justify-content: space-between; */
   margin-top: 20px;
   column-gap: 40px;
+  font-family: "sora", sans-serif;
 }
 .article-topic {
   margin-top: 30px;
@@ -20,7 +21,7 @@
   font-weight: 600;
   font-size: 14px;
   padding: 20px 0;
-  border-bottom: 1px solid #979797;
+  /* border-bottom: 1px solid #979797; */
 }
 .article-page-image {
   margin-top: 50px;
