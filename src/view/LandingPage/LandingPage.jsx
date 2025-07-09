@@ -6,7 +6,10 @@ import blackArrow from "../../assets/Group 206.png";
 import ushaStream from "../../assets/Group 199.png";
 import blueArrow from "../../assets/Group 190.png";
 import ushaSparks from "../../assets/Group 200.png";
+import ushaDialogue from "../../assets/Group 202.png";
 import ushaInsights from "../../assets/Group 201.png";
+import ushaSocial from "../../assets/Group 203.png";
+import ushaAcademy from "../../assets/Group 204.png";
 import LatestEvent from "./LatestEvent";
 import Footer from "../../Layout/Footer";
 import yellowArrow from "../../assets/Group 194.png";
@@ -89,6 +92,64 @@ const LandingPage = () => {
             <span>Explore Articles</span>
             <img src={blueArrow} alt="" />
           </div>
+        </div>
+      </div>
+
+      <div className="uni-container usha-stream">
+        <div className="usha-sparks-left">
+          <p className="usha-stream-heading" style={{ textAlign: "left" }}>
+            USHA Dialogue
+          </p>
+          <p className="usha-stream-text" style={{ textAlign: "left" }}>
+            Listen to deep conversations, live sessions, and podcasts with
+            seers, scholars, and spiritual explorers. Where questions find their
+            voice.
+          </p>
+          <div className="explore-original-btn">
+            <span>Here the Voices</span>
+            <img src={blueArrow} alt="" />
+          </div>
+        </div>
+        <div className="usha-sparks-right">
+          <img src={ushaDialogue} alt="" />
+        </div>
+      </div>
+
+      <div className="uni-container usha-stream">
+        <div className="usha-stream-left">
+          <img src={ushaSocial} alt="" />
+        </div>
+        <div className="usha-stream-right">
+          <p className="usha-stream-heading">USHA Social</p>
+          <p className="usha-stream-text">
+            Build conscious connections. Share ideas, stories, and reflections
+            with a like-minded Dhārmic community. A digital saṅgha for the age
+            of awakening.
+          </p>
+          <div className="explore-original-btn">
+            <span>Connect with Community</span>
+            <img src={blueArrow} alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div className="uni-container usha-stream">
+        <div className="usha-sparks-left">
+          <p className="usha-stream-heading" style={{ textAlign: "left" }}>
+            USHA Academy
+          </p>
+          <p className="usha-stream-text" style={{ textAlign: "left" }}>
+            Learn Vedic sciences, rituals, and philosophies through structured
+            courses and guided study paths. Your learning. Your pace. Rooted in
+            Sanātana Dharma.
+          </p>
+          <div className="explore-original-btn">
+            <span>Browse Courses</span>
+            <img src={blueArrow} alt="" />
+          </div>
+        </div>
+        <div className="usha-sparks-right">
+          <img src={ushaAcademy} alt="" />
         </div>
       </div>
 
