@@ -23,11 +23,26 @@ import sendIcon from "../../assets/Send icon 2.png";
 
 const Blog2 = () => {
   return (
-    <div style={{ paddingBottom: "50px" }}>
+    <div
+      style={{
+        background:
+          "linear-gradient(to bottom, #F6D362 5%, #FBE8B1 8%, #ffffff 100%)",
+        paddingTop: "80px",
+        paddingBottom: "50px",
+      }}
+    >
       <div className="uni-container">
+        <div className="social-feed-navbar">
+          <p>USHA Stream</p>
+          <p>USHA Sparks</p>
+          <p className="active">USHA Insights</p>
+          <p>USHA Dialouge</p>
+          <p>USHA Social</p>
+          <p>USHA Academy</p>
+        </div>
         <div className="blog">
           <div className="blog-left">
-            <div className="blog-left-head">
+            {/* <div className="blog-left-head">
               <div className="create-new-article">
                 <input type="text" placeholder="Create New Article Here" />
                 <button>Add</button>
@@ -35,13 +50,19 @@ const Blog2 = () => {
               <div className="search-div00">
                 <i class="fa-solid fa-magnifying-glass"></i>
               </div>
-            </div>
+            </div> */}
             <div className="types-of-messages">
               <div className="msg-type">All</div>
               <div className="msg-type">Latest</div>
               <div className="msg-type">Following</div>
               <div className="msg-type">Saved</div>
-              <div className="msg-type active">Your Article</div>
+              <div className="article-search-div">
+                <input type="text" placeholder="Search Here" />
+                <div className="article-search">
+                  <img src={searchIcon} alt="" />
+                </div>
+              </div>
+              <div className="msg-type0 active">Your Article</div>
             </div>
             <div className="full-article-content">
               <div className="article-head">
