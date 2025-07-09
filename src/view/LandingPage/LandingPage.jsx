@@ -16,9 +16,10 @@ import yellowArrow from "../../assets/Group 194.png";
 
 const LandingPage = () => {
   return (
-    <div>
+    <div style={{backgroundColor:'#fff'}}>
       <LandingBanner />
-      <div className="place-for-everyone">
+      
+      <div className="place-for-everyone" style={{background: 'linear-gradient(to bottom, #F8BF3A 0%, #F8BF3A 50%, #ffffff 100%)'}}>
         <div className="uni-container place-for-every-container">
           <div className="place-for-everyone-left">
             <p className="place-everyone-heading">The ONE PLACE FOR EVERYONE</p>
