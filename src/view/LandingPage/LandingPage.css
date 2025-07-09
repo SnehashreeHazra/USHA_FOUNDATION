@@ -1,5 +1,5 @@
 .landing-banner {
-  background-image: url("../../assets/ChatGPT Image Jun 13, 2025, 10_31_31 AM 1.png");
+  background-image: url("../../assets/image 202.png");
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -13,7 +13,7 @@
   padding-top: 70px;
 }
 .landing-banner-heading {
-  color: white;
+  color: black;
   font-weight: 500;
   font-size: 90px;
   margin: 0px !important;
@@ -22,16 +22,16 @@
   margin: 0px !important;
 }
 .landing-banner-subheading {
-  color: white;
+  color: black;
   font-weight: 500;
   font-size: 30px;
 }
 .banner-about-us-btn {
   margin-top: 20px;
-  color: white;
+  color: black;
   padding: 5px 10px;
   border-radius: 25px;
-  border: 1px solid white;
+  border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -80,8 +80,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-   font-family: "Sora", sans-serif;
-   padding: 50px 0;
+  font-family: "Sora", sans-serif;
+  padding: 50px 0;
 }
 .usha-stream-left {
   width: 100%;
@@ -104,32 +104,32 @@
 .usha-stream-heading {
   font-family: "Sora", sans-serif;
   font-size: 35px;
-  color: #072ac8;
+  color: #a35b13;
   font-weight: 600;
   width: 120px;
   text-align: right;
 }
-.explore-original-btn{
+.explore-original-btn {
   margin-top: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 210px;
-  border: 1px solid #1a52b4;
+  border: 1px solid #a35b13;
   border-radius: 20px;
   font-size: 14px;
   cursor: pointer;
   padding: 5px 10px;
 }
-.explore-original-btn img{
+.explore-original-btn img {
   width: 60px;
 }
-.usha-stream-text{
-  color: #747474;
+.usha-stream-text {
+  color: #170e13;
   margin-top: 20px;
   text-align: right;
 }
-.usha-sparks-left{
+.usha-sparks-left {
   width: 100%;
   max-width: 30%;
   min-width: 30%;
@@ -138,66 +138,66 @@
   /* justify-content: center; */
   /* align-items: flex-end; */
 }
-.usha-sparks-right{
+.usha-sparks-right {
   width: 100%;
   max-width: 60%;
   min-width: 60%;
 }
 
-.latest-event{
-  background-color: #1A52B4;
+.latest-event {
+  background-color: #f8bf3a;
   border-radius: 20px;
   padding: 80px;
 }
-.latest-event-big-img{
+.latest-event-big-img {
   width: 100%;
   border-radius: 30px;
-  border: 1px solid white;
+  border: 10px solid #a35b13;
 }
-.latest-event-heading{
+.latest-event-heading {
   text-align: center;
   color: white;
   font-size: 30px;
   font-family: "Sora", sans-serif;
   margin-top: 50px;
 }
-.latest-events-cards{
+.latest-events-cards {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
   font-family: "Sora", sans-serif;
 }
-.latest-event-card{
+.latest-event-card {
   width: 100%;
   max-width: 25%;
   min-width: 25%;
   padding: 10px 15px;
   border-radius: 20px;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
 }
-.latest-event-card-img{
+.latest-event-card-img {
   width: 100%;
 }
-.upcoming-text{
-  color: #4A4A4A;
+.upcoming-text {
+  color: #4a4a4a;
   font-size: 12px;
   margin: 10px 0;
 }
-.event-heading{
-  color: #1A52B4;
+.event-heading {
+  color: #1a52b4;
   font-size: 28px;
   font-weight: 600;
 }
-.event-process{
-  color: #8D8D8D;
+.event-process {
+  color: #8d8d8d;
   margin: 5px 0;
 }
-.event-card-btn{
+.event-card-btn {
   margin: 10px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid #1A52B4;
+  border: 1px solid #1a52b4;
   border-radius: 20px;
   padding: 5px 10px;
   width: 100%;
