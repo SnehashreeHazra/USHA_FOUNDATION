@@ -13,7 +13,7 @@ import followPerson1 from "../../assets/Group 25 (1).png";
 import followPerson2 from "../../assets/image 63.png";
 import followPerson3 from "../../assets/image 8 (1).png";
 import followPerson4 from "../../assets/image 9 (2).png";
-import followAdd from "../../assets/add 2 white.png";
+import followAdd from "../../assets/add 2.png";
 import likeIcon2 from "../../assets/like 1 3.png";
 import dislikeIcon from "../../assets/like 1 4.png";
 import seekerIcon from "../../assets/Group 9.png";
@@ -21,6 +21,8 @@ import priyaAvater from "../../assets/Group 25.png";
 import moreIcon from "../../assets/Group 2 1.png";
 import sendIcon from "../../assets/Send icon 2.png";
 import searchIcon from "../../assets/magnifying 3.png";
+import shareIcon2 from "../../assets/Share 3.png"
+import saveIcon2 from "../../assets/noun-save-5791622 2.png"
 
 const Blog2 = () => {
   return (
@@ -69,8 +71,8 @@ const Blog2 = () => {
                 </div>
                 <div className="article-head2">
                   <img className="save-icon" src={followAdd} alt="" />
-                  <img className="save-icon" src={shareIcon} alt="" />
-                  <img className="save-icon" src={saveIcon} alt="" />
+                  <img className="save-icon" src={shareIcon2} alt="" />
+                  <img className="save-icon" src={saveIcon2} alt="" />
                 </div>
               </div>
               
