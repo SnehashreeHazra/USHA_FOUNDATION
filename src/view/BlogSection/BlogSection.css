@@ -230,3 +230,55 @@
     min-width: 190px;
   }
 }
+
+@media (max-width:1150px) {
+  .blog{
+    flex-wrap: wrap;
+    row-gap: 50px;
+  }
+  .blog-left{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    padding-right: 0px;
+    border: none;
+  }
+  .blog-right{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .blog-topics-div{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width:900px) {
+  .types-of-messages{
+    overflow-x: auto;
+  }
+   .types-of-messages::-webkit-scrollbar{
+    display: none;
+   }
+  .msg-type{
+    width: 100%;
+    max-width: 120px;
+    min-width: 120px;
+  }
+  .article-search-div input{
+    display: none;
+  }
+  .article-search-div{
+    width: 56px;
+  }
+}
+
+@media (max-width:768px){
+  .article-bottom{
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+}
