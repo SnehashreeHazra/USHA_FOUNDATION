@@ -5,6 +5,7 @@ import aiLogo from "../assets/Group 165.png";
 import featureStackIcon from "../assets/All feature stack 1.png";
 
 const Header = () => {
+  
   const location = useLocation();
   const isSocialOrCirclePage =
     location.pathname === "/social-feed" ||
@@ -24,7 +25,7 @@ const Header = () => {
       <div className="header-bottom">
         <div className="uni-container">
           <div style={{ display: "flex", justifyContent: "space-between" }}>
-            <div className="logo">
+            <div className="logo" onClick={()=>navigate('/')}>
               <img src={logo} alt="" /> <span>USHA</span>
             </div>
             <div className="header-bottom-right">
