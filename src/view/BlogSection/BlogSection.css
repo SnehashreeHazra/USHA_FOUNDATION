@@ -215,3 +215,18 @@
   width: 25px;
   cursor: pointer;
 }
+
+
+@media (max-width:1300px) {
+  .social-feed-navbar{
+    overflow-x: auto;
+  }
+  .social-feed-navbar::-webkit-scrollbar{
+    display: none;
+  }
+  .social-feed-navbar p{
+    width: 100%;
+    max-width: 190px;
+    min-width: 190px;
+  }
+}
