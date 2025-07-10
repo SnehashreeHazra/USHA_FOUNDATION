@@ -78,7 +78,7 @@ const BlogSection = () => {
                 <div className="aricle-body1">
                   <h2
                     style={{ cursor: "pointer" }}
-                    onClick={() => navigate("/blog2")}
+                    onClick={() => navigate("/reading-blog")}
                   >
                     The Soul in Daily Life—Hinduism and the Concepts of the
                     Atman
@@ -122,7 +122,7 @@ const BlogSection = () => {
               <div className="article-body">
                 <div className="aricle-body1">
                   <h2
-                    onClick={() => navigate("/blog2")}
+                    onClick={() => navigate("/reading-blog")}
                     style={{ cursor: "pointer" }}
                   >
                     Unlocking the Mysteries of Hinduism: 10 Captivating Books to
@@ -167,7 +167,7 @@ const BlogSection = () => {
               <div className="article-body">
                 <div className="aricle-body1">
                   <h2
-                    onClick={() => navigate("/blog2")}
+                    onClick={() => navigate("/reading-blog")}
                     style={{ cursor: "pointer" }}
                   >
                     Unlocking the Mysteries of Hinduism: 10 Captivating Books to
@@ -200,7 +200,9 @@ const BlogSection = () => {
           </div>
           <div className="blog-right">
             <UshaEvent />
-            <p style={{ fontWeight: "600", marginTop:'50px' }}>Topics You May Like</p>
+            <p style={{ fontWeight: "600", marginTop: "50px" }}>
+              Topics You May Like
+            </p>
             <div className="blog-topics-div">
               <button>Entrepreneurship</button>
               <button>Health & Wellness</button>
@@ -222,14 +224,16 @@ const BlogSection = () => {
                 <div className="follow-div1">
                   <div className="follow-div12">
                     <img src={followPerson1} alt="" />
-                    <p style={{ fontWeight: "600",fontSize:'14px' }}>Priya Viswanathan</p>
+                    <p style={{ fontWeight: "600", fontSize: "14px" }}>
+                      Priya Viswanathan
+                    </p>
                   </div>
                   <img className="follow-add-btn00" src={followAdd} alt="" />
                 </div>
                 <div className="follow-div1">
                   <div className="follow-div12">
                     <img src={followPerson2} alt="" />
-                    <p style={{ fontWeight: "600", fontSize:'14px' }}>
+                    <p style={{ fontWeight: "600", fontSize: "14px" }}>
                       Sabyasachi Chattopadhyay
                     </p>
                   </div>
@@ -238,7 +242,9 @@ const BlogSection = () => {
                 <div className="follow-div1">
                   <div className="follow-div12">
                     <img src={followPerson3} alt="" />
-                    <p style={{ fontWeight: "600", fontSize:'14px' }}>Nethan Hedler</p>
+                    <p style={{ fontWeight: "600", fontSize: "14px" }}>
+                      Nethan Hedler
+                    </p>
                   </div>
                   <img className="follow-add-btn00" src={followAdd} alt="" />
                 </div>

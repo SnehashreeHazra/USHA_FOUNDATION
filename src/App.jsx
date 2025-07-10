@@ -32,7 +32,7 @@ function App() {
             <Route path="/social-feed" element={<SocialFeed />} />
             <Route path="/message" element={<Messaging />} />
             <Route path="/blog" element={<BlogSection />} />
-            <Route path="/blog2" element={<Blog2 />} />
+            <Route path="/reading-blog" element={<Blog2 />} />
             <Route path="/personal-profile" element={<PersonalProfile />} />
             <Route path="/video-preview" element={<VideoPreview />} />
           </Route>
