@@ -7,7 +7,7 @@ import yellowArrow2 from "../../assets/Group 196.png";
 import rigvedaImg from "../../assets/Group 195.png";
 import preyerImg from "../../assets/Group 197.png";
 import brownArrow from "../../assets/Group 190.png";
-import ushaLogo from "../../assets/USA New Logo 1 2.png";
+import ushaLogo from "../../assets/USA New Logo 2.png";
 
 const UshaAbout = () => {
   useEffect(() => {

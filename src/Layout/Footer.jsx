@@ -1,7 +1,7 @@
 import React from "react";
 import brownArrow from "../assets/Group 190.png";
 import youtubeImg from "../assets/Group 189.png";
-import ushaLogo from "../assets/USA New Logo 1 2.png";
+import ushaLogo from "../assets/USA New Logo 2.png";
 // import footerFacebook from ""
 
 const Footer = () => {

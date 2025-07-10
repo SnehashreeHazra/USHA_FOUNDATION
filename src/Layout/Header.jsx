@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/USA New Logo 1 2.png";
+import logo from "../assets/USA New Logo 2.png";
 import { useLocation, useNavigate } from "react-router-dom";
 import aiLogo from "../assets/Group 165.png"
 import featureStackIcon from '../assets/All feature stack 1.png'
