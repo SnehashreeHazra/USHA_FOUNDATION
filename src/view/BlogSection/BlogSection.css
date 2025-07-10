@@ -281,4 +281,13 @@
     flex-wrap: wrap;
     row-gap: 10px;
   }
+  .article-body{
+    flex-wrap: wrap;
+    row-gap: 50px;
+  }
+  .article-img{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
 }

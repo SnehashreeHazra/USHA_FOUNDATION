@@ -235,3 +235,11 @@ body {
 .footer-social-icons i {
   font-size: 20px;
 }
+
+
+
+@media (max-width:1250px){
+  .header-bottom-right{
+    display: none;
+  }
+}
