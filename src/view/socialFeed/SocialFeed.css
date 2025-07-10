@@ -623,7 +623,8 @@
 .comment-reply {
   display: flex;
   align-items: flex-start;
-  margin-left: 90px;
+  margin-left: 40px;
+  margin-top: 20px;
   gap: 10px;
 }
 
