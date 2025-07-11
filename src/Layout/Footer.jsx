@@ -29,7 +29,7 @@ const Footer = () => {
             <p className="footer-subscribe">Subscribe</p>
             <img className="youtube-img" src={youtubeImg} alt="" />
             <p className="join-family">Join our Worldfamily.</p>
-            <p style={{ fontSize: "13px" }}>
+            <p className="youtube-text">
               Subscribe to our YouTube and social media handles for free for all
               updates.
             </p>

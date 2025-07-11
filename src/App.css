@@ -235,6 +235,9 @@ body {
 .footer-social-icons i {
   font-size: 20px;
 }
+.youtube-text {
+  font-size: 13px;
+}
 
 @media (max-width: 1250px) {
   .header-bottom-right {
@@ -281,6 +284,45 @@ body {
     width: 100%;
     max-width: 47%;
     min-width: 47%;
+  }
+}
+@media (max-width: 600px) {
+  .footer-left {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .usha-spiritual-foundation {
+    width: 100%;
+    max-width: 30%;
+    min-width: 30%;
+    text-align: center;
+  }
+  .footer-middle {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .footer-right {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .join-family {
+    width: 100%;
+    text-align: center;
+  }
+  .youtube-text {
+    /* width: 100%; */
+    text-align: center;
   }
 }
 @media (max-width: 500px) {
