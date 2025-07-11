@@ -3,7 +3,7 @@ import img1 from "../../assets/image 63.png";
 import img2 from "../../assets/image 20.png";
 import img3 from "../../assets/image 8 (1).png";
 import img4 from "../../assets/image 9 (2).png";
-import viewLink from "../../assets/View icon 4.png";
+import viewLink from "../../assets/View icon 5.png";
 import locationImg from "../../assets/location 1.png";
 import calenderImg from "../../assets/calender 2.png";
 import heartIcon from "../../assets/noun-love-861872 1.png";

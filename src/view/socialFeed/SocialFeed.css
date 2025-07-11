@@ -476,15 +476,15 @@
   /* padding: 5px; */
   justify-content: space-between;
 }
-.comment-input-box1{
+.comment-input-box1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   column-gap: 10px;
   padding: 10px 15px;
-  border-bottom: 1px solid #BFBFBF;
+  border-bottom: 1px solid #bfbfbf;
 }
-.comment-input-box2{
+.comment-input-box2 {
   width: 100%;
   /* margin-top: 20px; */
 
@@ -505,7 +505,7 @@
 }
 
 .comment-send-btn {
-  background-color: #A35B13;
+  background-color: #a35b13;
   border: none;
   color: white;
   padding: 8px 16px;
@@ -517,27 +517,27 @@
   cursor: pointer;
   transition: background 0.2s ease;
 }
-.post-agree-btn{
-  color: #47A025;
-  border: 1px solid #47A025;
+.post-agree-btn {
+  color: #47a025;
+  border: 1px solid #47a025;
   padding: 8px 10px;
   border-radius: 20px;
   font-size: 14px;
   background-color: transparent;
   cursor: pointer;
 }
-.post-disagree-btn{
-  color: #D90368;
-  border: 1px solid #D90368;
+.post-disagree-btn {
+  color: #d90368;
+  border: 1px solid #d90368;
   padding: 8px 10px;
   border-radius: 20px;
   font-size: 14px;
   background-color: transparent;
   cursor: pointer;
 }
-.post-neutral-btn{
-  color: #1A52B4;
-  border: 1px solid #1A52B4;
+.post-neutral-btn {
+  color: #1a52b4;
+  border: 1px solid #1a52b4;
   padding: 8px 10px;
   border-radius: 20px;
   font-size: 14px;
@@ -839,8 +839,8 @@
   align-items: center;
 }
 .images-div {
-  background-color: #b7deff7a;
-  filter: blur(13);
+  background: linear-gradient(to right, #b98519, #e2c355);
+  backdrop-filter: blur(20px);
   display: flex;
   align-items: center;
   padding: 5px 12px;
@@ -860,7 +860,7 @@
   white-space: nowrap;
 }
 .view-link-btn {
-  background-color: #b7deff7a;
+  background: linear-gradient(to right, #b98519, #e2c355);
   filter: blur(11);
   padding: 5px;
   border-radius: 50%;
@@ -916,7 +916,7 @@
   color: white;
 }
 .join-btn00 {
-  background-color: #F4B301;
+  background-color: #f4b301;
   padding: 10px 30px;
   color: #000;
   font-weight: 600;
@@ -924,6 +924,7 @@
   border: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   cursor: pointer;
+  font-family: "Sora", sans-serif;
 }
 .event-footer {
   display: flex;
@@ -1087,19 +1088,19 @@
   }
 }
 
-@media (max-width: 1250px){
-  .event-details{
+@media (max-width: 1250px) {
+  .event-details {
     flex-wrap: wrap;
     row-gap: 10px;
   }
-  .images-div img{
+  .images-div img {
     width: 25px;
     height: 25px;
   }
-  .images-div{
+  .images-div {
     padding: 5px;
   }
-  .images-div span{
+  .images-div span {
     font-size: 9px;
   }
 }

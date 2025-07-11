@@ -283,6 +283,7 @@
   .article-bottom{
     flex-wrap: wrap;
     row-gap: 10px;
+    column-gap: 2px;
   }
   .article-body{
     flex-wrap: wrap;
