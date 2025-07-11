@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "./UshaAbout.css";
-import invertedComma from "../../assets/”.png";
 import Footer from "../../Layout/Footer";
 import yellowArrow from "../../assets/Group 194.png";
 import yellowArrow2 from "../../assets/Group 196.png";
@@ -167,14 +166,23 @@ const UshaAbout = () => {
             alignment with Dharma. As your awareness expands, you move through
             five stages of inner growth:
           </p>{" "}
-          <p>
-            • Jijñāsu – The Seeker: One who begins with curiosity and longing •
-            Sādhaka – The Practitioner: One who commits to discipline and
-            practice • Jñānī – The Knower: One who understands through study and
-            introspection • Boddha – The Awakened: One who lives in conscious
-            alignment • Darśī – The Seer: One who becomes a guide and mirror for
-            others
-          </p>{" "}
+          <ul className="karma-stages">
+            <li>
+              Jijñāsu – The Seeker: One who begins with curiosity and longing
+            </li>
+            <li>
+              Sādhaka – The Practitioner: One who commits to discipline and
+              practice
+            </li>
+            <li>
+              Jñānī – The Knower: One who understands through study and
+              introspection
+            </li>
+            <li>Boddha – The Awakened: One who lives in conscious alignment</li>
+            <li>
+              Darśī – The Seer: One who becomes a guide and mirror for others
+            </li>
+          </ul>
           <p>
             These are not badges. They are states of being—earned through
             sincerity, humility, and shared aspiration. They reflect the journey
@@ -285,6 +293,7 @@ const UshaAbout = () => {
         >
           <span>Join Our Movement</span> <img src={brownArrow} alt="" />
         </button>
+
         <p className="quarry-form-heading">For any quarry or collaboration</p>
         <form className="quarry-form">
           <div className="about-form-group">
