@@ -144,6 +144,16 @@
     flex-wrap: wrap;
     row-gap: 5px;
   }
+  .comment-reply {
+    margin-left: 20px;
+    gap: 5px;
+  }
+  .comment-text {
+    field-sizing: 12px;
+  }
+  .reply-content {
+    padding: 0px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -156,5 +166,8 @@
   }
   .comment-post-btn img {
     width: 12px;
+  }
+  .comment-author {
+    font-size: 13px;
   }
 }
