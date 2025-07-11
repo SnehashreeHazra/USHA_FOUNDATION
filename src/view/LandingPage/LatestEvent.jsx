@@ -14,10 +14,19 @@ const LatestEvent = () => {
           <div className="latest-event-card active">
             <img className="latest-event-card-img" src={cardImg} alt="" />
             <div className="latest-event-card-text">
-              <p className="upcoming-text">Upcoming Events</p>
-              <p className="event-heading">Kumbh Kahini</p>
-              <p className="event-process">Online</p>
-              <div className="event-card-btn">
+              <p className="upcoming-text" style={{ color: "white" }}>
+                Upcoming Events
+              </p>
+              <p className="event-heading" style={{ color: "white" }}>
+                Kumbh Kahini
+              </p>
+              <p className="event-process" style={{ color: "white" }}>
+                Online
+              </p>
+              <div
+                className="event-card-btn"
+                style={{ backgroundColor: "white" }}
+              >
                 <span>23rd June - 5pm</span>
                 <img src={blueArrow} alt="" />
               </div>

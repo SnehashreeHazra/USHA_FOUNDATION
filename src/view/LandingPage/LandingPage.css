@@ -179,7 +179,7 @@
 }
 .latest-event-card.active {
   background-color: #a35b13;
-  /* color: white; */
+  border: none;
 }
 .latest-event-card-img {
   width: 100%;
