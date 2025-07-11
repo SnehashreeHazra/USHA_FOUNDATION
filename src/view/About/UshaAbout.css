@@ -104,6 +104,7 @@
   align-items: center;
   padding: 0px 50px;
   margin-top: 20px;
+  font-family: "Sora", sans-serif;
 }
 .karma-stages {
   margin-left: 15px;
@@ -114,7 +115,7 @@
   padding: 15px 20px;
   border-radius: 15px;
   font-family: "Sora", sans-serif;
-  border: 1px solid #5d5b5b;
+  border: 1px solid #000;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   outline: none;
 }
@@ -128,7 +129,7 @@
 }
 .join-awakening-btn {
   /* padding: 0px 10px; */
-  border: 1px solid #f4b301;
+  border: 2px solid #a35b13;
   border-radius: 20px;
   background-color: transparent;
   cursor: pointer;
@@ -137,14 +138,16 @@
   align-items: center;
   column-gap: 20px;
   font-family: "Sora", sans-serif;
-  margin-top: 20px;
-  font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-size: 13px;
 }
 .join-awakening-btn span {
   margin-left: 15px;
 }
 .join-awakening-btn img {
-  width: 60px;
+  width: 65px;
+  height: 25px;
 }
 .mission-why-usha-btn {
   border: 1px solid #000;
@@ -194,6 +197,7 @@
   font-family: "Sora", sans-serif;
   font-weight: 600;
   margin-bottom: 30px;
+  font-size: 19px;
 }
 .ushaayatan-text {
   font-family: "Sora", sans-serif;
@@ -205,9 +209,9 @@
   margin-top: 40px;
   /* margin-bottom: 50px; */
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
-  width: 33%;
+  width: 50%;
 }
 .donate-now-btn {
   border: 1px solid #000000;

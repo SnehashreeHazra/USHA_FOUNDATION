@@ -207,7 +207,14 @@ const UshaAbout = () => {
           </p>{" "}
         </div>
         <img src={rigvedaImg} alt="" />
-        <p style={{ textAlign: "center", marginTop: "30px" }}>
+        <p
+          style={{
+            textAlign: "center",
+            fontSize: "19px",
+            width: "89%",
+            marginTop: "30px",
+          }}
+        >
           As the Rigveda declares, “Usha avartayati prajah” — Usha awakens all
           living beings. USHAAYATAN is that awakening made manifest—through
           knowledge, inquiry, remembrance, and renaissance.
@@ -287,10 +294,7 @@ const UshaAbout = () => {
           Let us build USHA. Let us become USHA. The Universal Spiritual Human
           Awakening.
         </p>
-        <button
-          className="join-awakening-btn"
-          style={{ marginBottom: "100px", marginTop: "30px" }}
-        >
+        <button className="join-awakening-btn">
           <span>Join Our Movement</span> <img src={brownArrow} alt="" />
         </button>
 
