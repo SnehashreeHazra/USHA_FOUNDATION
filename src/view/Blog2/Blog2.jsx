@@ -200,10 +200,10 @@ const Blog2 = () => {
                 <div className="article-head1">
                   <img src={articleAuthor} alt="" />
                   <p className="article-author">Pragyan Gupta</p>
-                  <div className="sage-div00">
+                  {/* <div className="sage-div00">
                     <img src={scholerIcon} alt="" />
                     <span>SAGE</span>
-                  </div>
+                  </div> */}
                 </div>
                 <div class="comment-box">
                   <input
@@ -231,7 +231,7 @@ const Blog2 = () => {
                         1st May 2025 at 14:10
                       </p>
                     </div>
-                    <img src={seekerIcon} alt="" />
+                    {/* <img src={seekerIcon} alt="" /> */}
                   </div>
                   <img className="more-btn" src={moreIcon} alt="" />
                 </div>

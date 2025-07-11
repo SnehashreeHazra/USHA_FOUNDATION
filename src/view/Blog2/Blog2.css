@@ -113,6 +113,7 @@
   cursor: pointer;
 }
 .comment-all-btn {
+  margin-top: 20px;
   color: #a35b13;
   padding: 8px 13px;
   border-radius: 20px;
@@ -125,5 +126,22 @@
   .article-footer {
     flex-wrap: wrap;
     row-gap: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .article-bottom00 {
+    flex-wrap: wrap;
+    row-gap: 3px;
+  }
+  .aabb {
+    column-gap: 5px;
+  }
+}
+@media (max-width: 500px) {
+  .aabb {
+    column-gap: 10px;
+    flex-wrap: wrap;
+    row-gap: 5px;
   }
 }
