@@ -13,7 +13,7 @@ import followPerson1 from "../../assets/Group 25 (1).png";
 import followPerson2 from "../../assets/image 63.png";
 import followPerson3 from "../../assets/image 8 (1).png";
 import followPerson4 from "../../assets/image 9 (2).png";
-import followAdd2 from "../../assets/add 2 white.png"
+import followAdd2 from "../../assets/add 2 white.png";
 import followAdd from "../../assets/add 2.png";
 import likeIcon2 from "../../assets/like 1 3.png";
 import dislikeIcon from "../../assets/like 1 4.png";
@@ -285,6 +285,7 @@ const Blog2 = () => {
                     </div>
                   </div>
                 </div>
+                <button className="comment-all-btn">See all</button>
               </div>
             </div>
           </div>

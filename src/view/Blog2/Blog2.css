@@ -112,6 +112,14 @@
   width: 20px;
   cursor: pointer;
 }
+.comment-all-btn {
+  color: #a35b13;
+  padding: 8px 13px;
+  border-radius: 20px;
+  border: 1px solid #a35b13;
+  background-color: transparent;
+  cursor: pointer;
+}
 
 @media (max-width: 768px) {
   .article-footer {
