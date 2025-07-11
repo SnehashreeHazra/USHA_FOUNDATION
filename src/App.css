@@ -285,6 +285,9 @@ body {
     max-width: 47%;
     min-width: 47%;
   }
+  .footer{
+    height: auto;
+  }
 }
 @media (max-width: 600px) {
   .footer-left {
@@ -322,6 +325,9 @@ body {
   }
   .youtube-text {
     /* width: 100%; */
+    text-align: center;
+  }
+  .usha-foundation-heading{
     text-align: center;
   }
 }

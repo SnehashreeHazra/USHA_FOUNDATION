@@ -251,8 +251,34 @@
   height: 170px;
   margin-top: 80px;
 }
-.rigveda-img{
+.rigveda-img {
   width: 100%;
   max-width: 100%;
   min-width: 100%;
+}
+
+@media (max-width: 600px) {
+  .about-form-group {
+    padding: 0px;
+  }
+}
+@media (max-width: 450px) {
+  .about-form-group {
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .about-form-group input {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .quarry-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .quarry-form-btn {
+    margin-left: 0px;
+  }
 }
