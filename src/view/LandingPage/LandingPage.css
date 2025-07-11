@@ -107,8 +107,11 @@
   font-size: 35px;
   color: #a35b13;
   font-weight: 600;
-  width: 120px;
+  /* width: 120px; */
   text-align: right;
+  width: 100%;
+  max-width: 30%;
+  min-width: 30%;
 }
 .explore-original-btn {
   margin-top: 80px;
