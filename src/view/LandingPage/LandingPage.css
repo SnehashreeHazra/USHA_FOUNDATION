@@ -205,3 +205,9 @@
   padding: 5px 10px;
   width: 100%;
 }
+.landing-video {
+  border: 10px solid #a35b13;
+  border-radius: 55px;
+  width: 100%;
+  margin-bottom: 80px;
+}

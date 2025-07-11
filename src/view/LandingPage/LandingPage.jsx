@@ -13,6 +13,7 @@ import ushaAcademy from "../../assets/Group 204.png";
 import LatestEvent from "./LatestEvent";
 import Footer from "../../Layout/Footer";
 import yellowArrow from "../../assets/Group 194.png";
+import videoImg from "../../assets/image 70.png";
 
 const LandingPage = () => {
   return (
@@ -44,6 +45,9 @@ const LandingPage = () => {
           <div className="place-for-everyone-right">
             <img src={placeEveryone} alt="" />
           </div>
+        </div>
+        <div className="uni-container">
+          <img className="landing-video" src={videoImg} alt="" />
         </div>
       </div>
       <div className="uni-container usha-stream">
