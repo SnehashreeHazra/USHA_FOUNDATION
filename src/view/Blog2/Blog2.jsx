@@ -84,20 +84,22 @@ const Blog2 = () => {
                 times. Otherwise, there was really no such thing.{" "}
               </p>
               <div className="article-bottom00">
-                <p className="article-bottom1">
-                  3rd May 2025 at <span>20:35</span>
-                </p>
-                <div className="article-bottom2">
-                  <img src={likeIcon} alt="" /> <span>You and 54 Others</span>
+                <div className="aabb">
+                  <p className="article-bottom1">
+                    3rd May 2025 at <span>20:35</span>
+                  </p>
+                  <div className="article-bottom2">
+                    <img src={likeIcon} alt="" /> <span>You and 54 Others</span>
+                  </div>
+                  <div className="article-bottom2">
+                    <img src={commentIcon} alt="" /> <span>5 Comments</span>
+                  </div>
+                  <div className="article-bottom2">
+                    <img src={shareIcon} alt="" /> <span>2 Forwrds</span>
+                  </div>
                 </div>
-                <div className="article-bottom2">
-                  <img src={commentIcon} alt="" /> <span>5 Comments</span>
-                </div>
-                <div className="article-bottom2">
-                  <img src={shareIcon} alt="" /> <span>2 Forwrds</span>
-                </div>
+                <p className="two-minutes-read">2 Min Read</p>
               </div>
-              <p className="two-minutes-read">2 Min Read</p>
               <img className="article-page-image" src={articleImg1} alt="" />
               <p className="article-main-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
