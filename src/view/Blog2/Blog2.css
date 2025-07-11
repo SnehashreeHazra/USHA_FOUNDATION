@@ -145,3 +145,16 @@
     row-gap: 5px;
   }
 }
+
+@media (max-width: 450px) {
+  .comment-post-btn {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+  .comment-box {
+    flex-wrap: wrap;
+  }
+  .comment-post-btn img {
+    width: 12px;
+  }
+}
