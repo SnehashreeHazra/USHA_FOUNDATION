@@ -170,4 +170,8 @@
   .comment-author {
     font-size: 13px;
   }
+  .article-head {
+    flex-wrap: wrap;
+    row-gap: 5px;
+  }
 }
