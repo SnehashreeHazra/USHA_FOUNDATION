@@ -206,7 +206,7 @@ const UshaAbout = () => {
             order, rhythm, and awakening that guides us back to our true selves.
           </p>{" "}
         </div>
-        <img src={rigvedaImg} alt="" />
+        <img className="rigveda-img" src={rigvedaImg} alt="" />
         <p
           style={{
             textAlign: "center",
