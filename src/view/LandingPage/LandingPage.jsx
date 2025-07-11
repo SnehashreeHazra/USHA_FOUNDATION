@@ -16,10 +16,16 @@ import yellowArrow from "../../assets/Group 194.png";
 
 const LandingPage = () => {
   return (
-    <div style={{backgroundColor:'#fff'}}>
+    <div style={{ backgroundColor: "#fff" }}>
       <LandingBanner />
-      
-      <div className="place-for-everyone" style={{background: 'linear-gradient(to bottom,rgb(231, 79, 14) 25%, #ffa500 50%,  #ffffff 100%)'}}>
+
+      <div
+        className="place-for-everyone"
+        style={{
+          background:
+            "linear-gradient(to bottom,rgb(231, 79, 14) 25%, #ffa500 50%,  #ffffff 100%)",
+        }}
+      >
         <div className="uni-container place-for-every-container">
           <div className="place-for-everyone-left">
             <p className="place-everyone-heading">The ONE PLACE FOR EVERYONE</p>
@@ -156,7 +162,9 @@ const LandingPage = () => {
 
       <LatestEvent />
       <div className="uni-container">
-        <p className="quarry-form-heading" style={{marginTop:'50px'}}>For any quarry or collaboration</p>
+        <p className="quarry-form-heading" style={{ marginTop: "50px" }}>
+          For any quarry or collaboration
+        </p>
         <form className="quarry-form">
           <div className="about-form-group">
             <input type="text" placeholder="Full Name" />
