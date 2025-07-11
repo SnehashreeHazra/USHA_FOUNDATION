@@ -64,6 +64,9 @@
   padding: 50px 0;
   border-bottom: 1px solid #979797;
 }
+.aricle-div:last-child{
+  border: none;
+}
 .article-head {
   display: flex;
   justify-content: space-between;
