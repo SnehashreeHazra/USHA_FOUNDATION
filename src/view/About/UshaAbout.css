@@ -47,6 +47,7 @@
 .about-left-subheading {
   margin-top: 20px;
   font-size: 30px;
+  text-align: center;
 }
 .about-right img {
   width: 60px;
@@ -202,10 +203,12 @@
   font-weight: 600;
   margin-bottom: 30px;
   font-size: 19px;
+  text-align: center;
 }
 .ushaayatan-text {
   font-family: "Sora", sans-serif;
   color: #000;
+  text-align: justify;
 }
 .ushaayatan-bottom-text {
   font-family: "Sora", sans-serif;
@@ -238,6 +241,7 @@
 .symbol-last-text {
   font-weight: 600;
   font-family: "Sora", sans-serif;
+  text-align: center;
 }
 .our-symbol {
   margin-top: 20px;
@@ -245,6 +249,7 @@
   font-family: "Sora", sans-serif;
   font-weight: 600;
   margin-bottom: 20px;
+  text-align: center;
 }
 .donate-usha-logo {
   width: 170px;
@@ -255,6 +260,15 @@
   width: 100%;
   max-width: 100%;
   min-width: 100%;
+}
+
+@media (max-width: 1100px) {
+  .about-left-heading {
+    text-align: center;
+  }
+  .about-banner-text {
+    text-align: justify;
+  }
 }
 
 @media (max-width: 600px) {
@@ -280,5 +294,33 @@
   }
   .quarry-form-btn {
     margin-left: 0px;
+  }
+  .about-left-heading {
+    font-size: 70px;
+  }
+  .join-awakening-btn {
+    margin-bottom: 30px;
+  }
+  .ushaayatan {
+    font-size: 35px;
+  }
+  .ushaayatan-subheading {
+    font-size: 16px;
+  }
+  .ushaayatan-bottom-text {
+    font-size: 17px;
+  }
+  .donate-now-btn {
+    font-size: 12px;
+  }
+  .donate-now-btn img {
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-left-heading {
+    font-size: 50px;
+    line-height: 60px;
   }
 }
