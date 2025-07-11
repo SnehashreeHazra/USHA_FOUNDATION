@@ -170,12 +170,9 @@ const UshaAbout = () => {
           <p>
             • Jijñāsu – The Seeker: One who begins with curiosity and longing •
             Sādhaka – The Practitioner: One who commits to discipline and
-            practice 
-            • Jñānī – The Knower: One who understands through study and
-            introspection 
-            • Boddha – The Awakened: One who lives in conscious
-            alignment 
-            • Darśī – The Seer: One who becomes a guide and mirror for
+            practice • Jñānī – The Knower: One who understands through study and
+            introspection • Boddha – The Awakened: One who lives in conscious
+            alignment • Darśī – The Seer: One who becomes a guide and mirror for
             others
           </p>{" "}
           <p>
@@ -202,7 +199,7 @@ const UshaAbout = () => {
           </p>{" "}
         </div>
         <img src={rigvedaImg} alt="" />
-        <p style={{textAlign:'center', marginTop:'30px'}}>
+        <p style={{ textAlign: "center", marginTop: "30px" }}>
           As the Rigveda declares, “Usha avartayati prajah” — Usha awakens all
           living beings. USHAAYATAN is that awakening made manifest—through
           knowledge, inquiry, remembrance, and renaissance.
@@ -226,7 +223,7 @@ const UshaAbout = () => {
           — Usha awakens all living beings. USHAAYATAN is that awakening, made
           manifest.
         </p>
-        <p className="ushaayatan-text" style={{marginTop:'20px'}}>
+        <p className="ushaayatan-text" style={{ marginTop: "20px" }}>
           To bring this vision fully to life, we are laying the groundwork for a
           physical institute of Vedic research—a space where scholars, seekers,
           scientists, linguists, and thinkers can come together under one roof
@@ -234,7 +231,7 @@ const UshaAbout = () => {
           be a sanctuary for inquiry and innovation, rooted in Dharma and open
           to the world.
         </p>
-        <p className="ushaayatan-text" style={{marginTop:'20px'}}>
+        <p className="ushaayatan-text" style={{ marginTop: "20px" }}>
           We invite your generous support and blessings to help build
           USHAAYATAN. Your contribution is not just a donation—it is an
           investment in the future of human consciousness, in the revival of a
@@ -247,7 +244,7 @@ const UshaAbout = () => {
         <div className="donate-now-btn">
           Donate Now For <span>USHAAYATAN</span> <img src={preyerImg} alt="" />
         </div>
-        <img src={ushaLogo} alt="" />
+        <img className="donate-usha-logo" src={ushaLogo} alt="" />
         <p className="our-symbol">Our Symbol: A Living Mandala</p>
         <p className="ushaayatan-text">
           The USHA logo is a sunflower—not by accident, but by deep design. The
@@ -264,25 +261,28 @@ const UshaAbout = () => {
           and order and chaos are not in conflict, but in conscious interplay.
           The logo, like USHA itself, is a mandala of wholeness.
         </p>
-        <p className="ushaayatan-text" style={{marginTop:'20px'}}>
+        <p className="ushaayatan-text" style={{ marginTop: "20px" }}>
           This is no longer the age of belief. It is the age of becoming. The
           age where we must ask ourselves—what kind of ancestors do we wish to
           be? Will we leave behind fragments or foundations?
         </p>
-        <p className="ushaayatan-text" style={{marginTop:'20px'}}>
+        <p className="ushaayatan-text" style={{ marginTop: "20px" }}>
           We are not followers of a fading world. We are the founders of a
           future one.
         </p>
-        <p className="ushaayatan-text" style={{marginTop:'20px',}}>
+        <p className="ushaayatan-text" style={{ marginTop: "20px" }}>
           Let us rise—together—with the light. Let us choose unity over
           division. Inquiry over imposition. Wholeness over fragmentation. Let
           us reawaken the Power of One, in One Place for Everyone.
         </p>
-        <p className="symbol-last-text" style={{marginTop:'20px'}}>
+        <p className="symbol-last-text" style={{ marginTop: "20px" }}>
           Let us build USHA. Let us become USHA. The Universal Spiritual Human
           Awakening.
         </p>
-        <button className="join-awakening-btn" style={{marginBottom:'100px',marginTop:'30px'}}>
+        <button
+          className="join-awakening-btn"
+          style={{ marginBottom: "100px", marginTop: "30px" }}
+        >
           <span>Join Our Movement</span> <img src={brownArrow} alt="" />
         </button>
         <p className="quarry-form-heading">For any quarry or collaboration</p>
