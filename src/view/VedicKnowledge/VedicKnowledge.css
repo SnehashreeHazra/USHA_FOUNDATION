@@ -65,8 +65,28 @@
   height: 50px;
   cursor: pointer;
 }
-.knowledge-description{
+.knowledge-description {
   font-family: "Sora", sans-serif;
   margin-top: 20px;
   text-align: justify;
+}
+.latest-episodes-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.latest-episodes-div .episode {
+  width: 100%;
+  max-width: 31%;
+  min-width: 31%;
+  border-radius: 10px;
+  height: 180px;
+}
+.latest-epi-heading {
+  font-family: "Sora", sans-serif;
+  color: #a35b13;
+  margin-bottom: 15px;
+}
+.slider-arrow-btn {
+  width: 30px;
 }

@@ -1,10 +1,10 @@
 import React from "react";
 import "./VedicKnowledge.css";
 import saveIcon from "../../assets/SAve (White) 1.png";
-import latestEpisodeImg1 from "../../assets/Snana Cover 16.png"
-import latestEpisodeImg2 from "../../assets/Thumbnail 1.png"
-import latestEpisodeImg3 from "../../assets/Openning Video thumbnail 1.png"
-import sliderBtn from "../../assets/Arrow 79.png"
+import latestEpisodeImg1 from "../../assets/Snana Cover 16.png";
+import latestEpisodeImg2 from "../../assets/Thumbnail 1.png";
+import latestEpisodeImg3 from "../../assets/Openning Video thumbnail 1.png";
+import sliderBtn from "../../assets/Arrow 79.png";
 
 const VedicKnowledge = () => {
   return (
@@ -48,12 +48,12 @@ const VedicKnowledge = () => {
       </div>
 
       <div className="uni-container">
-        <p>LATEST EPISODES</p>
-        <div>
-          <img src={latestEpisodeImg1} alt="" />
-          <img src={latestEpisodeImg2} alt="" />
-          <img src={latestEpisodeImg3} alt="" />
-          <img src={sliderBtn} alt="" />
+        <p className="latest-epi-heading">LATEST EPISODES</p>
+        <div className="latest-episodes-div">
+          <img className="episode" src={latestEpisodeImg1} alt="" />
+          <img className="episode" src={latestEpisodeImg2} alt="" />
+          <img className="episode" src={latestEpisodeImg3} alt="" />
+          <img className="slider-arrow-btn" src={sliderBtn} alt="" />
         </div>
       </div>
     </div>
