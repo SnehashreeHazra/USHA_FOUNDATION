@@ -31,9 +31,9 @@ const BlogSection = () => {
     >
       <div className="uni-container">
         <div className="social-feed-navbar">
-          <p>USHA Stream</p>
-          <p>USHA Sparks</p>
-          <p className="active">USHA Insights</p>
+          <p onClick={()=>navigate('/vedic-knowledge')}>USHA Stream</p>
+          <p onClick={()=>navigate('/vedic-reels')}>USHA Sparks</p>
+          <p onClick={()=>navigate('/blog')} className="active">USHA Insights</p>
           <p>USHA Dialouge</p>
           <p>USHA Social</p>
           <p>USHA Academy</p>

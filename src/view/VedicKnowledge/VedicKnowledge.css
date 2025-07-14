@@ -1,3 +1,10 @@
+.vedic-knowledge {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .vedic-knowledge-banner {
   background-image: url("../../assets/image 61.png");
   background-position: center;
