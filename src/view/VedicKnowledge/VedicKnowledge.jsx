@@ -27,7 +27,8 @@ const VedicKnowledge = () => {
             <div className="knowledge-right">
               <button className="knowledge-watch-btn">Watch Now</button>
               <div className="knowledge-right-bottom-div">
-                <button>Trailer</button> <img src={saveIcon} alt="" />
+                <button className="knowledge-trailer-btn">Trailer</button>{" "}
+                <img src={saveIcon} alt="" />
               </div>
             </div>
           </div>
