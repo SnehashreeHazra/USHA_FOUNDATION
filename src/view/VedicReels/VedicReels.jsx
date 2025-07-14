@@ -37,7 +37,7 @@ const VedicReels = () => {
             <p onClick={() => navigate("/vedic-reels")} className="active">
               USHA Sparks
             </p>
-            <p>USHA Insights</p>
+            <p onClick={()=>navigate('/blog')}>USHA Insights</p>
             <p>USHA Dialouge</p>
             <p>USHA Social</p>
             <p>USHA Academy</p>
