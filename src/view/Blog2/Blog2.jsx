@@ -31,7 +31,7 @@ const Blog2 = () => {
     <div
       style={{
         background:
-          "linear-gradient(to bottom, #F6D362 5%, #FBE8B1 8%, #ffffff 100%)",
+          "linear-gradient(to bottom, #F6D362 10%, #FBE8B1 20%, #ffffff 100%)",
         paddingTop: "10px",
         paddingBottom: "50px",
       }}
