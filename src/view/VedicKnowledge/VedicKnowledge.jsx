@@ -12,15 +12,17 @@ import upcomingImg1 from "../../assets/image 133.png"
 import upcomingImg2 from "../../assets/image 138.png"
 import upcomingImg3 from "../../assets/image 139.png";
 import Footer from "../../Layout/Footer";
+import { useNavigate } from "react-router-dom";
 
 const VedicKnowledge = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <div className="vedic-knowledge-banner">
         <div className="uni-container">
           <div className="social-feed-navbar">
-            <p className="active">USHA Stream</p>
-            <p>USHA Sparks</p>
+            <p onClick={()=>navigate('/vedic-knowledge')} className="active">USHA Stream</p>
+            <p onClick={()=>navigate('/vedic-reels')}>USHA Sparks</p>
             <p>USHA Insights</p>
             <p>USHA Dialouge</p>
             <p>USHA Social</p>

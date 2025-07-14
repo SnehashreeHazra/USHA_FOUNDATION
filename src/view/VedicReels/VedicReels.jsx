@@ -16,8 +16,10 @@ import ritualSparkImg6 from "../../assets/image 187.png";
 import ritualSparkImg7 from "../../assets/image 188.png";
 import sliderBtn from "../../assets/Arrow 79.png";
 import Footer from "../../Layout/Footer";
+import { useNavigate } from "react-router-dom";
 
 const VedicReels = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div
@@ -31,8 +33,10 @@ const VedicReels = () => {
       >
         <div className="uni-container">
           <div className="social-feed-navbar">
-            <p>USHA Stream</p>
-            <p className="active">USHA Sparks</p>
+            <p onClick={() => navigate("/vedic-knowledge")}>USHA Stream</p>
+            <p onClick={() => navigate("/vedic-reels")} className="active">
+              USHA Sparks
+            </p>
             <p>USHA Insights</p>
             <p>USHA Dialouge</p>
             <p>USHA Social</p>
@@ -67,7 +71,9 @@ const VedicReels = () => {
             </div>
           </div>
         </div>
-        <button>Discover More Sparks Here</button>
+        <button className="discover-more-btn-sparks">
+          Discover More Sparks Here
+        </button>
       </div>
       <Footer />
     </>
