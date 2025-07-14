@@ -21,7 +21,7 @@ const VedicKnowledge = () => {
       <div className="vedic-knowledge">
         <div className="vedic-knowledge-banner">
           <div className="uni-container">
-            <div className="social-feed-navbar">
+            <div className="social-feed-navbar" style={{marginTop: "80px"}}>
               <p
                 onClick={() => navigate("/vedic-knowledge")}
                 className="active"
@@ -101,7 +101,7 @@ const VedicKnowledge = () => {
             <img className="slider-arrow-btn" src={sliderBtn} alt="" />
           </div>
         </div>
-        <button className="discover-more-btn-sparks">
+        <button className="discover-more-btn-sparks" style={{margin: "50px 0"}}>
           Discover More Playlists Here
         </button>
       </div>
