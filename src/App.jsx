@@ -14,6 +14,7 @@ import PersonalProfile from "./view/PersonalProfile/PersonalProfile";
 import VideoPreview from "./view/VideoPreview/VideoPreview";
 import LandingPage from "./view/LandingPage/LandingPage";
 import VedicKnowledge from "./view/VedicKnowledge/VedicKnowledge";
+import VedicReels from "./view/VedicReels/VedicReels";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
             <Route path="/personal-profile" element={<PersonalProfile />} />
             <Route path="/video-preview" element={<VideoPreview />} />
             <Route path="/vedic-knowledge" element={<VedicKnowledge />} />
+            <Route path="/vedic-reels" element={<VedicReels />} />
           </Route>
         </Routes>
       </BrowserRouter>
