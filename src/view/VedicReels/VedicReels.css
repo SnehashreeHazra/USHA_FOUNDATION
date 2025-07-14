@@ -1,6 +1,20 @@
-.vedic-reels{
+.vedic-reels {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.sparks-reels {
+  margin: 50px 0;
+}
+.sparks-reels-heading {
+  color: #000;
+  font-family: "Sora", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.sparks-reels-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
