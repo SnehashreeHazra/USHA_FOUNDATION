@@ -1,6 +1,10 @@
 import React from "react";
 import "./VedicKnowledge.css";
 import saveIcon from "../../assets/SAve (White) 1.png";
+import latestEpisodeImg1 from "../../assets/Snana Cover 16.png"
+import latestEpisodeImg2 from "../../assets/Thumbnail 1.png"
+import latestEpisodeImg3 from "../../assets/Openning Video thumbnail 1.png"
+import sliderBtn from "../../assets/Arrow 79.png"
 
 const VedicKnowledge = () => {
   return (
@@ -32,6 +36,24 @@ const VedicKnowledge = () => {
               </div>
             </div>
           </div>
+          <p className="knowledge-description">
+            Step into the sacred waters of time—where bathing is not just a
+            daily act, but a cosmic ritual of renewal. In this powerful visual
+            essay, we explore Snāna (स्नान)—the ancient Hindu ritual of sacred
+            bathing. From the celestial descent of the Ganges to the spiritual
+            convergence at Kumbh Mela, discover how this practice purifies not
+            only the body, but also the mind, soul, and karma... Read More
+          </p>
+        </div>
+      </div>
+
+      <div className="uni-container">
+        <p>LATEST EPISODES</p>
+        <div>
+          <img src={latestEpisodeImg1} alt="" />
+          <img src={latestEpisodeImg2} alt="" />
+          <img src={latestEpisodeImg3} alt="" />
+          <img src={sliderBtn} alt="" />
         </div>
       </div>
     </div>
