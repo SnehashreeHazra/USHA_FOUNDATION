@@ -5,6 +5,7 @@ import latestEpisodeImg1 from "../../assets/Snana Cover 16.png";
 import latestEpisodeImg2 from "../../assets/Thumbnail 1.png";
 import latestEpisodeImg3 from "../../assets/Openning Video thumbnail 1.png";
 import sliderBtn from "../../assets/Arrow 79.png";
+import Footer from "../../Layout/Footer";
 
 const VedicKnowledge = () => {
   return (
@@ -56,6 +57,38 @@ const VedicKnowledge = () => {
           <img className="slider-arrow-btn" src={sliderBtn} alt="" />
         </div>
       </div>
+
+      <div className="uni-container">
+        <p className="latest-epi-heading">VISHNU AVATARS-EPISODES</p>
+        <div className="latest-episodes-div">
+          <img className="episode" src={latestEpisodeImg1} alt="" />
+          <img className="episode" src={latestEpisodeImg2} alt="" />
+          <img className="episode" src={latestEpisodeImg3} alt="" />
+          <img className="slider-arrow-btn" src={sliderBtn} alt="" />
+        </div>
+      </div>
+
+      <div className="uni-container">
+        <p className="latest-epi-heading">SCIENCE IN RITUALS</p>
+        <div className="latest-episodes-div">
+          <img className="episode" src={latestEpisodeImg1} alt="" />
+          <img className="episode" src={latestEpisodeImg2} alt="" />
+          <img className="episode" src={latestEpisodeImg3} alt="" />
+          <img className="slider-arrow-btn" src={sliderBtn} alt="" />
+        </div>
+      </div>
+
+      <div className="uni-container">
+        <p className="latest-epi-heading">UPCOMING SEASONS</p>
+        <div className="latest-episodes-div">
+          <img className="episode" src={latestEpisodeImg1} alt="" />
+          <img className="episode" src={latestEpisodeImg2} alt="" />
+          <img className="episode" src={latestEpisodeImg3} alt="" />
+          <img className="slider-arrow-btn" src={sliderBtn} alt="" />
+        </div>
+      </div>
+      <button>Discover More Playlists Here</button>
+      <Footer />
     </div>
   );
 };
