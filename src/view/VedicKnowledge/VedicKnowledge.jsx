@@ -18,15 +18,15 @@ const VedicKnowledge = () => {
 
           <div className="knowledge-container">
             <div className="knowledge-left">
-              <p>NEW EPISODE</p>
-              <p>
+              <p className="new-episode">NEW EPISODE</p>
+              <p className="decoding-snan">
                 Decoding Snan | The Sacred Bathing of Transformation | Hinduism
                 Explained
               </p>
             </div>
             <div className="knowledge-right">
-              <button>Watch Now</button>
-              <div>
+              <button className="knowledge-watch-btn">Watch Now</button>
+              <div className="knowledge-right-bottom-div">
                 <button>Trailer</button> <img src={saveIcon} alt="" />
               </div>
             </div>
