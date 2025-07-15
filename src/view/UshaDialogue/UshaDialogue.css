@@ -1,6 +1,11 @@
-.dialogue-banner{
-  background-image: url('../../assets/image 174.png');
+.dialogue-banner {
+  background-image: url("../../assets/image 174.png");
   background-position: center;
   background-size: cover;
   height: 100vh;
+}
+.dialogue-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
