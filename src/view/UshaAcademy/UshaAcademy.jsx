@@ -6,8 +6,10 @@ import followPerson1 from "../../assets/image 20.png";
 import followPerson2 from "../../assets/image 63.png";
 import followPerson3 from "../../assets/image 8 (1).png";
 import followAdd from "../../assets/add 2 white.png";
+import { useNavigate } from "react-router-dom";
 
 const UshaAcademy = () => {
+  const navigate = useNavigate();
   return (
     <div
       style={{
@@ -21,12 +23,12 @@ const UshaAcademy = () => {
         <div className="social-feed-navbar">
           <p onClick={() => navigate("/usha-stream")}>USHA Stream</p>
           <p onClick={() => navigate("/usha-sparks")}>USHA Sparks</p>
-          <p onClick={() => navigate("/usha-insights")} className="active">
-            USHA Insights
-          </p>
+          <p onClick={() => navigate("/usha-insights")}>USHA Insights</p>
           <p onClick={() => navigate("/usha-dialogue")}>USHA Dialogue</p>
           <p onClick={() => navigate("/usha-social")}>USHA Social</p>
-          <p onClick={() => navigate("/usha-academy")}>USHA Academy</p>
+          <p onClick={() => navigate("/usha-academy")} className="active">
+            USHA Academy
+          </p>
         </div>
         <div className="blog">
           <div className="blog-left">
