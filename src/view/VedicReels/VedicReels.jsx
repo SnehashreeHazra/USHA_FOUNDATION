@@ -38,7 +38,7 @@ const VedicReels = () => {
               USHA Sparks
             </p>
             <p onClick={()=>navigate('/blog')}>USHA Insights</p>
-            <p>USHA Dialouge</p>
+            <p>USHA Dialogue</p>
             <p>USHA Social</p>
             <p>USHA Academy</p>
           </div>
