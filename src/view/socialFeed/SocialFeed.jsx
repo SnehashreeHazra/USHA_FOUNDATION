@@ -34,7 +34,7 @@ const SocialFeed = () => {
   return (
     <div
       style={{
-        background: 'linear-gradient(to bottom, #F6D362 5%, #FBE8B1 8%, #ffffff 100%)',
+        background: 'linear-gradient(to bottom, #F6D362 10%, #FBE8B1 20%, #ffffff 100%)',
         paddingTop: "80px",
         paddingBottom: "50px",
       }}
@@ -43,12 +43,12 @@ const SocialFeed = () => {
       {/* {showNotification && <NotificationModal />} */}
       <div className="uni-container">
         <div className="social-feed-navbar">
-          <p onClick={() => navigate("usha-stream")}>USHA Stream</p>
+          <p onClick={() => navigate("/usha-stream")}>USHA Stream</p>
           <p onClick={() => navigate("/usha-sparks")}>USHA Sparks</p>
           <p onClick={() => navigate("/usha-insights")}>USHA Insights</p>
           <p onClick={() => navigate("/usha-dialogue")}>USHA Dialouge</p>
           <p onClick={() => navigate("/usha-social")} className="active">USHA Social</p>
-          <p onClick={() => navigate("/usha-academy")}>USHA Academy</p>
+          <p >USHA Academy</p>
         </div>
         <div className="social-feed">
           <div className="social-div-left">
