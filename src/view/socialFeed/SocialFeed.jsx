@@ -25,8 +25,10 @@ import fndIcon from "../../assets/Friends 3.png"
 import addfndIcon from "../../assets/followers 1.png"
 import cohortsIcon from "../../assets/Group 101.png"
 import saveIcon from "../../assets/Save Icon 3.png"
+import { useNavigate } from "react-router-dom";
 
 const SocialFeed = () => {
+  const navigate = useNavigate()
   const [showModal, setShowModal] = useState(false);
   const [showNotification, setShowNotification] = useState(false);
   return (
@@ -41,11 +43,11 @@ const SocialFeed = () => {
       {/* {showNotification && <NotificationModal />} */}
       <div className="uni-container">
         <div className="social-feed-navbar">
-          <p>USHA Stream</p>
-          <p>USHA Sparks</p>
-          <p>USHA Insights</p>
-          <p>USHA Dialouge</p>
-          <p className="active">USHA Social</p>
+          <p onClick={() => navigate("/vedic-knowledge")}>USHA Stream</p>
+          <p onClick={() => navigate("/vedic-reels")}>USHA Sparks</p>
+          <p onClick={() => navigate("/blog")}>USHA Insights</p>
+          <p onClick={() => navigate("/usha-dialogue")}>USHA Dialouge</p>
+          <p onClick={() => navigate("/usha-social")} className="active">USHA Social</p>
           <p>USHA Academy</p>
         </div>
         <div className="social-feed">
