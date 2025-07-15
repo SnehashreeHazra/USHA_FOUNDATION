@@ -21,7 +21,7 @@ const VedicKnowledge = () => {
       <div className="vedic-knowledge">
         <div className="vedic-knowledge-banner">
           <div className="uni-container">
-            <div className="social-feed-navbar" style={{marginTop: "80px"}}>
+            <div className="social-feed-navbar" style={{marginTop: "60px"}}>
               <p
                 onClick={() => navigate("/usha-stream")}
                 className="active"

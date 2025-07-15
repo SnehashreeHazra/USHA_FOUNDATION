@@ -15,7 +15,7 @@ const UshaAcademy = () => {
       style={{
         background:
           "linear-gradient(to bottom, #f7d873ff 10%, #fbf7efff 20%, #ffffff 100%)",
-        paddingTop: "80px",
+        paddingTop: "60px",
         paddingBottom: "50px",
       }}
     >

@@ -27,12 +27,12 @@ const VedicReels = () => {
         style={{
           background:
             "linear-gradient(to bottom, #f7d873ff 10%, #fbf7efff 20%, #ffffff 100%)",
-          paddingTop: "80px",
+          // paddingTop: "80px",
           paddingBottom: "50px",
         }}
       >
         <div className="uni-container">
-          <div className="social-feed-navbar">
+          <div className="social-feed-navbar" style={{marginTop:"60px"}}>
             <p onClick={() => navigate("/usha-stream")}>USHA Stream</p>
             <p onClick={() => navigate("/usha-sparks")} className="active">
               USHA Sparks

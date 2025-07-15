@@ -24,7 +24,7 @@ const UshaDialogue = () => {
       <div className="usha-dialogue">
         <div className="dialogue-banner">
           <div className="uni-container">
-            <div className="social-feed-navbar" style={{ marginTop: "80px" }}>
+            <div className="social-feed-navbar" style={{ marginTop: "60px" }}>
               <p onClick={() => navigate("/usha-stream")}>USHA Stream</p>
               <p onClick={() => navigate("/usha-sparks")}>USHA Sparks</p>
               <p onClick={() => navigate("/usha-insights")}>USHA Insights</p>
