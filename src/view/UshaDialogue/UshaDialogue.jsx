@@ -5,9 +5,9 @@ import latestEpisodeImg1 from "../../assets/Snana Cover 16.png";
 import latestEpisodeImg2 from "../../assets/Thumbnail 1.png";
 import latestEpisodeImg3 from "../../assets/Openning Video thumbnail 1.png";
 import sliderBtn from "../../assets/Arrow 79.png";
-import latestDialogueImg1 from "../../assets/image 170.png"
-import latestDialogueImg2 from "../../assets/image 171.png"
-import latestDialogueImg3 from "../../assets/image 172.png"
+import latestDialogueImg1 from "../../assets/image 170.png";
+import latestDialogueImg2 from "../../assets/image 171.png";
+import latestDialogueImg3 from "../../assets/image 172.png";
 import Footer from "../../Layout/Footer";
 
 const UshaDialogue = () => {
