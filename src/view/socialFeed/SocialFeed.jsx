@@ -48,7 +48,7 @@ const SocialFeed = () => {
           <p onClick={() => navigate("/usha-insights")}>USHA Insights</p>
           <p onClick={() => navigate("/usha-dialogue")}>USHA Dialouge</p>
           <p onClick={() => navigate("/usha-social")} className="active">USHA Social</p>
-          <p>USHA Academy</p>
+          <p onClick={() => navigate("/usha-academy")}>USHA Academy</p>
         </div>
         <div className="social-feed">
           <div className="social-div-left">

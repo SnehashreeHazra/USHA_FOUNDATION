@@ -31,7 +31,7 @@ const UshaDialogue = () => {
               USHA Dialogue
             </p>
             <p onClick={() => navigate("/usha-social")}>USHA Social</p>
-            <p>USHA Academy</p>
+            <p onClick={() => navigate("/usha-academy")}>USHA Academy</p>
           </div>
         </div>
       </div>
