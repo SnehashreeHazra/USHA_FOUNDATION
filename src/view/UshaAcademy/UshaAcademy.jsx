@@ -1,6 +1,6 @@
-import React from 'react'
-import './UshaAcademy.css'
-import UshaEvent from '../socialFeed/UshaEvent'
+import React from "react";
+import "./UshaAcademy.css";
+import UshaEvent from "../socialFeed/UshaEvent";
 import searchIcon from "../../assets/magnifying 3.png";
 import followPerson1 from "../../assets/image 20.png";
 import followPerson2 from "../../assets/image 63.png";
@@ -9,24 +9,27 @@ import followAdd from "../../assets/add 2 white.png";
 
 const UshaAcademy = () => {
   return (
-    <div style={{
+    <div
+      style={{
         background:
-          "linear-gradient(to bottom, #F6D362 10%, #FBE8B1 20%, #ffffff 100%)",
+          "linear-gradient(to bottom, #f7d873ff 10%, #fbf7efff 20%, #ffffff 100%)",
         paddingTop: "80px",
         paddingBottom: "50px",
-      }}>
+      }}
+    >
       <div className="uni-container">
         <div className="social-feed-navbar">
-          <p onClick={()=>navigate('/usha-stream')}>USHA Stream</p>
-          <p onClick={()=>navigate('/usha-sparks')}>USHA Sparks</p>
-          <p onClick={()=>navigate('/usha-insights')} className="active">USHA Insights</p>
+          <p onClick={() => navigate("/usha-stream")}>USHA Stream</p>
+          <p onClick={() => navigate("/usha-sparks")}>USHA Sparks</p>
+          <p onClick={() => navigate("/usha-insights")} className="active">
+            USHA Insights
+          </p>
           <p onClick={() => navigate("/usha-dialogue")}>USHA Dialogue</p>
           <p onClick={() => navigate("/usha-social")}>USHA Social</p>
           <p onClick={() => navigate("/usha-academy")}>USHA Academy</p>
         </div>
         <div className="blog">
           <div className="blog-left">
-            
             <div className="types-of-messages">
               <div className="msg-type">All</div>
               <div className="msg-type">Latest</div>
@@ -40,9 +43,6 @@ const UshaAcademy = () => {
               </div>
               <div className="msg-type0 active">Your Article</div>
             </div>
-            
-            
-            
           </div>
           <div className="blog-right">
             <UshaEvent />
@@ -122,7 +122,7 @@ const UshaAcademy = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default UshaAcademy
+export default UshaAcademy;

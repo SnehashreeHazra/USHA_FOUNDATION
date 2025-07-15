@@ -21,20 +21,21 @@ import researchIcon from "../../assets/Research 3.png";
 import acadeymIcon from "../../assets/Learning 5.png";
 import marketIcon from "../../assets/Marketplace 2.png";
 import insightIcon from "../../assets/Blogging 2.png";
-import fndIcon from "../../assets/Friends 3.png"
-import addfndIcon from "../../assets/followers 1.png"
-import cohortsIcon from "../../assets/Group 101.png"
-import saveIcon from "../../assets/Save Icon 3.png"
+import fndIcon from "../../assets/Friends 3.png";
+import addfndIcon from "../../assets/followers 1.png";
+import cohortsIcon from "../../assets/Group 101.png";
+import saveIcon from "../../assets/Save Icon 3.png";
 import { useNavigate } from "react-router-dom";
 
 const SocialFeed = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const [showModal, setShowModal] = useState(false);
   const [showNotification, setShowNotification] = useState(false);
   return (
     <div
       style={{
-        background: 'linear-gradient(to bottom, #F6D362 10%, #FBE8B1 20%, #ffffff 100%)',
+        background:
+          "linear-gradient(to bottom, #f7d873ff 10%, #fbf7efff 20%, #ffffff 100%)",
         paddingTop: "80px",
         paddingBottom: "50px",
       }}
@@ -47,8 +48,10 @@ const SocialFeed = () => {
           <p onClick={() => navigate("/usha-sparks")}>USHA Sparks</p>
           <p onClick={() => navigate("/usha-insights")}>USHA Insights</p>
           <p onClick={() => navigate("/usha-dialogue")}>USHA Dialouge</p>
-          <p onClick={() => navigate("/usha-social")} className="active">USHA Social</p>
-          <p >USHA Academy</p>
+          <p onClick={() => navigate("/usha-social")} className="active">
+            USHA Social
+          </p>
+          <p>USHA Academy</p>
         </div>
         <div className="social-feed">
           <div className="social-div-left">
@@ -150,10 +153,22 @@ const SocialFeed = () => {
           <div className="social-div-right">
             <Profile />
             <div className="profile-friends-div">
-              <div className="profile-friends-div1"><img src={fndIcon} alt="" /><span>Friends</span></div>
-              <div className="profile-friends-div1"><img src={addfndIcon} alt="" /><span>Followers</span></div>
-              <div className="profile-friends-div1"><img src={cohortsIcon} alt="" /><span>Cohorts</span></div>
-              <div className="profile-friends-div1"><img src={saveIcon} alt="" /><span>Saved Items</span></div>
+              <div className="profile-friends-div1">
+                <img src={fndIcon} alt="" />
+                <span>Friends</span>
+              </div>
+              <div className="profile-friends-div1">
+                <img src={addfndIcon} alt="" />
+                <span>Followers</span>
+              </div>
+              <div className="profile-friends-div1">
+                <img src={cohortsIcon} alt="" />
+                <span>Cohorts</span>
+              </div>
+              <div className="profile-friends-div1">
+                <img src={saveIcon} alt="" />
+                <span>Saved Items</span>
+              </div>
             </div>
             <UshaEvent />
           </div>

@@ -26,7 +26,7 @@ const VedicReels = () => {
         className="vedic-reels"
         style={{
           background:
-            "linear-gradient(to bottom, #F6D362 10%, #FBE8B1 20%, #ffffff 100%)",
+            "linear-gradient(to bottom, #f7d873ff 10%, #fbf7efff 20%, #ffffff 100%)",
           paddingTop: "80px",
           paddingBottom: "50px",
         }}
