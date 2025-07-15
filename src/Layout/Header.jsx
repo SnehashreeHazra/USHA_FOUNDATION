@@ -41,7 +41,7 @@ const Header = () => {
                 <img className="feature-stack-icon" src={featureStackIcon} alt="" />
               ) : ( */}
 
-              <p className="about-us" onClick={() => navigate("/vedic-knowledge")}>
+              <p className="about-us" onClick={() => navigate("/usha-stream")}>
                 Vedic Knowledge
               </p>
               <p className="about-us" onClick={() => navigate("")}>

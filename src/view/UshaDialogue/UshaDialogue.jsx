@@ -12,7 +12,7 @@ import Footer from "../../Layout/Footer";
 import { useNavigate } from "react-router-dom";
 
 const UshaDialogue = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <>
       <div className="dialogue-banner">
@@ -94,6 +94,12 @@ const UshaDialogue = () => {
             <img className="slider-arrow-btn" src={sliderBtn} alt="" />
           </div>
         </div>
+        <button
+          className="discover-more-btn-sparks"
+          style={{ margin: "50px 0" }}
+        >
+          Discover More Playlists Here
+        </button>
       </div>
       <Footer />
     </>
