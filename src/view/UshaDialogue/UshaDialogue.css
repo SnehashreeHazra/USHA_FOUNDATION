@@ -10,9 +10,24 @@
   justify-content: space-between;
   align-items: center;
 }
-.dialogue-container{
+.dialogue-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: "Sora", sans-serif;
+  margin: 50px 0;
+}
+.knowledge-trailer-btn00 {
+  background-color: transparent;
+  font-size: 20px;
+  border: 3px solid #000;
+  border-radius: 15px;
+  padding: 20px 30px;
+  width: 180px;
+  color: #000;
+  font-weight: 600;
+  font-family: "Sora", sans-serif;
+}
+.dialogue-divs{
+  width: 100%;
 }
