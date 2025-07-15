@@ -31,7 +31,7 @@ const VedicKnowledge = () => {
               <p onClick={() => navigate("/vedic-reels")}>USHA Sparks</p>
               <p onClick={() => navigate("/blog")}>USHA Insights</p>
               <p onClick={() => navigate("/usha-dialogue")}>USHA Dialogue</p>
-              <p>USHA Social</p>
+              <p onClick={() => navigate("/usha-social")}>USHA Social</p>
               <p>USHA Academy</p>
             </div>
 

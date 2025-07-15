@@ -9,8 +9,10 @@ import latestDialogueImg1 from "../../assets/image 170.png";
 import latestDialogueImg2 from "../../assets/image 171.png";
 import latestDialogueImg3 from "../../assets/image 172.png";
 import Footer from "../../Layout/Footer";
+import { useNavigate } from "react-router-dom";
 
 const UshaDialogue = () => {
+  const navigate = useNavigate()
   return (
     <>
       <div className="dialogue-banner">
@@ -22,7 +24,7 @@ const UshaDialogue = () => {
             <p onClick={() => navigate("/usha-dialogue")} className="active">
               USHA Dialogue
             </p>
-            <p>USHA Social</p>
+            <p onClick={() => navigate("/usha-social")}>USHA Social</p>
             <p>USHA Academy</p>
           </div>
         </div>

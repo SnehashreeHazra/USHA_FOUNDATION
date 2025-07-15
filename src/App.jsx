@@ -29,7 +29,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/market-place" element={<MarketPlace />} />
             <Route path="/market-place2" element={<MarketPlace2 />} />
-            <Route path="/social-feed" element={<SocialFeed />} />
+            <Route path="/usha-social" element={<SocialFeed />} />
             <Route path="/message" element={<Messaging />} />
             <Route path="/blog" element={<BlogSection />} />
             <Route path="/reading-blog" element={<Blog2 />} />
