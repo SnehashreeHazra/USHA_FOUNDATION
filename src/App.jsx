@@ -31,12 +31,12 @@ function App() {
             <Route path="/market-place2" element={<MarketPlace2 />} />
             <Route path="/usha-social" element={<SocialFeed />} />
             <Route path="/message" element={<Messaging />} />
-            <Route path="/blog" element={<BlogSection />} />
+            <Route path="/usha-insights" element={<BlogSection />} />
             <Route path="/reading-blog" element={<Blog2 />} />
             <Route path="/personal-profile" element={<PersonalProfile />} />
             <Route path="/video-preview" element={<VideoPreview />} />
-            <Route path="/vedic-knowledge" element={<VedicKnowledge />} />
-            <Route path="/vedic-reels" element={<VedicReels />} />
+            <Route path="/usha-stream" element={<VedicKnowledge />} />
+            <Route path="/usha-sparks" element={<VedicReels />} />
             <Route path="/usha-dialogue" element={<UshaDialogue />} />
           </Route>
         </Routes>

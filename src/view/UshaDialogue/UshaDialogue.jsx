@@ -18,9 +18,9 @@ const UshaDialogue = () => {
       <div className="dialogue-banner">
         <div className="uni-container">
           <div className="social-feed-navbar">
-            <p onClick={() => navigate("/vedic-knowledge")}>USHA Stream</p>
-            <p onClick={() => navigate("/vedic-reels")}>USHA Sparks</p>
-            <p onClick={() => navigate("/blog")}>USHA Insights</p>
+            <p onClick={() => navigate("/usha-stream")}>USHA Stream</p>
+            <p onClick={() => navigate("/usha-sparks")}>USHA Sparks</p>
+            <p onClick={() => navigate("/usha-insights")}>USHA Insights</p>
             <p onClick={() => navigate("/usha-dialogue")} className="active">
               USHA Dialogue
             </p>

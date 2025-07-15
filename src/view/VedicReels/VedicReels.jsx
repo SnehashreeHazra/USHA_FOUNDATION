@@ -33,11 +33,11 @@ const VedicReels = () => {
       >
         <div className="uni-container">
           <div className="social-feed-navbar">
-            <p onClick={() => navigate("/vedic-knowledge")}>USHA Stream</p>
-            <p onClick={() => navigate("/vedic-reels")} className="active">
+            <p onClick={() => navigate("/usha-stream")}>USHA Stream</p>
+            <p onClick={() => navigate("/usha-sparks")} className="active">
               USHA Sparks
             </p>
-            <p onClick={()=>navigate('/blog')}>USHA Insights</p>
+            <p onClick={()=>navigate('/usha-insights')}>USHA Insights</p>
             <p onClick={() => navigate("/usha-dialogue")}>USHA Dialogue</p>
             <p onClick={() => navigate("/usha-social")}>USHA Social</p>
             <p>USHA Academy</p>
