@@ -15,6 +15,7 @@ import VideoPreview from "./view/VideoPreview/VideoPreview";
 import LandingPage from "./view/LandingPage/LandingPage";
 import VedicKnowledge from "./view/VedicKnowledge/VedicKnowledge";
 import VedicReels from "./view/VedicReels/VedicReels";
+import UshaDialogue from "./view/UshaDialogue/UshaDialogue";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
             <Route path="/video-preview" element={<VideoPreview />} />
             <Route path="/vedic-knowledge" element={<VedicKnowledge />} />
             <Route path="/vedic-reels" element={<VedicReels />} />
+            <Route path="/usha-dialogue" element={<UshaDialogue />} />
           </Route>
         </Routes>
       </BrowserRouter>
