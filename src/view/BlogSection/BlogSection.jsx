@@ -36,7 +36,7 @@ const BlogSection = () => {
           <p onClick={()=>navigate('/usha-insights')} className="active">USHA Insights</p>
           <p onClick={() => navigate("/usha-dialogue")}>USHA Dialogue</p>
           <p onClick={() => navigate("/usha-social")}>USHA Social</p>
-          <p>USHA Academy</p>
+          <p onClick={() => navigate("/usha-academy")}>USHA Academy</p>
         </div>
         <div className="blog">
           <div className="blog-left">
