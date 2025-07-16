@@ -220,7 +220,8 @@ const UshaAcademy = () => {
                       </p>
                       <div className="trending-reaction-div">
                         <div className="video-reaction">
-                          <img src={likeIcon} alt="" /> <span>You & 5K Others</span>
+                          <img src={likeIcon} alt="" />{" "}
+                          <span>You & 5K Others</span>
                         </div>
                         <div className="coin-div00">
                           <img src={publishedBadge} alt="" /> <span>100</span>
