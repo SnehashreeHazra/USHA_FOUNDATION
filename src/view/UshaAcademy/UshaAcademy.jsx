@@ -251,8 +251,7 @@ const UshaAcademy = () => {
                       forest.
                     </p>
                     <p className="video-description">
-                      Introduction Rains must have seemed like magic to the
-                      ancient man. This mystical wonder attached…
+                      Therefore, preservation of the world demands that the forest needs to be preserved. When we see Lord Krishna we see ....
                     </p>
                   </div>
                   <div className="published-video-thumbnail2">
