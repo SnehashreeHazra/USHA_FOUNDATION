@@ -195,6 +195,7 @@ const UshaAcademy = () => {
                     <p className="video-thumbnail-text">
                       The Hindu Worship of Rivers
                     </p>
+                    {/* <p className="video-thumbnail-text" > The Vedic concept of the world</p> */}
                     <p className="video-description">
                       Introduction Rains must have seemed like magic to the
                       ancient man. This mystical wonder attached…
@@ -229,8 +230,9 @@ const UshaAcademy = () => {
                       forest.
                     </p>
                     <p className="video-description">
-                      Introduction Rains must have seemed like magic to the
-                      ancient man. This mystical wonder attached…
+                      Therefore, preservation of the world demands that the
+                      forest needs to be preserved. When we see Lord Krishna we
+                      see ....
                     </p>
                   </div>
                   <div className="published-video-thumbnail2">
