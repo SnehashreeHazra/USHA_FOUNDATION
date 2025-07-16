@@ -12,6 +12,7 @@ import publishedImg2 from "../../assets/image 163.png";
 import publishedPerson from "../../assets/Group 212.png";
 import publishedBadge from "../../assets/noun-coins-5588066 4.png";
 import likeIcon from "../../assets/like 1 5.png";
+import draftVideoImg from "../../assets/11c166108f1902bba2d5f72301a5b741 1.png";
 
 const UshaAcademy = () => {
   const navigate = useNavigate();
@@ -111,6 +112,52 @@ const UshaAcademy = () => {
                   </div>
                   <div className="published-video-thumbnail2">
                     <p style={{ fontWeight: "600" }}>00:26:10</p>
+                    <div className="video-reaction">
+                      <img src={likeIcon} alt="" />
+                      <span>You & 5K Others</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="published-container">
+              <div className="draft-heading">
+                <p
+                  className="published-heading"
+                  style={{ marginBottom: "0px" }}
+                >
+                  DRAFT
+                </p>
+                <button className="draft-publish-btn">Publish All</button>
+              </div>
+              <div className="published-videos">
+                <div className="published-div">
+                  <img
+                    className="published-person"
+                    src={publishedPerson}
+                    alt=""
+                  />
+                  <img
+                    className="published-video-thumb-img"
+                    src={draftVideoImg}
+                    alt=""
+                  />
+                  <div className="published-video-thumbnail">
+                    <div className="coin-div">
+                      <img src={publishedBadge} alt="" /> <span>50</span>
+                    </div>
+                    <p className="video-thumbnail-text">
+                      The Mythical Study on Maha Vishnu | Hinduism Explained I
+                      Part - 3
+                    </p>
+                    <p className="video-description">
+                      Step into the sacred waters of time—where bathing is not
+                      just a daily act, but a cosmic ritual of renewal.{" "}
+                    </p>
+                  </div>
+                  <div className="published-video-thumbnail2">
+                    <p style={{ fontWeight: "600" }}>00:25:15</p>
                     <div className="video-reaction">
                       <img src={likeIcon} alt="" />
                       <span>You & 5K Others</span>
