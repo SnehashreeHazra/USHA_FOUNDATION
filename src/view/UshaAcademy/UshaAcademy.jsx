@@ -13,6 +13,10 @@ import publishedPerson from "../../assets/Group 212.png";
 import publishedBadge from "../../assets/noun-coins-5588066 4.png";
 import likeIcon from "../../assets/like 1 5.png";
 import draftVideoImg from "../../assets/11c166108f1902bba2d5f72301a5b741 1.png";
+import recommendedImg1 from "../../assets/7ab948da903332c7e6da2bd8a5b19bfc 1.png";
+import recommendedImg2 from "../../assets/image 164.png";
+import recommendedPerson2 from "../../assets/Group 213.png";
+import recommendedPerson1 from "../../assets/Group 214.png";
 
 const UshaAcademy = () => {
   const navigate = useNavigate();
@@ -154,6 +158,79 @@ const UshaAcademy = () => {
                     <p className="video-description">
                       Step into the sacred waters of time—where bathing is not
                       just a daily act, but a cosmic ritual of renewal.{" "}
+                    </p>
+                  </div>
+                  <div className="published-video-thumbnail2">
+                    <p style={{ fontWeight: "600" }}>00:25:15</p>
+                    <div className="video-reaction">
+                      <img src={likeIcon} alt="" />
+                      <span>You & 5K Others</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="published-container">
+              <p className="published-heading">
+                RECOMMENDED TO YOU BASED ON RATINGS
+              </p>
+
+              <div className="published-videos">
+                <div className="published-div">
+                  <img
+                    className="published-person"
+                    src={recommendedPerson1}
+                    alt=""
+                  />
+                  <img
+                    className="published-video-thumb-img"
+                    src={recommendedImg1}
+                    alt=""
+                  />
+                  <div className="published-video-thumbnail">
+                    <div className="coin-div">
+                      <img src={publishedBadge} alt="" /> <span>50</span>
+                    </div>
+                    <p className="video-thumbnail-text">
+                      The Hindu Worship of Rivers
+                    </p>
+                    <p className="video-description">
+                      Introduction Rains must have seemed like magic to the
+                      ancient man. This mystical wonder attached…
+                    </p>
+                  </div>
+                  <div className="published-video-thumbnail2">
+                    <p style={{ fontWeight: "600" }}>00:25:15</p>
+                    <div className="video-reaction">
+                      <img src={likeIcon} alt="" />
+                      <span>You & 5K Others</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="published-div">
+                  <img
+                    className="published-person"
+                    src={recommendedPerson2}
+                    alt=""
+                  />
+                  <img
+                    className="published-video-thumb-img"
+                    src={recommendedImg2}
+                    alt=""
+                  />
+                  <div className="published-video-thumbnail">
+                    <div className="coin-div">
+                      <img src={publishedBadge} alt="" /> <span>50</span>
+                    </div>
+                    <p className="video-thumbnail-text">
+                      The Vedic concept of the world is therefore that of a
+                      forest.
+                    </p>
+                    <p className="video-description">
+                      Introduction Rains must have seemed like magic to the
+                      ancient man. This mystical wonder attached…
                     </p>
                   </div>
                   <div className="published-video-thumbnail2">
