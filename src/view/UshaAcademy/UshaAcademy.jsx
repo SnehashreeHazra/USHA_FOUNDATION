@@ -19,6 +19,7 @@ import recommendedPerson2 from "../../assets/Group 213.png";
 import recommendedPerson1 from "../../assets/Group 214.png";
 import trendingHeadingImg from "../../assets/noun-trending-7934261 1.png";
 import trendingImg from "../../assets/Group 216.png";
+import trendingPerson from "../../assets/36af73ef3cd451d1e60d45899ee15043 1.png";
 
 const UshaAcademy = () => {
   const navigate = useNavigate();
@@ -197,9 +198,37 @@ const UshaAcademy = () => {
                       src={trendingImg}
                       alt=""
                     />
-                    <div className="trending-video-content"></div>
+                    <div className="trending-video-content">
+                      <div className="trending-content1">
+                        <div className="video-rating-div">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <span>[10k]</span>
+                        </div>
+                        <img src={trendingPerson} alt="" />
+                      </div>
+                      <p>
+                        Narrative texts containing mythology | Hinduism
+                        Explained{" "}
+                      </p>
+                      <p>
+                        Hindu scriptures encompass a vast body of texts
+                        considered sacred within Hinduism...
+                      </p>
+                      <div>
+                        <div>
+                          <img src="" alt="" /> <span>You & 5K Others</span>
+                        </div>
+                        <div>
+                          <img src="" alt="" /> <span>100</span>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <p className="trending-video-watch">Watch Now</p>
+                  <p className="trending-video-watch">Watch Now!</p>
                 </div>
               </div>
 
