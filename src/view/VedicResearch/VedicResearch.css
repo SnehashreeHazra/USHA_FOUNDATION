@@ -1,0 +1,25 @@
+.vedic-research-banner{
+  background-image: url("../../assets/Indian Flag Colour 2.png");
+  background-size: cover;
+  background-position: center;
+}
+.research-banner-text{
+  font-size: 50px;
+  color: #000;
+  line-height: 90px;
+  font-weight: 500;
+}
+.research-body{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.research-video{
+  border: 10px solid #a35b13;
+  border-radius: 55px;
+  width: 80%;
+  margin-bottom: 80px;
+  margin-top: 50px;
+}

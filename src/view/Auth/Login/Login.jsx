@@ -5,7 +5,7 @@ import userLogo from "../../../assets/User Icon 2.png";
 import emailLogo from "../../../assets/Msg Icon 2.png";
 import passwordLogo from "../../../assets/noun-key-5633618 3.png";
 import phoneLogo from "../../../assets/Voice Call 3.png";
-import downBtn from "../../../assets/Polygon 3.png";
+// import downBtn from "../../../assets/Polygon 3.png";
 import { useNavigate } from "react-router-dom";
 
 const Login = () => {
