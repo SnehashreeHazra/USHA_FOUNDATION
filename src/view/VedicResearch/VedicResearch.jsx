@@ -7,6 +7,7 @@ import aiImg from "../../assets/Group 217.png";
 import prevBtn from "../../assets/Polygon 2.png";
 import nextBtn from "../../assets/Polygon 1.png";
 import successStoryImg from "../../assets/Group 218.png";
+import whiteArrow from "../../assets/Arrow 42.png";
 
 const VedicResearch = () => {
   useEffect(() => {
@@ -66,8 +67,8 @@ const VedicResearch = () => {
             <img src={prevBtn} alt="" />
             <div className="success-story-div">
               <div className="success-story-div-content">
-                <p>Success Stories</p>
-                <p>
+                <p className="success-heading">Success Stories</p>
+                <p className="success-story-description">
                   A researcher's deep dive into Indology and Hinduism revived
                   ancient wisdom, bridging tradition and modernity, inspiring
                   global academic and spiritual dialogues. His groundbreaking
@@ -75,7 +76,9 @@ const VedicResearch = () => {
                   fostered interfaith harmony, gaining recognition across
                   universities, temples, and cultural forums.
                 </p>
-                <button className="success-know-more">Know More</button>
+                <button className="success-know-more">
+                  Know More <img src={whiteArrow} alt="" />
+                </button>
               </div>
               <img className="krisna-img" src={successStoryImg} alt="" />
             </div>
