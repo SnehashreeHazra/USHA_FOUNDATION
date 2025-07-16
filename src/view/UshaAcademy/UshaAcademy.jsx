@@ -7,7 +7,9 @@ import followPerson2 from "../../assets/image 63.png";
 import followPerson3 from "../../assets/image 8 (1).png";
 import followAdd from "../../assets/add 2 white.png";
 import { useNavigate } from "react-router-dom";
-import publishedImg1 from ""
+import publishedImg1 from "../../assets/image 33.png"
+import publishedImg2 from "../../assets/image 163.png"
+import publishedPerson from "../../assets/Group 212.png"
 
 const UshaAcademy = () => {
   const navigate = useNavigate();
