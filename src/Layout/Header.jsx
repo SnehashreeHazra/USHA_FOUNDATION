@@ -44,7 +44,7 @@ const Header = () => {
               <p className="about-us" onClick={() => navigate("/usha-stream")}>
                 Vedic Knowledge
               </p>
-              <p className="about-us" onClick={() => navigate("")}>
+              <p className="about-us" onClick={() => navigate("/vedic-research")}>
                 Vedic Research
               </p>
               <p className="about-us" onClick={() => navigate("/about")}>
