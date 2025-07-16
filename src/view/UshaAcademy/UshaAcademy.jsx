@@ -7,9 +7,9 @@ import followPerson2 from "../../assets/image 63.png";
 import followPerson3 from "../../assets/image 8 (1).png";
 import followAdd from "../../assets/add 2 white.png";
 import { useNavigate } from "react-router-dom";
-import publishedImg1 from "../../assets/image 33.png"
-import publishedImg2 from "../../assets/image 163.png"
-import publishedPerson from "../../assets/Group 212.png"
+import publishedImg1 from "../../assets/image 33.png";
+import publishedImg2 from "../../assets/image 163.png";
+import publishedPerson from "../../assets/Group 212.png";
 
 const UshaAcademy = () => {
   const navigate = useNavigate();
@@ -49,9 +49,11 @@ const UshaAcademy = () => {
               <div className="msg-type0 active">Your Article</div>
             </div>
             <div className="published-div">
-              <p>PUBLISHED</p>
-              <div className="published-div"></div>
-              <div className="published-div"></div>
+              <p className="published-heading">PUBLISHED</p>
+              <div className="published-video">
+                <div className="published-div"></div>
+                <div className="published-div"></div>
+              </div>
             </div>
           </div>
           <div className="blog-right">
