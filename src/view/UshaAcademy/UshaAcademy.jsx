@@ -22,16 +22,19 @@ import trendingHeadingImg from "../../assets/noun-trending-7934261 1.png";
 const UshaAcademy = () => {
   const navigate = useNavigate();
   return (
+    <>
+
     <div
+    className="usha-academy"
       style={{
         background:
           "linear-gradient(to bottom, #f7d873ff 10%, #fbf7efff 20%, #ffffff 100%)",
-        paddingTop: "60px",
+        // paddingTop: "60px",
         paddingBottom: "50px",
       }}
     >
       <div className="uni-container">
-        <div className="social-feed-navbar">
+        <div className="social-feed-navbar" style={{marginTop:"60px"}}>
           <p onClick={() => navigate("/usha-stream")}>USHA Stream</p>
           <p onClick={() => navigate("/usha-sparks")}>USHA Sparks</p>
           <p onClick={() => navigate("/usha-insights")}>USHA Insights</p>
@@ -343,6 +346,7 @@ const UshaAcademy = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
