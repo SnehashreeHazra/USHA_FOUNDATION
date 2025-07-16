@@ -17,6 +17,7 @@ import recommendedImg1 from "../../assets/7ab948da903332c7e6da2bd8a5b19bfc 1.png
 import recommendedImg2 from "../../assets/image 164.png";
 import recommendedPerson2 from "../../assets/Group 213.png";
 import recommendedPerson1 from "../../assets/Group 214.png";
+import trendingHeadingImg from "../../assets/noun-trending-7934261 1.png";
 
 const UshaAcademy = () => {
   const navigate = useNavigate();
@@ -172,6 +173,26 @@ const UshaAcademy = () => {
             </div>
 
             <div className="published-container">
+              <div className="draft-heading2">
+                <p
+                  className="published-heading"
+                  style={{ marginBottom: "0px" }}
+                >
+                  TODAY'S TRENDING ON USHA
+                </p>
+                <img
+                  className="trending-heading-img"
+                  src={trendingHeadingImg}
+                  alt=""
+                />
+              </div>
+
+              <div className="published-videos">
+                
+              </div>
+            </div>
+
+            <div className="published-container">
               <p className="published-heading">
                 RECOMMENDED TO YOU BASED ON RATINGS
               </p>
@@ -230,9 +251,8 @@ const UshaAcademy = () => {
                       forest.
                     </p>
                     <p className="video-description">
-                      Therefore, preservation of the world demands that the
-                      forest needs to be preserved. When we see Lord Krishna we
-                      see ....
+                      Introduction Rains must have seemed like magic to the
+                      ancient man. This mystical wonder attached…
                     </p>
                   </div>
                   <div className="published-video-thumbnail2">

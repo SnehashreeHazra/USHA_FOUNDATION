@@ -103,6 +103,16 @@
   border: none;
   cursor: pointer;
 }
-.published-container:last-child{
+.published-container:last-child {
   border: none;
+}
+.trending-heading-img {
+  width: 35px;
+  cursor: pointer;
+}
+.draft-heading2 {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-bottom: 20px;
 }
