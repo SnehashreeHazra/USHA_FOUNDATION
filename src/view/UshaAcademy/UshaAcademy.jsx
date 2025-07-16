@@ -51,7 +51,22 @@ const UshaAcademy = () => {
             <div className="published-div">
               <p className="published-heading">PUBLISHED</p>
               <div className="published-video">
-                <div className="published-div"></div>
+                <div className="published-div">
+                  <img src={publishedImg1} alt="" />
+                  <div className="published-video-thumbnail">
+                    <div>
+                      <img src="" alt="" /> <span>50</span>
+                    </div>
+                    <p>
+                      The Mythical Study on Maha Vishnu | Hinduism Explained I
+                      Part - 1
+                    </p>
+                    <p>
+                      Step into the sacred waters of time—where bathing is not
+                      just a daily act, but a cosmic ritual of renewal.{" "}
+                    </p>
+                  </div>
+                </div>
                 <div className="published-div"></div>
               </div>
             </div>
