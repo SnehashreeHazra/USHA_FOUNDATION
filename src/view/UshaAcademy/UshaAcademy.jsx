@@ -210,19 +210,19 @@ const UshaAcademy = () => {
                         </div>
                         <img src={trendingPerson} alt="" />
                       </div>
-                      <p>
+                      <p className="trending-thumbnail-heading">
                         Narrative texts containing mythology | Hinduism
                         Explained{" "}
                       </p>
-                      <p>
+                      <p className="trending-description">
                         Hindu scriptures encompass a vast body of texts
                         considered sacred within Hinduism...
                       </p>
-                      <div>
-                        <div>
+                      <div className="trending-reaction-div">
+                        <div className="video-reaction">
                           <img src={likeIcon} alt="" /> <span>You & 5K Others</span>
                         </div>
-                        <div>
+                        <div className="coin-div00">
                           <img src={publishedBadge} alt="" /> <span>100</span>
                         </div>
                       </div>
