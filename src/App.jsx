@@ -17,6 +17,7 @@ import VedicKnowledge from "./view/VedicKnowledge/VedicKnowledge";
 import VedicReels from "./view/VedicReels/VedicReels";
 import UshaDialogue from "./view/UshaDialogue/UshaDialogue";
 import UshaAcademy from "./view/UshaAcademy/UshaAcademy";
+import VedicResearch from "./view/VedicResearch/VedicResearch";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
             <Route path="/usha-sparks" element={<VedicReels />} />
             <Route path="/usha-dialogue" element={<UshaDialogue />} />
             <Route path="/usha-academy" element={<UshaAcademy />} />
+            <Route path="/vedic-research" element={<VedicResearch />} />
           </Route>
         </Routes>
       </BrowserRouter>
