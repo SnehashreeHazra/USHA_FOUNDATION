@@ -74,20 +74,24 @@ const VedicResearch = () => {
             <p className="research-areas-heading">Research Areas</p>
             <div className="research-divs-container">
               <div className="research-area-div">
-                <img src={researchAreaImg1} alt="" />
+                <img
+                  className="research-area-div-img"
+                  src={researchAreaImg1}
+                  alt=""
+                />
                 <div className="research-area-div-content">
-                  <div>
-                    <p>
+                  <div className="research-area-div-content1">
+                    <p className="research-title">
                       Vedic Vedic Texts and <span>Sanskrit Philosophy</span>
                     </p>
-                    <button>Join</button>
+                    <button className="research-div-join-btn">Join</button>
                   </div>
-                  <p>
+                  <p className="research-description">
                     Discover the depth of Sanskrit thought and ancient Vedic
                     scriptures. Join us to preserve, learn, and share timeless
                     Indian philosophy.
                   </p>
-                  <button>
+                  <button className="research-area-know-more">
                     Know More <img src={whiteArrow} alt="" />
                   </button>
                 </div>
