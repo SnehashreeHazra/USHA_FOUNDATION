@@ -4,7 +4,7 @@
   background-position: center;
 }
 .research-banner-text {
-  font-size: 50px;
+  font-size: 40px;
   color: #000;
   line-height: 90px;
   font-weight: 500;
@@ -77,4 +77,14 @@
 }
 .success-know-more img {
   width: 12px;
+}
+.body-ushaayatan {
+  font-size: 50px;
+  margin-top: 25px;
+}
+.body-subheading {
+  font-family: "Sora", sans-serif;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 17px;
 }

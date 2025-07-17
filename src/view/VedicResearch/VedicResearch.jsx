@@ -29,8 +29,8 @@ const VedicResearch = () => {
         </div>
         <div className="uni-container">
           <div className="research-body">
-            <p>USHAAYATAN</p>
-            <p>
+            <p className="body-ushaayatan">USHAAYATAN</p>
+            <p className="body-subheading">
               A Dharmic research campus to reawaken civilisation through
               Sanātana wisdom.
             </p>
