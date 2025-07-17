@@ -9,6 +9,10 @@ import nextBtn from "../../assets/Polygon 1.png";
 import successStoryImg from "../../assets/Group 218.png";
 import whiteArrow from "../../assets/Arrow 42.png";
 import viewMoreBtn from "../../assets/Group 219.png";
+import researchAreaImg1 from "../../assets/image 94.png";
+import researchAreaImg2 from "../../assets/image 92.png";
+import researchAreaImg3 from "../../assets/image 110.png";
+import researchAreaImg4 from "../../assets/image 111.png";
 
 const VedicResearch = () => {
   useEffect(() => {
@@ -68,7 +72,30 @@ const VedicResearch = () => {
               <span className="active">Research</span> <span>Projects</span>
             </div>
             <p className="research-areas-heading">Research Areas</p>
-            <div className="research-div"></div>
+            <div className="research-divs-container">
+              <div className="research-area-div">
+                <img src={researchAreaImg1} alt="" />
+                <div className="research-area-div-content">
+                  <div>
+                    <p>
+                      Vedic Vedic Texts and <span>Sanskrit Philosophy</span>
+                    </p>
+                    <button>Join</button>
+                  </div>
+                  <p>
+                    Discover the depth of Sanskrit thought and ancient Vedic
+                    scriptures. Join us to preserve, learn, and share timeless
+                    Indian philosophy.
+                  </p>
+                  <button>
+                    Know More <img src={whiteArrow} alt="" />
+                  </button>
+                </div>
+              </div>
+              <div className="research-area-div"></div>
+              <div className="research-area-div"></div>
+              <div className="research-area-div"></div>
+            </div>
             <button className="research-view-more">
               View More
               <img src={viewMoreBtn} alt="" />
