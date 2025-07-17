@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Blog2.css";
 import UshaEvent from "../socialFeed/UshaEvent";
 import articleAuthor from "../../assets/Group 3.png";
@@ -27,6 +27,9 @@ import saveIcon2 from "../../assets/noun-save-5791622 2.png";
 import arrowImg from "../../assets/Enter Icon 1.png";
 
 const Blog2 = () => {
+  useEffect(()=>{
+    window.scrollTo({top:0, behavior:'smooth'})
+  },[])
   return (
     <div
       style={{

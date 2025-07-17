@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./LandingPage.css";
 import LandingBanner from "./LandingBanner";
 import placeEveryone from "../../assets/Group 198.png";
@@ -14,8 +14,13 @@ import LatestEvent from "./LatestEvent";
 import Footer from "../../Layout/Footer";
 import yellowArrow from "../../assets/Group 194.png";
 import videoImg from "../../assets/image 70.png";
+import { useNavigate } from "react-router-dom";
 
 const LandingPage = () => {
+  const navigate = useNavigate();
+  useEffect(()=>{
+    window.scrollTo({top:0, behavior:"smooth"})
+  },[])
   return (
     <div style={{ backgroundColor: "#fff" }}>
       <LandingBanner />
@@ -61,7 +66,10 @@ const LandingPage = () => {
             through original documentaries, series, and visual essays. Streaming
             Vedic wisdom for the modern seeker.
           </p>
-          <div className="explore-original-btn">
+          <div
+            className="explore-original-btn"
+            onClick={() => navigate("/usha-stream")}
+          >
             <span>Explore Originals</span>
             <img src={blueArrow} alt="" />
           </div>
@@ -78,7 +86,10 @@ const LandingPage = () => {
             through original documentaries, series, and visual essays. Streaming
             Vedic wisdom for the modern seeker.
           </p>
-          <div className="explore-original-btn">
+          <div
+            className="explore-original-btn"
+            onClick={() => navigate("/usha-sparks")}
+          >
             <span>Ignite Your Mind</span>
             <img src={blueArrow} alt="" />
           </div>
@@ -99,7 +110,10 @@ const LandingPage = () => {
             thought-pieces from modern Dhārmic thinkers. Ancient wisdom meets
             modern inquiry.
           </p>
-          <div className="explore-original-btn">
+          <div
+            className="explore-original-btn"
+            onClick={() => navigate("/usha-insights")}
+          >
             <span>Explore Articles</span>
             <img src={blueArrow} alt="" />
           </div>
@@ -116,7 +130,10 @@ const LandingPage = () => {
             seers, scholars, and spiritual explorers. Where questions find their
             voice.
           </p>
-          <div className="explore-original-btn">
+          <div
+            className="explore-original-btn"
+            onClick={() => navigate("/usha-dialogue")}
+          >
             <span>Here the Voices</span>
             <img src={blueArrow} alt="" />
           </div>
@@ -137,7 +154,10 @@ const LandingPage = () => {
             with a like-minded Dhārmic community. A digital saṅgha for the age
             of awakening.
           </p>
-          <div className="explore-original-btn">
+          <div
+            className="explore-original-btn"
+            onClick={() => navigate("/usha-social")}
+          >
             <span>Connect with Community</span>
             <img src={blueArrow} alt="" />
           </div>
@@ -154,7 +174,10 @@ const LandingPage = () => {
             courses and guided study paths. Your learning. Your pace. Rooted in
             Sanātana Dharma.
           </p>
-          <div className="explore-original-btn">
+          <div
+            className="explore-original-btn"
+            onClick={() => navigate("/usha-academy")}
+          >
             <span>Browse Courses</span>
             <img src={blueArrow} alt="" />
           </div>

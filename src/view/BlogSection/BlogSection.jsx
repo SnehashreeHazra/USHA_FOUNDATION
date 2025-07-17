@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./BlogSection.css";
 import articleAuthor from "../../assets/Group 3.png";
 import scholerIcon from "../../assets/Scholar Icon 4.png";
@@ -20,6 +20,9 @@ import { useNavigate } from "react-router-dom";
 
 const BlogSection = () => {
   const navigate = useNavigate();
+  useEffect(()=>{
+    window.scrollTo({top:0, behavior:'smooth'})
+  },[])
   return (
     <div
       style={{

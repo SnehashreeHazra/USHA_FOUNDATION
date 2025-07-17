@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./UshaDialogue.css";
 import saveIcon from "../../assets/SAve (Brown) 1.png";
 import latestEpisodeImg1 from "../../assets/Snana Cover 16.png";
@@ -15,10 +15,13 @@ import upcomingImg1 from "../../assets/image 133.png";
 import upcomingImg2 from "../../assets/image 138.png";
 import upcomingImg3 from "../../assets/image 139.png";
 import Footer from "../../Layout/Footer";
-import { useNavigate } from "react-router-dom";
+import { useFetcher, useNavigate } from "react-router-dom";
 
 const UshaDialogue = () => {
   const navigate = useNavigate();
+  useEffect(()=>{
+    window.scrollTo({top:0, behavior:'smooth'})
+  },[])
   return (
     <>
       <div className="usha-dialogue">

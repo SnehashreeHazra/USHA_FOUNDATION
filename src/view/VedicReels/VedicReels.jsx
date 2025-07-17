@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./VedicReels.css";
 import latestSparkImg1 from "../../assets/image 175.png";
 import latestSparkImg2 from "../../assets/image 176.png";
@@ -20,6 +20,9 @@ import { useNavigate } from "react-router-dom";
 
 const VedicReels = () => {
   const navigate = useNavigate();
+  useEffect(()=>{
+    window.scrollTo({top:0, behavior:'smooth'})
+  },[])
   return (
     <>
       <div

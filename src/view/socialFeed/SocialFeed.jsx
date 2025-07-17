@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./SocialFeed.css";
 import storyProfile1 from "../../assets/image 63.png";
 import storyProfile2 from "../../assets/Group 25.png";
@@ -31,6 +31,9 @@ const SocialFeed = () => {
   const navigate = useNavigate();
   const [showModal, setShowModal] = useState(false);
   const [showNotification, setShowNotification] = useState(false);
+  useEffect(()=>{
+    window.scrollTo({top:0, behavior:'smooth'})
+  },[])
   return (
     <div
       style={{

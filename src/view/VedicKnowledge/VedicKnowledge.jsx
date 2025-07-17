@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./VedicKnowledge.css";
 import saveIcon from "../../assets/SAve (White) 1.png";
 import latestEpisodeImg1 from "../../assets/Snana Cover 16.png";
@@ -16,6 +16,9 @@ import { useNavigate } from "react-router-dom";
 
 const VedicKnowledge = () => {
   const navigate = useNavigate();
+  useEffect(()=>{
+    window.scrollTo({top:0, behavior:'smooth'})
+  },[])
   return (
     <>
       <div className="vedic-knowledge">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./UshaAcademy.css";
 import UshaEvent from "../socialFeed/UshaEvent";
 import searchIcon from "../../assets/magnifying 3.png";
@@ -23,6 +23,9 @@ import trendingPerson from "../../assets/36af73ef3cd451d1e60d45899ee15043 1.png"
 
 const UshaAcademy = () => {
   const navigate = useNavigate();
+  useEffect(()=>{
+    window.scrollTo({top:0,behavior:'smooth'})
+  },[])
   return (
     <>
       <div
