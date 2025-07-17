@@ -61,11 +61,13 @@ const VedicResearch = () => {
               intelligence of tomorrow. It is a living interface between ancient
               consciousness and modern curiosity.
             </p>
+          </div>
+          <div className="research-areas">
             <div className="mission-why-usha-btn">
               <span className="active">Research</span> <span>Projects</span>
             </div>
+            <p className="research-areas-heading">Research Areas</p>
           </div>
-          <div className="research-areas"></div>
           <div className="success-stories">
             <img src={prevBtn} alt="" />
             <div className="success-story-div">

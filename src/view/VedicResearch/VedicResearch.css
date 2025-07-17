@@ -98,7 +98,7 @@
   font-weight: 500;
 }
 .ask-usha-btn {
-  padding: 3px;
+  padding: 5px;
   border-radius: 999px;
   background: linear-gradient(to right, #fbbc04, #f97316, #fbbc04);
   display: inline-block;
@@ -122,7 +122,7 @@
 }
 
 .ask-usha-inner span {
-  color: #888;
+  color: #989898;
   font-weight: 500;
   font-size: 18px;
   padding-right: 200px;
@@ -134,4 +134,18 @@
   width: 60%;
   text-align: justify;
   margin: 50px 0;
+}
+.research-areas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.research-areas-heading {
+  font-family: "Sora", sans-serif;
+  text-align: center;
+  color: #a35b13;
+  font-size: 35px;
+  margin-top: 60px;
+  max-block-size: 40px;
 }
