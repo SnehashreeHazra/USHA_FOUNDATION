@@ -40,10 +40,13 @@ const VedicResearch = () => {
             </div>
             <img className="research-video" src={videoImg} alt="" />
             <p className="ask-usha-heading">ASK USHA</p>
-            <div className="ask-usha-btn">
-              <img src={aiImg} alt="" /> <span>Ask USHA</span>
+            <div class="ask-usha-btn">
+              <div class="ask-usha-inner">
+                <img src={aiImg} alt="AI" />
+                <span>Ask USHA</span>
+              </div>
             </div>
-            <p>
+            <p className="usha-body-text">
               Ask USHA is the platform’s GenAI-powered engine that leverages
               cutting-edge Large Language Models (LLMs) trained on curated Vedic
               texts, commentaries, and cross-cultural knowledge frameworks. It

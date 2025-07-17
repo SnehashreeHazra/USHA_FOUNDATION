@@ -1,3 +1,6 @@
+.vedic-research {
+  background-color: #fff;
+}
 .vedic-research-banner {
   background-image: url("../../assets/Indian Flag Colour 2.png");
   background-size: cover;
@@ -95,17 +98,40 @@
   font-weight: 500;
 }
 .ask-usha-btn {
+  padding: 3px;
+  border-radius: 999px;
+  background: linear-gradient(to right, #fbbc04, #f97316, #fbbc04);
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.ask-usha-inner {
   display: flex;
-  border: 3px solid #000;
-  border-radius: 30px;
   align-items: center;
-  padding: 10px 20px;
-  font-family: "Sora", sans-serif;
+  gap: 8px;
+  background: white;
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-family: "sora", sans-serif;
 }
-.ask-usha-btn img {
-  width: 60px;
+
+.ask-usha-inner img {
+  width: 50px;
+  /* height: 24px; */
 }
-.ask-usha-btn span {
-  color: #989898;
+
+.ask-usha-inner span {
+  color: #888;
+  font-weight: 500;
   font-size: 18px;
+  padding-right: 200px;
+  padding-left: 140px;
+}
+
+.usha-body-text {
+  font-family: "Sora", sans-serif;
+  width: 60%;
+  text-align: justify;
+  margin: 50px 0;
 }
