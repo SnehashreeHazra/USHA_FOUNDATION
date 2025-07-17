@@ -11,6 +11,9 @@ body {
 :root {
   font-family: "Cinzel", serif;
 }
+.active-link {
+  border-bottom: 2px solid #f4b301;
+}
 .header-top {
   background-color: #a35b13;
   color: #fff;
@@ -109,6 +112,7 @@ body {
   font-size: 14px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   cursor: pointer;
+  padding: 5px 0;
 }
 .feature-stack-icon {
   width: 50px;

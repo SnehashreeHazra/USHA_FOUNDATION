@@ -18,6 +18,8 @@ import VedicReels from "./view/VedicReels/VedicReels";
 import UshaDialogue from "./view/UshaDialogue/UshaDialogue";
 import UshaAcademy from "./view/UshaAcademy/UshaAcademy";
 import VedicResearch from "./view/VedicResearch/VedicResearch";
+import ResearchProject from "./view/ResearchProject/ResearchProject";
+import UshaMission from "./view/AboutUshaMission/UshaMission";
 
 function App() {
   return (
@@ -27,6 +29,7 @@ function App() {
           <Route element={<MainLayout />}>
             <Route path="/" element={<LandingPage />} />
             <Route path="/about" element={<UshaAbout />} />
+            <Route path="/usha-mission" element={<UshaMission />} />
             <Route path="/sign-up" element={<SignUp />} />
             <Route path="/login" element={<Login />} />
             <Route path="/market-place" element={<MarketPlace />} />
@@ -42,6 +45,7 @@ function App() {
             <Route path="/usha-dialogue" element={<UshaDialogue />} />
             <Route path="/usha-academy" element={<UshaAcademy />} />
             <Route path="/vedic-research" element={<VedicResearch />} />
+            <Route path="/research-projects" element={<ResearchProject />} />
           </Route>
         </Routes>
       </BrowserRouter>

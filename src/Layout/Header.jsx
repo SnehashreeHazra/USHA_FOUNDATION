@@ -5,7 +5,6 @@ import aiLogo from "../assets/Group 165.png";
 import featureStackIcon from "../assets/All feature stack 1.png";
 
 const Header = () => {
-  
   const location = useLocation();
   const isSocialOrCirclePage =
     location.pathname === "/social-feed" ||
@@ -14,6 +13,9 @@ const Header = () => {
     location.pathname === "/personal-profile" ||
     location.pathname === "/video-preview";
   const navigate = useNavigate();
+  const getActiveClass = (path) => {
+    return location.pathname === path ? "active-link" : "";
+  };
   return (
     <div className="header">
       <div className="header-top">
@@ -25,7 +27,7 @@ const Header = () => {
       <div className="header-bottom">
         <div className="uni-container">
           <div style={{ display: "flex", justifyContent: "space-between" }}>
-            <div className="logo" onClick={()=>navigate('/')}>
+            <div className="logo" onClick={() => navigate("/")}>
               <img src={logo} alt="" /> <span>USHA</span>
             </div>
             <div className="header-bottom-right">
@@ -41,13 +43,22 @@ const Header = () => {
                 <img className="feature-stack-icon" src={featureStackIcon} alt="" />
               ) : ( */}
 
-              <p className="about-us" onClick={() => navigate("/usha-stream")}>
+              <p
+                className={`about-us ${getActiveClass("/usha-stream")}`}
+                onClick={() => navigate("/usha-stream")}
+              >
                 Vedic Knowledge
               </p>
-              <p className="about-us" onClick={() => navigate("/vedic-research")}>
+              <p
+                className={`about-us ${getActiveClass("/vedic-research")}`}
+                onClick={() => navigate("/vedic-research")}
+              >
                 Vedic Research
               </p>
-              <p className="about-us" onClick={() => navigate("/about")}>
+              <p
+                className={`about-us ${getActiveClass("/usha-mission")}`}
+                onClick={() => navigate("/usha-mission")}
+              >
                 About Us
               </p>
               <button

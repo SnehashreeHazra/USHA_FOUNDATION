@@ -7,11 +7,13 @@ import rigvedaImg from "../../assets/Group 195.png";
 import preyerImg from "../../assets/Group 197.png";
 import brownArrow from "../../assets/Group 190.png";
 import ushaLogo from "../../assets/USA New Logo 2.png";
+import { useNavigate } from "react-router-dom";
 
 const UshaAbout = () => {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
+  const navigate = useNavigate()
   return (
     <div className="about-container">
       <div className="about-banner">
@@ -89,7 +91,8 @@ const UshaAbout = () => {
           <span>Join Our Movement</span> <img src={yellowArrow2} alt="" />
         </button>
         <div className="mission-why-usha-btn">
-          <span>Mission</span> <span className="active">Why USHA</span>
+          <span onClick={() => navigate("/usha-mission")}>Mission</span>{" "}
+          <span className="active">Why USHA</span>
         </div>
         <p className="call-to-wholeness">A CALL TO WHOLENESS</p>
         <p className="call-to-wholeness-subheading">

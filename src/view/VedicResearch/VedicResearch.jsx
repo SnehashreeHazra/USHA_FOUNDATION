@@ -13,11 +13,18 @@ import researchAreaImg1 from "../../assets/image 94.png";
 import researchAreaImg2 from "../../assets/image 92.png";
 import researchAreaImg3 from "../../assets/image 110.png";
 import researchAreaImg4 from "../../assets/image 111.png";
+import partnerImg1 from "../../assets/dummy-logo-5b 1.png";
+import partnerImg2 from "../../assets/aven 1.png";
+import partnerImg3 from "../../assets/amara 1.png";
+import partnerImg4 from "../../assets/image 108.png";
+import userLogo from "../../assets/User Icon 5.png";
+import { useNavigate } from "react-router-dom";
 
 const VedicResearch = () => {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
+  const navigate = useNavigate();
   return (
     <>
       <div className="vedic-research">
@@ -69,7 +76,10 @@ const VedicResearch = () => {
           </div>
           <div className="research-areas">
             <div className="mission-why-usha-btn">
-              <span className="active">Research</span> <span>Projects</span>
+              <span className="active">Research</span>{" "}
+              <span onClick={() => navigate("/research-projects")}>
+                Projects
+              </span>
             </div>
             <p className="research-areas-heading">Research Areas</p>
             <div className="research-divs-container">
@@ -191,6 +201,82 @@ const VedicResearch = () => {
               <img className="krisna-img" src={successStoryImg} alt="" />
             </div>
             <img src={nextBtn} alt="" />
+          </div>
+
+          <div className="partners">
+            <p className="research-areas-heading">Partners</p>
+            <div className="partners-div">
+              <img src={partnerImg1} alt="" />
+              <img src={partnerImg2} alt="" />
+              <img src={partnerImg3} alt="" />
+              <img src={partnerImg4} alt="" />
+              <img src={partnerImg4} alt="" />
+              <img src={partnerImg3} alt="" />
+              <img src={partnerImg2} alt="" />
+              <img src={partnerImg1} alt="" />
+            </div>
+            <button className="research-view-more">
+              View More
+              <img src={viewMoreBtn} alt="" />
+            </button>
+          </div>
+
+          <div className="partners">
+            <p className="research-areas-heading">USHA Think Tank</p>
+            <div className="think-tank-container">
+              <div className="think-tank">
+                <div className="think-tank-div-content">
+                  <p className="researcher-name">
+                    Anish <span>Maheshbabu</span>
+                  </p>
+                  <p>Vedic Researcher</p>
+                  <div className="researcher-profile">
+                    <img src={userLogo} alt="" />
+                    <span>Visit Profile</span>
+                  </div>
+                </div>
+              </div>
+              <div className="think-tank">
+                <div className="think-tank-div-content">
+                  <p className="researcher-name">
+                    Anish <span>Maheshbabu</span>
+                  </p>
+                  <p>Vedic Researcher</p>
+                  <div className="researcher-profile">
+                    <img src={userLogo} alt="" />
+                    <span>Visit Profile</span>
+                  </div>
+                </div>
+              </div>
+              <div className="think-tank">
+                <div className="think-tank-div-content">
+                  <p className="researcher-name">
+                    Anish <span>Maheshbabu</span>
+                  </p>
+                  <p>Vedic Researcher</p>
+                  <div className="researcher-profile">
+                    <img src={userLogo} alt="" />
+                    <span>Visit Profile</span>
+                  </div>
+                </div>
+              </div>
+              <div className="think-tank">
+                <div className="think-tank-div-content">
+                  <p className="researcher-name">
+                    Anish <span>Maheshbabu</span>
+                  </p>
+                  <p>Vedic Researcher</p>
+                  <div className="researcher-profile">
+                    <img src={userLogo} alt="" />
+                    <span>Visit Profile</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button className="research-view-more">
+              View More
+              <img src={viewMoreBtn} alt="" />
+            </button>
           </div>
           <p className="quarry-form-heading">For any quarry or collaboration</p>
           <form className="quarry-form">

@@ -242,3 +242,72 @@
 .research-area-know-more img {
   width: 13px;
 }
+.partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.partners-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+.partners-div img {
+  width: 100%;
+  max-width: 22%;
+  min-width: 22%;
+  height: 100%;
+}
+.researcher-profile {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  padding: 3px 5px;
+  color: #000;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.researcher-profile img {
+  width: 22px;
+}
+.think-tank-container {
+  width: 100%;
+  font-family: "sora", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+.think-tank {
+  background-image: url("../../assets/Mask group.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  max-width: 23%;
+  min-width: 23%;
+  border-radius: 20px;
+
+  padding: 0px 20px;
+  color: #fff;
+}
+.think-tank-div-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+.researcher-name {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.researcher-name span {
+  font-weight: 600;
+}
