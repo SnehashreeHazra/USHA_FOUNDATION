@@ -70,7 +70,7 @@ const VedicResearch = () => {
             <p className="research-areas-heading">Research Areas</p>
             <div className="research-div"></div>
             <button className="research-view-more">
-              View More 
+              View More
               <img src={viewMoreBtn} alt="" />
             </button>
           </div>
