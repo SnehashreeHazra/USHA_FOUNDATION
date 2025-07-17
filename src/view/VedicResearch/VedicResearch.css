@@ -173,12 +173,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  row-gap: 65px;
   flex-wrap: wrap;
+  margin: 80px 0;
 }
 .research-area-div {
   width: 100%;
-  max-width: 45%;
-  min-width: 45%;
+  max-width: 47%;
+  min-width: 47%;
   border-radius: 40px;
   display: flex;
   flex-direction: column;

@@ -96,9 +96,75 @@ const VedicResearch = () => {
                   </button>
                 </div>
               </div>
-              <div className="research-area-div"></div>
-              <div className="research-area-div"></div>
-              <div className="research-area-div"></div>
+              <div className="research-area-div">
+                <img
+                  className="research-area-div-img"
+                  src={researchAreaImg2}
+                  alt=""
+                />
+                <div className="research-area-div-content">
+                  <div className="research-area-div-content1">
+                    <p className="research-title">
+                      Vedic Vedic Texts and <span>Sanskrit Philosophy</span>
+                    </p>
+                    <button className="research-div-join-btn">Join</button>
+                  </div>
+                  <p className="research-description">
+                    Discover the depth of Sanskrit thought and ancient Vedic
+                    scriptures. Join us to preserve, learn, and share timeless
+                    Indian philosophy.
+                  </p>
+                  <button className="research-area-know-more">
+                    Know More <img src={whiteArrow} alt="" />
+                  </button>
+                </div>
+              </div>
+              <div className="research-area-div">
+                <img
+                  className="research-area-div-img"
+                  src={researchAreaImg3}
+                  alt=""
+                />
+                <div className="research-area-div-content">
+                  <div className="research-area-div-content1">
+                    <p className="research-title">
+                      Vedic Vedic Texts and <span>Sanskrit Philosophy</span>
+                    </p>
+                    <button className="research-div-join-btn">Join</button>
+                  </div>
+                  <p className="research-description">
+                    Discover the depth of Sanskrit thought and ancient Vedic
+                    scriptures. Join us to preserve, learn, and share timeless
+                    Indian philosophy.
+                  </p>
+                  <button className="research-area-know-more">
+                    Know More <img src={whiteArrow} alt="" />
+                  </button>
+                </div>
+              </div>
+              <div className="research-area-div">
+                <img
+                  className="research-area-div-img"
+                  src={researchAreaImg4}
+                  alt=""
+                />
+                <div className="research-area-div-content">
+                  <div className="research-area-div-content1">
+                    <p className="research-title">
+                      Vedic Vedic Texts and <span>Sanskrit Philosophy</span>
+                    </p>
+                    <button className="research-div-join-btn">Join</button>
+                  </div>
+                  <p className="research-description">
+                    Discover the depth of Sanskrit thought and ancient Vedic
+                    scriptures. Join us to preserve, learn, and share timeless
+                    Indian philosophy.
+                  </p>
+                  <button className="research-area-know-more">
+                    Know More <img src={whiteArrow} alt="" />
+                  </button>
+                </div>
+              </div>
             </div>
             <button className="research-view-more">
               View More
