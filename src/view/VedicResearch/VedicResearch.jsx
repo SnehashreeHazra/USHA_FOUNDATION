@@ -8,6 +8,7 @@ import prevBtn from "../../assets/Polygon 2.png";
 import nextBtn from "../../assets/Polygon 1.png";
 import successStoryImg from "../../assets/Group 218.png";
 import whiteArrow from "../../assets/Arrow 42.png";
+import viewMoreBtn from "../../assets/Group 219.png";
 
 const VedicResearch = () => {
   useEffect(() => {
@@ -67,6 +68,11 @@ const VedicResearch = () => {
               <span className="active">Research</span> <span>Projects</span>
             </div>
             <p className="research-areas-heading">Research Areas</p>
+            <div className="research-div"></div>
+            <button className="research-view-more">
+              View More 
+              <img src={viewMoreBtn} alt="" />
+            </button>
           </div>
           <div className="success-stories">
             <img src={prevBtn} alt="" />
