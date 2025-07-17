@@ -39,7 +39,7 @@ const VedicResearch = () => {
               <img src={yellowArrow} alt="" />
             </div>
             <img className="research-video" src={videoImg} alt="" />
-            <p>ASK USHA</p>
+            <p className="ask-usha-heading">ASK USHA</p>
             <div className="ask-usha-btn">
               <img src={aiImg} alt="" /> <span>Ask USHA</span>
             </div>

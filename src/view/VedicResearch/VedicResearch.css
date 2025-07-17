@@ -88,3 +88,24 @@
   font-weight: 600;
   font-size: 17px;
 }
+.ask-usha-heading {
+  font-family: "sora", sans-serif;
+  color: #a35b13;
+  font-size: 18px;
+  font-weight: 500;
+}
+.ask-usha-btn {
+  display: flex;
+  border: 3px solid #000;
+  border-radius: 30px;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: "Sora", sans-serif;
+}
+.ask-usha-btn img {
+  width: 60px;
+}
+.ask-usha-btn span {
+  color: #989898;
+  font-size: 18px;
+}
