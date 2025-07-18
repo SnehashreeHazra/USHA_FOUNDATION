@@ -1,0 +1,313 @@
+.vedic-research {
+  background-color: #fff;
+}
+.vedic-research-banner {
+  background-image: url("../../assets/Indian Flag Colour 2.png");
+  background-size: cover;
+  background-position: center;
+}
+.research-banner-text {
+  font-size: 40px;
+  color: #000;
+  line-height: 90px;
+  font-weight: 500;
+}
+.research-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.research-video {
+  border: 10px solid #a35b13;
+  border-radius: 55px;
+  width: 80%;
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+.success-stories {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 80px 0;
+}
+.success-story-div {
+  width: 100%;
+  max-width: 70%;
+  min-width: 70%;
+  background-color: #eeeded;
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  font-family: "Sora", sans-serif;
+}
+.success-story-div-content {
+  /* padding: 40px; */
+  padding-top: 40px;
+  padding-left: 40px;
+}
+.krisna-img {
+  width: 100%;
+  max-width: 55%;
+  min-width: 55%;
+  height: 100%;
+}
+.success-heading {
+  color: #a35b13;
+  font-size: 30px;
+  font-weight: 600;
+}
+.success-story-description {
+  color: #8b8b8b;
+  margin-top: 15px;
+}
+.success-know-more {
+  background-color: #a35b13;
+  border-radius: 30px;
+  padding: 5px 10px;
+  border: none;
+  color: #fff;
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.success-know-more img {
+  width: 12px;
+}
+.body-ushaayatan {
+  font-size: 50px;
+  margin-top: 25px;
+}
+.body-subheading {
+  font-family: "Sora", sans-serif;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 17px;
+}
+.ask-usha-heading {
+  font-family: "sora", sans-serif;
+  color: #a35b13;
+  font-size: 18px;
+  font-weight: 500;
+}
+.ask-usha-btn {
+  padding: 5px;
+  border-radius: 999px;
+  background: linear-gradient(to right, #fbbc04, #f97316, #fbbc04);
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.ask-usha-inner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: white;
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-family: "sora", sans-serif;
+}
+
+.ask-usha-inner img {
+  width: 50px;
+  /* height: 24px; */
+}
+
+.ask-usha-inner span {
+  color: #989898;
+  font-weight: 500;
+  font-size: 18px;
+  padding-right: 200px;
+  padding-left: 140px;
+}
+
+.usha-body-text {
+  font-family: "Sora", sans-serif;
+  width: 60%;
+  text-align: justify;
+  margin: 50px 0;
+}
+.research-areas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.research-areas-heading {
+  font-family: "Sora", sans-serif;
+  text-align: center;
+  color: #a35b13;
+  font-size: 35px;
+  margin-top: 60px;
+  max-block-size: 40px;
+}
+.research-view-more {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #161616;
+  border-radius: 20px;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* padding: 3px 15px; */
+  column-gap: 20px;
+  margin: 30px 0;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.research-view-more img {
+  width: 100px;
+}
+.research-divs-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 65px;
+  flex-wrap: wrap;
+  margin: 80px 0;
+}
+.research-area-div {
+  width: 100%;
+  max-width: 47%;
+  min-width: 47%;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.research-area-div-content {
+  background-color: #ededed;
+  padding: 20px 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.research-area-div-img {
+  width: 100%;
+  height: 100%;
+}
+.research-area-div-content1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "sora", sans-serif;
+  margin-bottom: 20px;
+}
+.research-div-join-btn {
+  background-color: #a35b13;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 25px;
+  color: #fff;
+  font-family: "sora", sans-serif;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 15px;
+  cursor: pointer;
+}
+.research-title {
+  font-size: 25px;
+  font-weight: 600;
+}
+.research-title span {
+  color: #a35b13;
+}
+.research-description {
+  font-family: "sora", sans-serif;
+  color: #8b8b8b;
+  margin-bottom: 25px;
+}
+.research-area-know-more {
+  border: 1px solid #868686;
+  border-radius: 20px;
+  padding: 5px 10px;
+  color: #868686;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.research-area-know-more img {
+  width: 13px;
+}
+.partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.partners-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+.partners-div img {
+  width: 100%;
+  max-width: 22%;
+  min-width: 22%;
+  height: 100%;
+}
+.researcher-profile {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  padding: 3px 5px;
+  color: #000;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.researcher-profile img {
+  width: 22px;
+}
+.think-tank-container {
+  width: 100%;
+  font-family: "sora", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+.think-tank {
+  background-image: url("../../assets/Mask group.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  max-width: 23%;
+  min-width: 23%;
+  border-radius: 20px;
+
+  padding: 0px 20px;
+  color: #fff;
+}
+.think-tank-div-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+.researcher-name {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.researcher-name span {
+  font-weight: 600;
+}

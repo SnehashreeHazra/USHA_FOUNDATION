@@ -1,0 +1,33 @@
+.vedic-reels {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sparks-reels {
+  margin: 50px 0;
+}
+.sparks-reels-heading {
+  color: #000;
+  font-family: "Sora", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.sparks-reels-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.discover-more-btn-sparks {
+  border: 2px solid #a35b13;
+  width: 280px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #a35b13;
+  font-family: "Sora", sans-serif;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 15px;
+}

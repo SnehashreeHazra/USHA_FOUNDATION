@@ -1,0 +1,188 @@
+.book-details {
+  background-color: #d4d4d480;
+  border-radius: 20px;
+  margin-top: 40px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 0px 40px;
+}
+.book {
+  padding: 40px 0;
+  border-bottom: 1px solid #989898;
+  display: flex;
+  column-gap: 30px;
+}
+.book-left {
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.book-right {
+  font-family: "Poppins", sans-serif;
+  /* padding: 20px; */
+}
+.card-bottom-div2 {
+  display: flex;
+  flex-direction: column;
+}
+.btns-div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-top: 20px;
+}
+.btns-div button {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+.description {
+  color: #585454;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+}
+.desc-para {
+  font-family: "Poppins", sans-serif;
+  margin-top: 30px;
+  color: #828282;
+  text-align: justify;
+}
+.product-details span {
+  font-weight: normal;
+  color: #8e8e8e;
+}
+
+.product-details a {
+  color: #8e8e8e;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.product-details .stars {
+  color: #f5b50a;
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.product-details .review-count {
+  color: #6c757d;
+  font-size: 13px;
+  margin-left: 5px;
+}
+.product-details {
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+}
+.des-div00 {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #989898;
+}
+.author-bio-div {
+  display: flex;
+  column-gap: 40px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+}
+.author-bio-div p {
+  text-align: justify;
+  color: #828282;
+}
+.author-bio-div img {
+  width: 180px;
+  height: 180px;
+}
+.reviews-div {
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 50px;
+}
+.reviews-div-head {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.scholer-icon {
+  display: flex;
+  column-gap: 3px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 3px 5px;
+}
+.scholer-icon span {
+  font-size: 10px;
+  color: #1a52b4;
+  font-weight: 600;
+}
+.scholer-icon img {
+  width: 20px;
+}
+.review-person {
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.starts-div00 {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  /* margin-top: 10px; */
+  font-size: 13px;
+  color: #b9b9b9;
+}
+.starts-div00 i {
+  color: #f4b301;
+  font-size: 10px;
+}
+.learn-text {
+  font-style: italic;
+  color: #5c5c5c;
+  font-size: 12px;
+}
+.review-para {
+  margin-top: 20px;
+  color: #7d7d7d;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-left: 55px;
+}
+.review-profile-name {
+  font-size: 14px;
+}
+.like-reply-div {
+  display: flex;
+  column-gap: 20px;
+  color: #9f9f9f;
+  align-items: center;
+  margin-left: 55px;
+  font-size: 14px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+.see-more-btn {
+  color: #9d9d9d;
+  border: 1px solid #b1b1b1;
+  border-radius: 20px;
+  padding: 5px 10px;
+  width: 80px;
+  cursor: pointer;
+}
+
+
+@media (max-width:1300px){
+  .review-person{
+    width: 50%;
+  }
+  .reviews-div-head {
+    column-gap: 13px;
+  }
+}

@@ -1,0 +1,329 @@
+/* *{
+  outline: 1px solid red;
+} */
+
+.about-container {
+  background-color: #fff;
+}
+.about-left {
+  width: 100%;
+  max-width: 45%;
+  min-width: 45%;
+}
+.about-right {
+  width: 100%;
+  max-width: 45%;
+  min-width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  row-gap: 80px;
+}
+.about-left-heading {
+  width: 100%;
+  font-size: 90px;
+  color: #000;
+  line-height: 90px;
+  font-weight: 500;
+  text-align: center;
+}
+.about-banner {
+  background-image: url("../../assets/Indian Flag Colour 2.png");
+  background-size: cover;
+  background-position: center;
+}
+.about-container0 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0px;
+  /* border-bottom: 1px solid #00000054; */
+}
+.about-banner-text {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Sora", sans-serif;
+  font-size: 17px;
+}
+.about-left-subheading {
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.about-right img {
+  width: 60px;
+}
+.about-right p {
+  text-align: justify;
+}
+.misson-container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding-bottom: 50px;
+  /* border-bottom: 1px solid #00000054; */
+}
+
+.usha-manifesto-text {
+  margin-top: 25px;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  padding-bottom: 50px;
+  /* border-bottom: 1px solid #00000054; */
+}
+.usha-manifesto-text p {
+  margin-top: 15px;
+}
+
+.quarry-form-heading {
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+.quarry-form-btn {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  border: 1px solid #5d5b5b;
+  border-radius: 20px;
+  padding: 5px 20px;
+  cursor: pointer;
+  margin-top: 30px;
+  background-color: transparent;
+  margin-left: 50px;
+  color: #4c4b4b;
+  font-size: 15px;
+}
+.quarry-form {
+  padding: 30px 0px 50px 0px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+}
+.quarry-form-btn img {
+  width: 50px;
+}
+.about-form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  margin-top: 20px;
+  font-family: "Sora", sans-serif;
+}
+.karma-stages {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.about-form-group input {
+  width: 48%;
+  padding: 15px 20px;
+  border-radius: 15px;
+  font-family: "Sora", sans-serif;
+  border: 1px solid #000;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  outline: none;
+}
+.join-awakening {
+  font-family: "Sora", sans-serif;
+  text-align: center;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.join-awakening-btn {
+  /* padding: 0px 10px; */
+  border: 2px solid #a35b13;
+  border-radius: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #000;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  font-family: "Sora", sans-serif;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-size: 13px;
+}
+.join-awakening-btn span {
+  margin-left: 15px;
+}
+.join-awakening-btn img {
+  width: 65px;
+  height: 25px;
+}
+.mission-why-usha-btn {
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-top: 40px;
+  /* padding: 10px 0px; */
+  display: flex;
+  align-items: center;
+  column-gap: 35px;
+}
+.mission-why-usha-btn span {
+  padding: 8px 20px;
+  font-family: "Sora", sans-serif;
+  color: #000;
+  font-size: 15px;
+  cursor: pointer;
+}
+.mission-why-usha-btn span.active {
+  background-color: #a35b13;
+  color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.call-to-wholeness {
+  font-family: "Cinzel", serif;
+  font-size: 40px;
+  margin-top: 80px;
+  text-align: center;
+  font-weight: 500;
+}
+.call-to-wholeness-subheading {
+  margin-top: 10px;
+  font-family: "Cinzel", serif;
+  font-size: 23px;
+  text-align: center;
+  /* text-transform:uppercase ; */
+  font-weight: 500;
+}
+.ushaayatan {
+  color: #f4b301;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+.ushaayatan-subheading {
+  color: #000;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-size: 19px;
+  text-align: center;
+}
+.ushaayatan-text {
+  font-family: "Sora", sans-serif;
+  color: #000;
+  text-align: justify;
+}
+.ushaayatan-bottom-text {
+  font-family: "Sora", sans-serif;
+  color: #000;
+  margin-top: 40px;
+  /* margin-bottom: 50px; */
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  width: 50%;
+}
+.donate-now-btn {
+  border: 1px solid #000000;
+  display: flex;
+  align-items: center;
+  /* column-gap: 20px; */
+  font-family: "Sora", sans-serif;
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.donate-now-btn img {
+  width: 55px;
+  margin-left: 20px;
+}
+.donate-now-btn span {
+  font-weight: 600;
+}
+.symbol-last-text {
+  font-weight: 600;
+  font-family: "Sora", sans-serif;
+  text-align: center;
+}
+.our-symbol {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.donate-usha-logo {
+  width: 170px;
+  height: 170px;
+  margin-top: 80px;
+}
+.rigveda-img {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+@media (max-width: 1100px) {
+  .about-left-heading {
+    text-align: center;
+  }
+  .about-banner-text {
+    text-align: justify;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-form-group {
+    padding: 0px;
+  }
+}
+@media (max-width: 450px) {
+  .about-form-group {
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .about-form-group input {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .quarry-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .quarry-form-btn {
+    margin-left: 0px;
+  }
+  .about-left-heading {
+    font-size: 70px;
+  }
+  .join-awakening-btn {
+    margin-bottom: 30px;
+  }
+  .ushaayatan {
+    font-size: 35px;
+  }
+  .ushaayatan-subheading {
+    font-size: 16px;
+  }
+  .ushaayatan-bottom-text {
+    font-size: 17px;
+  }
+  .donate-now-btn {
+    font-size: 12px;
+  }
+  .donate-now-btn img {
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-left-heading {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
