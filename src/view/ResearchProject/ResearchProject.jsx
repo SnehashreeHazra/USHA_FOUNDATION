@@ -157,6 +157,24 @@ const ResearchProject = () => {
                     </p>
                   </div>
                 </div>
+                <button className="see-more-up">See More</button>
+                <div className="join-the-movement">
+                  <p className="join-movement-heading">Join the Movement</p>
+                  <div className="movements">
+                    <button className="contribute-btn">
+                      Contribute <img src={brownArrow} alt="" />
+                    </button>
+                    <button className="contribute-btn">
+                      Collaborate <img src={brownArrow} alt="" />
+                    </button>
+                    <button className="contribute-btn">
+                      Learn <img src={brownArrow} alt="" />
+                    </button>
+                    <button className="contribute-btn">
+                      Internship <img src={brownArrow} alt="" />
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="ongoing-projects-section"></div>
