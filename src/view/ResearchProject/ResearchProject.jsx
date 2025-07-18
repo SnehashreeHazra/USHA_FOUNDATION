@@ -177,8 +177,189 @@ const ResearchProject = () => {
                 </div>
               </div>
             </div>
-            <div className="ongoing-projects-section"></div>
-            <div className="complete-projects-section"></div>
+            <div className="upcoming-projects-section">
+              <div className="upcoming-projects-left">
+                <div className="up-small-divs-wrapper">
+                  <div className="up-small-div">
+                    <img className="up-info" src={infoIcon} alt="" />
+                    <p className="up-small-div-text1">
+                      Dāna to uphold Sanatan Dharma
+                    </p>
+                    <p className="up-small-div-text2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec pulvinar vulputate dictum. Read More
+                    </p>
+                  </div>
+                  <div className="up-small-div">
+                    <img className="up-info" src={infoIcon} alt="" />
+                    <p className="up-small-div-text1">
+                      Dāna to uphold Sanatan Dharma
+                    </p>
+                    <p className="up-small-div-text2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec pulvinar vulputate dictum. Read More
+                    </p>
+                  </div>
+                  <div className="up-small-div">
+                    <img className="up-info" src={infoIcon} alt="" />
+                    <p className="up-small-div-text1">
+                      Dāna to uphold Sanatan Dharma
+                    </p>
+                    <p className="up-small-div-text2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec pulvinar vulputate dictum. Read More
+                    </p>
+                  </div>
+                  <div className="up-small-div">
+                    <img className="up-info" src={infoIcon} alt="" />
+                    <p className="up-small-div-text1">
+                      Dāna to uphold Sanatan Dharma
+                    </p>
+                    <p className="up-small-div-text2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec pulvinar vulputate dictum. Read More
+                    </p>
+                  </div>
+                </div>
+                <button className="see-more-up">See More</button>
+                <div className="join-the-movement">
+                  <p className="join-movement-heading">Join the Movement</p>
+                  <div className="movements">
+                    <button className="contribute-btn">
+                      Contribute <img src={brownArrow} alt="" />
+                    </button>
+                    <button className="contribute-btn">
+                      Collaborate <img src={brownArrow} alt="" />
+                    </button>
+                    <button className="contribute-btn">
+                      Learn <img src={brownArrow} alt="" />
+                    </button>
+                    <button className="contribute-btn">
+                      Internship <img src={brownArrow} alt="" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className="upcoming-projects-right">
+                <div className="upcoming-project-heading">
+                  <p>Ongoing Projects</p>
+                </div>
+                <div className="upcoming-card-div">
+                  <img
+                    className="upcoming-img"
+                    src={upcomingProjectImg1}
+                    alt=""
+                  />
+                  <div>
+                    <div className="upcoming-card-content1">
+                      <p className="upcoming-card-heading">
+                        Dāna to uphold <br />
+                        <span>Sanatan Dharma</span>
+                      </p>
+                      <div className="upcoming-project-show-btn">
+                        <img src={whiteArrow} alt="" />
+                      </div>
+                    </div>
+                    <p className="up-card-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec pulvinar vulputate dictum. Aliquam erat volutpat.
+                      Praesent a erat sollicitudin, pellentesque arcu eget,
+                      pretium nulla.
+                    </p>
+                    <div className="up-card-topics">
+                      <div className="popular-topics">Hinduism</div>
+                      <div className="popular-topics">Indology</div>
+                      <div className="popular-topics">Dharma</div>
+                      <div className="popular-topics">Ancient_India</div>
+                      <div className="popular-topics">Mahabharata_Katha</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="upcoming-projects-section">
+              <div className="upcoming-projects-left">
+                <div className="upcoming-project-heading">
+                  <p>Complete Projects</p>
+                </div>
+                <div className="upcoming-card-div">
+                  <img
+                    className="upcoming-img"
+                    src={upcomingProjectImg1}
+                    alt=""
+                  />
+                  <div>
+                    <div className="upcoming-card-content1">
+                      <p className="upcoming-card-heading">
+                        Dāna to uphold <br />
+                        <span>Sanatan Dharma</span>
+                      </p>
+                      <div className="upcoming-project-show-btn">
+                        <img src={whiteArrow} alt="" />
+                      </div>
+                    </div>
+                    <p className="up-card-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec pulvinar vulputate dictum. Aliquam erat volutpat.
+                      Praesent a erat sollicitudin, pellentesque arcu eget,
+                      pretium nulla.
+                    </p>
+                    <div className="up-card-topics">
+                      <div className="popular-topics">Hinduism</div>
+                      <div className="popular-topics">Indology</div>
+                      <div className="popular-topics">Dharma</div>
+                      <div className="popular-topics">Ancient_India</div>
+                      <div className="popular-topics">Mahabharata_Katha</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="upcoming-projects-right">
+                <div className="up-small-divs-wrapper">
+                  <div className="up-small-div">
+                    <img className="up-info" src={infoIcon} alt="" />
+                    <p className="up-small-div-text1">
+                      Dāna to uphold Sanatan Dharma
+                    </p>
+                    <p className="up-small-div-text2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec pulvinar vulputate dictum. Read More
+                    </p>
+                  </div>
+                  <div className="up-small-div">
+                    <img className="up-info" src={infoIcon} alt="" />
+                    <p className="up-small-div-text1">
+                      Dāna to uphold Sanatan Dharma
+                    </p>
+                    <p className="up-small-div-text2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec pulvinar vulputate dictum. Read More
+                    </p>
+                  </div>
+                  <div className="up-small-div">
+                    <img className="up-info" src={infoIcon} alt="" />
+                    <p className="up-small-div-text1">
+                      Dāna to uphold Sanatan Dharma
+                    </p>
+                    <p className="up-small-div-text2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec pulvinar vulputate dictum. Read More
+                    </p>
+                  </div>
+                  <div className="up-small-div">
+                    <img className="up-info" src={infoIcon} alt="" />
+                    <p className="up-small-div-text1">
+                      Dāna to uphold Sanatan Dharma
+                    </p>
+                    <p className="up-small-div-text2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec pulvinar vulputate dictum. Read More
+                    </p>
+                  </div>
+                </div>
+                <button className="see-more-up">See More</button>
+              </div>
+            </div>
             <div className="project-user-div">
               <div className="project-user-img">
                 <img src={userImg} alt="" />
