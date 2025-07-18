@@ -16,6 +16,7 @@ import brownArrow from "../../assets/Group 190.png";
 import collaboratorImg from "../../assets/image 114.png";
 import collaboratorArrow from "../../assets/Arrow 55.png";
 import upcomingProjectImg1 from "../../assets/image 94.png";
+import infoIcon from "../../assets/info 6.png";
 import Footer from "../../Layout/Footer";
 import { useNavigate } from "react-router-dom";
 
@@ -115,10 +116,46 @@ const ResearchProject = () => {
               </div>
               <div className="upcoming-projects-right">
                 <div className="up-small-divs-wrapper">
-                  <div className="up-small-div"></div>
-                  <div className="up-small-div"></div>
-                  <div className="up-small-div"></div>
-                  <div className="up-small-div"></div>
+                  <div className="up-small-div">
+                    <img className="up-info" src={infoIcon} alt="" />
+                    <p className="up-small-div-text1">
+                      Dāna to uphold Sanatan Dharma
+                    </p>
+                    <p className="up-small-div-text2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec pulvinar vulputate dictum. Read More
+                    </p>
+                  </div>
+                  <div className="up-small-div">
+                    <img className="up-info" src={infoIcon} alt="" />
+                    <p className="up-small-div-text1">
+                      Dāna to uphold Sanatan Dharma
+                    </p>
+                    <p className="up-small-div-text2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec pulvinar vulputate dictum. Read More
+                    </p>
+                  </div>
+                  <div className="up-small-div">
+                    <img className="up-info" src={infoIcon} alt="" />
+                    <p className="up-small-div-text1">
+                      Dāna to uphold Sanatan Dharma
+                    </p>
+                    <p className="up-small-div-text2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec pulvinar vulputate dictum. Read More
+                    </p>
+                  </div>
+                  <div className="up-small-div">
+                    <img className="up-info" src={infoIcon} alt="" />
+                    <p className="up-small-div-text1">
+                      Dāna to uphold Sanatan Dharma
+                    </p>
+                    <p className="up-small-div-text2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec pulvinar vulputate dictum. Read More
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
