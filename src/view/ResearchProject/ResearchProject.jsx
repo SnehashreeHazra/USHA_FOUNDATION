@@ -1,6 +1,8 @@
 import React from "react";
 import "./ResearchProject.css";
 import yellowArrow from "../../assets/Group 194.png";
+import yellowArrow2 from "../../assets/Group 220.png";
+import whiteArrow from "../../assets/Arrow 50 (2).png";
 import videoImg from "../../assets/image 70.png";
 import aiImg from "../../assets/Group 217.png";
 import dialogueImg from "../../assets/green-msg.png";
@@ -11,6 +13,9 @@ import bitcoin from "../../assets/circum_bitcoin.png";
 import topicAddImg from "../../assets/material-symbols_add.png";
 import userImg from "../../assets/User Icon 7.png";
 import brownArrow from "../../assets/Group 190.png";
+import collaboratorImg from "../../assets/image 114.png";
+import collaboratorArrow from "../../assets/Arrow 55.png";
+import upcomingProjectImg1 from "../../assets/image 94.png";
 import Footer from "../../Layout/Footer";
 import { useNavigate } from "react-router-dom";
 
@@ -71,7 +76,52 @@ const ResearchProject = () => {
               <span className="active">Projects</span>
             </div>
             <p className="research-areas-heading">Projects</p>
-            <div className="upcoming-projects-section"></div>
+            <div className="upcoming-projects-section">
+              <div className="upcoming-projects-left">
+                <div className="upcoming-project-heading">
+                  <p>Upcoming Projects</p>
+                </div>
+                <div className="upcoming-card-div">
+                  <img
+                    className="upcoming-img"
+                    src={upcomingProjectImg1}
+                    alt=""
+                  />
+                  <div>
+                    <div className="upcoming-card-content1">
+                      <p className="upcoming-card-heading">
+                        Dāna to uphold <br />
+                        <span>Sanatan Dharma</span>
+                      </p>
+                      <div className="upcoming-project-show-btn">
+                        <img src={whiteArrow} alt="" />
+                      </div>
+                    </div>
+                    <p className="up-card-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec pulvinar vulputate dictum. Aliquam erat volutpat.
+                      Praesent a erat sollicitudin, pellentesque arcu eget,
+                      pretium nulla.
+                    </p>
+                    <div className="up-card-topics">
+                      <div className="popular-topics">Hinduism</div>
+                      <div className="popular-topics">Indology</div>
+                      <div className="popular-topics">Dharma</div>
+                      <div className="popular-topics">Ancient_India</div>
+                      <div className="popular-topics">Mahabharata_Katha</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="upcoming-projects-right">
+                <div className="up-small-divs-wrapper">
+                  <div className="up-small-div"></div>
+                  <div className="up-small-div"></div>
+                  <div className="up-small-div"></div>
+                  <div className="up-small-div"></div>
+                </div>
+              </div>
+            </div>
             <div className="ongoing-projects-section"></div>
             <div className="complete-projects-section"></div>
             <div className="project-user-div">
@@ -118,6 +168,104 @@ const ResearchProject = () => {
                   <button className="contribute-btn">
                     Internship <img src={brownArrow} alt="" />
                   </button>
+                </div>
+              </div>
+            </div>
+
+            <div className="collaborators-section">
+              <p className="collaborators-heading">Collaborators Invited</p>
+              <p className="collaborators-subheading">(Open Positions)</p>
+              <div className="search-topic">
+                <input type="text" placeholder="Search Topic Here" />{" "}
+                <img src={yellowArrow2} alt="" />
+              </div>
+              <p className="popular-topics-heading">Popular Topics</p>
+              <div className="popular-topics-wrapper">
+                <div className="popular-topics">Indian Civilization</div>
+                <div className="popular-topics">Shiva</div>
+                <div className="popular-topics">Indological</div>
+                <div className="popular-topics">Hinduism</div>
+                <div className="popular-topics">Ancient Culture</div>
+                <div className="popular-topics">Religion</div>
+              </div>
+              <div className="collaborators-cards-wrapper">
+                <div className="collaborator-card">
+                  <img
+                    className="collaborator-card-img"
+                    src={collaboratorImg}
+                    alt=""
+                  />
+                  <div className="collaborator-card-text">
+                    <div className="collaborator-card-text1">
+                      <p className="collaborator-card-heading">
+                        Indologist / Sanskrit Research Scholar
+                      </p>
+                      <p className="collaborator-card-description">
+                        Specializes in studying ancient Indian scriptures,
+                        languages (like Sanskrit and Pali), and historical Hindu
+                        texts. Responsible for translating, interpreting, and
+                        publishing scholarly works on the Vedas, Upanishads, and
+                        epics like the Mahabharata and Ramayana. Often works
+                        with universities, museums, or cultural institutions to
+                        preserve and promote classical Indian knowledge systems.
+                      </p>
+                    </div>
+                    <button className="collaborator-card-btn">
+                      Apply <img src={collaboratorArrow} alt="" />
+                    </button>
+                  </div>
+                </div>
+                <div className="collaborator-card">
+                  <img
+                    className="collaborator-card-img"
+                    src={collaboratorImg}
+                    alt=""
+                  />
+                  <div className="collaborator-card-text">
+                    <div className="collaborator-card-text1">
+                      <p className="collaborator-card-heading">
+                        Indologist / Sanskrit Research Scholar
+                      </p>
+                      <p className="collaborator-card-description">
+                        Specializes in studying ancient Indian scriptures,
+                        languages (like Sanskrit and Pali), and historical Hindu
+                        texts. Responsible for translating, interpreting, and
+                        publishing scholarly works on the Vedas, Upanishads, and
+                        epics like the Mahabharata and Ramayana. Often works
+                        with universities, museums, or cultural institutions to
+                        preserve and promote classical Indian knowledge systems.
+                      </p>
+                    </div>
+                    <button className="collaborator-card-btn">
+                      Apply <img src={collaboratorArrow} alt="" />
+                    </button>
+                  </div>
+                </div>
+                <div className="collaborator-card">
+                  <img
+                    className="collaborator-card-img"
+                    src={collaboratorImg}
+                    alt=""
+                  />
+                  <div className="collaborator-card-text">
+                    <div className="collaborator-card-text1">
+                      <p className="collaborator-card-heading">
+                        Indologist / Sanskrit Research Scholar
+                      </p>
+                      <p className="collaborator-card-description">
+                        Specializes in studying ancient Indian scriptures,
+                        languages (like Sanskrit and Pali), and historical Hindu
+                        texts. Responsible for translating, interpreting, and
+                        publishing scholarly works on the Vedas, Upanishads, and
+                        epics like the Mahabharata and Ramayana. Often works
+                        with universities, museums, or cultural institutions to
+                        preserve and promote classical Indian knowledge systems.
+                      </p>
+                    </div>
+                    <button className="collaborator-card-btn">
+                      Apply <img src={collaboratorArrow} alt="" />
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
