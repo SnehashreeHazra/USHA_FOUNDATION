@@ -60,16 +60,16 @@ const UshaMission = () => {
         </p>
         <div className="rise-cards-wrapper">
           <div className="rise-card ris-card-1">
-            <p>Reawaken</p>
-            <p>
+            <p className="rise-card-heading">reawaken</p>
+            <p className="rise-card-description">
               Reawaken Vedic Wisdom for Modern Life Restore and recontextualise
               ancient Indic knowledge—rituals, cosmology, wellness, and
               philosophy—making it relevant, practical, and universal.
             </p>
           </div>
           <div className="rise-card ris-card-2">
-            <p>INTEGRATE</p>
-            <p>
+            <p className="rise-card-heading">INTEGRATE</p>
+            <p className="rise-card-description">
               Integrate diverse streams of Indian philosophical thought
               (Advaita, Sāṃkhya, Tantra, etc.), along with spiritual leaders and
               practices, into a unified knowledge system that harmonises inner
@@ -78,16 +78,60 @@ const UshaMission = () => {
             </p>
           </div>
           <div className="rise-card ris-card-3">
-            <p>STRENGTHEN</p>
-            <p>
+            <p className="rise-card-heading">STRENGTHEN</p>
+            <p className="rise-card-description">
               Strengthen Global Dhārmic Citizenship Build a participatory
               platform where individuals worldwide connect through Dharma—beyond
               religion, geography, and ideology.
             </p>
           </div>
           <div className="rise-card ris-card-4">
-            <p>ESTABLISH</p>
-            <p>
+            <p className="rise-card-heading">ESTABLISH</p>
+            <p className="rise-card-description">
+              Establish Bhārat as Viśva Guru Lead a civilisational renaissance
+              by positioning India as the epicentre of global thought, research,
+              and spiritual leadership.
+            </p>
+          </div>
+        </div>
+
+        <p className="mission-heading">Vision</p>
+        <p className="call-to-wholeness" style={{ marginTop: "0px" }}>
+          IGNITE
+        </p>
+        <p className="call-to-wholeness-subheading">
+          Illuminate, Grow, Nurture, Integrate, Transform, Empower.
+        </p>
+        <div className="rise-cards-wrapper">
+          <div className="rise-card ris-card-1">
+            <p className="rise-card-heading">reawaken</p>
+            <p className="rise-card-description">
+              Reawaken Vedic Wisdom for Modern Life Restore and recontextualise
+              ancient Indic knowledge—rituals, cosmology, wellness, and
+              philosophy—making it relevant, practical, and universal.
+            </p>
+          </div>
+          <div className="rise-card ris-card-2">
+            <p className="rise-card-heading">INTEGRATE</p>
+            <p className="rise-card-description">
+              Integrate diverse streams of Indian philosophical thought
+              (Advaita, Sāṃkhya, Tantra, etc.), along with spiritual leaders and
+              practices, into a unified knowledge system that harmonises inner
+              consciousness with scientific inquiry through dialogue, education,
+              and research.
+            </p>
+          </div>
+          <div className="rise-card ris-card-3">
+            <p className="rise-card-heading">STRENGTHEN</p>
+            <p className="rise-card-description">
+              Strengthen Global Dhārmic Citizenship Build a participatory
+              platform where individuals worldwide connect through Dharma—beyond
+              religion, geography, and ideology.
+            </p>
+          </div>
+          <div className="rise-card ris-card-4">
+            <p className="rise-card-heading">ESTABLISH</p>
+            <p className="rise-card-description">
               Establish Bhārat as Viśva Guru Lead a civilisational renaissance
               by positioning India as the epicentre of global thought, research,
               and spiritual leadership.
