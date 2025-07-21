@@ -7,6 +7,12 @@ import partnerImg2 from "../../assets/aven 1.png";
 import partnerImg3 from "../../assets/amara 1.png";
 import partnerImg4 from "../../assets/image 108.png";
 import userLogo from "../../assets/User Icon 5.png";
+import originalIcon from "../../assets/OTT & live Icon 8 2.png";
+import marketIcon from "../../assets/Marketplace 1.png";
+import socialIcon from "../../assets/Feed_ 1 1.png";
+import ushaReseachIcon from "../../assets/Research 5.png";
+import insightsIcon from "../../assets/Blogging 1.png";
+import gurukulIcon from "../../assets/Learning 6.png";
 import { useNavigate } from "react-router-dom";
 import Footer from "../../Layout/Footer";
 
@@ -28,6 +34,40 @@ const UshaDonation = () => {
         </div>
       </div>
       <div className="uni-container">
+        <p>
+          With your generous donation, enjoy full access to USHA's premium
+          offerings . Your support empowers the preservation and propagation of
+          India's timeless wisdom.
+        </p>
+        <div className="usha-institute-div">
+          <div className="usha-institute-div-heading">
+            <p>Enjoy Full Access</p>
+          </div>
+          <div className="usha-ins-body1">
+            <div className="usha-ins-topics">
+              <img src={socialIcon} alt="" /> <p>Social Feed</p>
+            </div>
+            <div className="usha-ins-topics">
+              <img src={originalIcon} alt="" /> <p>Originals</p>
+            </div>
+            <div className="usha-ins-topics">
+              <img src={insightsIcon} alt="" /> <p>Blog</p>
+            </div>
+            <div className="usha-ins-topics">
+              <img src={marketIcon} alt="" /> <p>Market</p>
+            </div>
+            <div className="usha-ins-topics">
+              <img src={gurukulIcon} alt="" /> <p>Gurukul</p>
+            </div>
+            <div className="usha-ins-topics">
+              <img src={ushaReseachIcon} alt="" /> <p>Research</p>
+            </div>
+          </div>
+          <p className="usha-ins-desc" style={{ paddingBottom: "30px" }}>
+            Including exclusive research content, curated spiritual resources,
+            and early invitations to all our events
+          </p>
+        </div>
         <div className="partners">
           <p className="research-areas-heading1">Our Top Donors</p>
           <div className="think-tank-container">
