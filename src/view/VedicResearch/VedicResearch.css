@@ -147,7 +147,7 @@
   color: #a35b13;
   font-size: 35px;
   margin-top: 60px;
-  max-block-size: 40px;
+  /* max-block-size: 40px; */
 }
 .research-view-more {
   display: flex;

@@ -1,0 +1,31 @@
+.usha-donation {
+}
+
+.donation-banner {
+  background-image: url("../../assets/Indian Flag Colour 2.png");
+  background-size: cover;
+  background-position: center;
+}
+.donate-for-our {
+  font-family: "sora", sans-serif;
+  color: #a35b13;
+  font-size: 45px;
+  font-weight: 200;
+  margin-top: 50px;
+  text-align: center;
+}
+.invisible-heading {
+  color: #a35b13;
+  font-family: "Cinzel", serif;
+  font-size: 70px;
+  font-weight: 500;
+}
+.research-areas-heading1 {
+  font-family: "Sora", sans-serif;
+  text-align: center;
+  color: #000;
+  font-weight: 600;
+  font-size: 35px;
+  margin-top: 60px;
+  max-block-size: 40px;
+}
