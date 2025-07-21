@@ -52,11 +52,48 @@ const UshaMission = () => {
           <span onClick={() => navigate("/about")}>Why USHA</span>
         </div>
         <p className="mission-heading">Mission</p>
-        <p className="call-to-wholeness" style={{marginTop:'0px'}}>RISE</p>
+        <p className="call-to-wholeness" style={{ marginTop: "0px" }}>
+          RISE
+        </p>
         <p className="call-to-wholeness-subheading">
           reawaken, integrate, strengthen, establish
         </p>
-
+        <div className="rise-cards-wrapper">
+          <div className="rise-card ris-card-1">
+            <p>Reawaken</p>
+            <p>
+              Reawaken Vedic Wisdom for Modern Life Restore and recontextualise
+              ancient Indic knowledge—rituals, cosmology, wellness, and
+              philosophy—making it relevant, practical, and universal.
+            </p>
+          </div>
+          <div className="rise-card ris-card-2">
+            <p>INTEGRATE</p>
+            <p>
+              Integrate diverse streams of Indian philosophical thought
+              (Advaita, Sāṃkhya, Tantra, etc.), along with spiritual leaders and
+              practices, into a unified knowledge system that harmonises inner
+              consciousness with scientific inquiry through dialogue, education,
+              and research.
+            </p>
+          </div>
+          <div className="rise-card ris-card-3">
+            <p>STRENGTHEN</p>
+            <p>
+              Strengthen Global Dhārmic Citizenship Build a participatory
+              platform where individuals worldwide connect through Dharma—beyond
+              religion, geography, and ideology.
+            </p>
+          </div>
+          <div className="rise-card ris-card-4">
+            <p>ESTABLISH</p>
+            <p>
+              Establish Bhārat as Viśva Guru Lead a civilisational renaissance
+              by positioning India as the epicentre of global thought, research,
+              and spiritual leadership.
+            </p>
+          </div>
+        </div>
         <button className="join-awakening-btn">
           <span>Join Our Movement</span> <img src={brownArrow} alt="" />
         </button>

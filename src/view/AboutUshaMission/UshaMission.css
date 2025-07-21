@@ -1,8 +1,42 @@
-.mission-heading{
-  font-family: 'sora', sans-serif;
-  color: #A35B13;
+.mission-heading {
+  font-family: "sora", sans-serif;
+  color: #a35b13;
   font-size: 17px;
   font-weight: 500;
   text-align: center;
   margin: 50px 0px 5px 0px;
+}
+.rise-cards-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rise-card {
+  width: 100%;
+  max-width: 23%;
+  min-width: 23%;
+  border-radius: 20px;
+  padding: 30px 20px;
+}
+.ris-card-1 {
+  background-image: url("../../assets/Mask group 11.png");
+  background-size: cover;
+  background-position: c;
+  
+}
+.ris-card-2 {
+  background-image: url("../../assets/Mask group (1).png");
+  background-size: cover;
+  background-position: c;
+}
+.ris-card-3 {
+  background-image: url("../../assets/Mask group (2).png");
+  background-size: cover;
+  background-position: c;
+}
+.ris-card-4 {
+  background-image: url("../../assets/Mask group (3).png");
+  background-size: cover;
+  background-position: c;
 }
