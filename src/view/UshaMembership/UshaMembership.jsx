@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import "./UshaMembership.css";
+import yellowArrow from "../../assets/Group 194.png";
 import { useNavigate } from "react-router-dom";
+import Footer from "../../Layout/Footer";
 
 const UshaMembership = () => {
   useEffect(() => {
@@ -19,6 +21,8 @@ const UshaMembership = () => {
           <p className="invisible-heading">INVISIBLE INHERITANCE</p>
         </div>
       </div>
+      <div className="uni-container"></div>
+      <Footer />
     </div>
   );
 };
