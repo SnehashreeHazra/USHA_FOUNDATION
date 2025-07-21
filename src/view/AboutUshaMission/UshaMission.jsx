@@ -153,6 +153,17 @@ const UshaMission = () => {
             </p>
           </div>
         </div>
+        <p>
+          USHA is powered by donations and membership, not profits. Every
+          contribution builds a repository of wisdom, funds research, and
+          strengthens our collective civilisational identity.
+        </p>
+        <p>
+          In a world divided by identity, ideology, and ignorance, USHA is the
+          new dawn—radiating light, clarity, unity, and action.
+        </p>
+        <p>Let us awaken—not to division, but to Dharma.</p>
+        <p>Let us rise—not as followers, but as light-bearers.</p>
         <button className="join-awakening-btn">
           <span>Join Our Movement</span> <img src={brownArrow} alt="" />
         </button>
