@@ -1,3 +1,6 @@
+.usha-donation{
+  background-color: #fff;
+}
 .donation-banner {
   background-image: url("../../assets/Indian Flag Colour 2.png");
   background-size: cover;
@@ -25,4 +28,77 @@
   font-size: 35px;
   margin-top: 60px;
   max-block-size: 40px;
+}
+.usha-institute-div1 {
+  width: 100%;
+  font-family: "sora", sans-serif;
+  border: 1px solid #747474;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px 0;
+}
+.usha-institute-div-heading1 {
+  background-color: #a35b13;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: 600;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+.usha-institute-div-heading1 p {
+  font-size: 50px;
+  color: #fff;
+}
+.donation-cards-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+.donation-card {
+  width: 100%;
+  max-width: 47%;
+  min-width: 47%;
+  border-radius: 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+}
+.donate-card-body {
+  background-color: #EEEDED;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  padding: 30px 50px;
+  font-family: "sora", sans-serif;
+}
+.donate-card-heading {
+  font-size: 28px;
+}
+.donate-card-heading span {
+  color: #a35b13;
+  font-weight: 600;
+}
+.donate-card-desc {
+  margin: 20px 0;
+  color: #8b8b8b;
+}
+.donate-card-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+  color: #4a4a4a;
+  font-size: 22px;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #4a4a4a;
+  border-radius: 20px;
+  padding: 5px 10px;
+  padding-left: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.donate-card-btn img {
+  width: 120px;
 }

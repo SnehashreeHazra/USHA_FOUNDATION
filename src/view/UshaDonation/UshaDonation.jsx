@@ -13,6 +13,9 @@ import socialIcon from "../../assets/Feed_ 1 1.png";
 import ushaReseachIcon from "../../assets/Research 5.png";
 import insightsIcon from "../../assets/Blogging 1.png";
 import gurukulIcon from "../../assets/Learning 6.png";
+import donateCard1 from "../../assets/image 94.png";
+import donateCard2 from "../../assets/image 92.png";
+import donateBtn from "../../assets/Group 223.png";
 import { useNavigate } from "react-router-dom";
 import Footer from "../../Layout/Footer";
 
@@ -39,8 +42,8 @@ const UshaDonation = () => {
           offerings . Your support empowers the preservation and propagation of
           India's timeless wisdom.
         </p>
-        <div className="usha-institute-div">
-          <div className="usha-institute-div-heading">
+        <div className="usha-institute-div1">
+          <div className="usha-institute-div-heading1">
             <p>Enjoy Full Access</p>
           </div>
           <div className="usha-ins-body1">
@@ -67,6 +70,42 @@ const UshaDonation = () => {
             Including exclusive research content, curated spiritual resources,
             and early invitations to all our events
           </p>
+        </div>
+        <div className="donation-cards-wrapper">
+          <div className="donation-card">
+            <img className="donate-card-img" src={donateCard1} alt="" />
+            <div className="donate-card-body">
+              <p className="donate-card-heading">
+                Donate to uphold
+                <span> Sanatan Dharma & Content Development</span>
+              </p>
+              <p className="donate-card-desc">
+                Support spiritual education, sacred texts, and rich cultural
+                content that preserves and promotes Sanatan Dharma for future
+                generations. Donate generously.
+              </p>
+              <button className="donate-card-btn">
+                Donate Now!
+                <img src={donateBtn} alt="" />
+              </button>
+            </div>
+          </div>
+          <div className="donation-card">
+            <img className="donate-card-img" src={donateCard2} alt="" />
+            <div className="donate-card-body">
+              <p className="donate-card-heading">
+                Donate for
+                <span> Vedic Research</span>
+              </p>
+              <p className="donate-card-desc">
+                Empower the rediscovery of ancient wisdom through Vedic research. Your donation fuels knowledge, preservation, and spiritual awakening across generations.
+              </p>
+              <button className="donate-card-btn">
+                Donate Now!
+                <img src={donateBtn} alt="" />
+              </button>
+            </div>
+          </div>
         </div>
         <div className="partners">
           <p className="research-areas-heading1">Our Top Donors</p>
