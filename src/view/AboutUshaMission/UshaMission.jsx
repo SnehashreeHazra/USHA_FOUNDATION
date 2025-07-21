@@ -6,6 +6,11 @@ import rigvedaImg from "../../assets/Group 195.png";
 import preyerImg from "../../assets/Group 197.png";
 import brownArrow from "../../assets/Group 190.png";
 import ushaLogo from "../../assets/USA New Logo 2.png";
+import ushaReseachIcon from "../../assets/Research 5.png";
+import ushaGrantsIcon from "../../assets/noun-grant-7067920 1.png";
+import ushaInternshipIcon from "../../assets/noun-internship-7182787 2.png";
+import globalTank from "../../assets/noun-job-interview-3611889 1.png";
+
 import Footer from "../../Layout/Footer";
 import { useNavigate } from "react-router-dom";
 
@@ -151,6 +156,47 @@ const UshaMission = () => {
               civilisational rebirth—leading by knowledge, compassion, and
               spiritual authority.
             </p>
+          </div>
+        </div>
+
+        <div className="usha-institute-div">
+          <div className="usha-institute-div-heading">
+            <p>USHA Institute of Vedic Research</p>
+          </div>
+          <div className="usha-ins-body1">
+            <div className="usha-ins-topics">
+              <img src={ushaReseachIcon} alt="" /> <p>USHA Research</p>
+            </div>
+            <div className="usha-ins-topics">
+              <img src={ushaGrantsIcon} alt="" /> <p>USHA Grants</p>
+            </div>
+            <div className="usha-ins-topics">
+              <img src={ushaInternshipIcon} alt="" /> <p>USHA Internships</p>
+            </div>
+            <div className="usha-ins-topics">
+              <img src={globalTank} alt="" /> <p>USHA Global Think Tank</p>
+            </div>
+          </div>
+          <p className="usha-ins-desc">
+            A transdisciplinary research institute to systematically study,
+            revive, and innovate upon Indic knowledge systems. It aims to bridge
+            the gap between traditional Śāstra and contemporary science, social
+            theory, and civilisational studies.
+          </p>
+          <p className="indicative-heading">Indicative Research Domains</p>
+          <div className="usha-ins-body2">
+            <div className="usha-ins-btn">
+              Vedic Economics, Sustainability, Fulfilment
+            </div>
+            <div className="usha-ins-btn">
+              Vedic cosmology and quantum physics
+            </div>
+            <div className="usha-ins-btn">
+              Dhārmic governance and Ram Rājya frameworks
+            </div>
+            <div className="usha-ins-btn">
+              Civilisational memory, Śilpaśāstra, and ecology
+            </div>
           </div>
         </div>
         <p>
