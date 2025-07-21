@@ -20,6 +20,7 @@ import UshaAcademy from "./view/UshaAcademy/UshaAcademy";
 import VedicResearch from "./view/VedicResearch/VedicResearch";
 import ResearchProject from "./view/ResearchProject/ResearchProject";
 import UshaMission from "./view/AboutUshaMission/UshaMission";
+import UshaDonation from "./view/UshaDonation/UshaDonation";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
             <Route path="/usha-academy" element={<UshaAcademy />} />
             <Route path="/vedic-research" element={<VedicResearch />} />
             <Route path="/research-projects" element={<ResearchProject />} />
+            <Route path="/usha-donate" element={<UshaDonation />} />
           </Route>
         </Routes>
       </BrowserRouter>
