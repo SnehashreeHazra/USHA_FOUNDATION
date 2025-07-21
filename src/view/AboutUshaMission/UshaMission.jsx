@@ -51,7 +51,8 @@ const UshaMission = () => {
           <span className="active">Mission</span>{" "}
           <span onClick={() => navigate("/about")}>Why USHA</span>
         </div>
-        <p className="call-to-wholeness">RISE</p>
+        <p className="mission-heading">Mission</p>
+        <p className="call-to-wholeness" style={{marginTop:'0px'}}>RISE</p>
         <p className="call-to-wholeness-subheading">
           reawaken, integrate, strengthen, establish
         </p>
