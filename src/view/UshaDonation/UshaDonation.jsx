@@ -200,14 +200,17 @@ const UshaDonation = () => {
             <img src={viewMoreBtn} alt="" />
           </button>
         </div>
-        <p className="empower-heading">Empower Sanatan Dharma</p>
-        <p className="empowering-desc">
-          With your institutional support and gain full access to USHA’s premium
-          knowledge base, events, and exclusive offerings.
-        </p>
-        <button className="empower-donate">
-          Donate Now! <img src={donateBtn2} alt="" />
-        </button>
+        <div className="empowering-div">
+          <p className="empower-heading">Empower Sanatan Dharma</p>
+          <p className="empowering-desc">
+            With your institutional support and gain full access to USHA’s
+            premium knowledge base, events, and exclusive offerings.
+          </p>
+          <button className="empower-donate">
+            Donate Now! <img src={donateBtn2} alt="" />
+          </button>
+        </div>
+
         <div className="partners">
           <p className="research-areas-heading1">Our Chief Patrons</p>
           <div className="partners-div">
