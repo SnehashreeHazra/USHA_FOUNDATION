@@ -102,39 +102,54 @@ const UshaMission = () => {
         <p className="call-to-wholeness-subheading">
           Illuminate, Grow, Nurture, Integrate, Transform, Empower.
         </p>
-        <div className="rise-cards-wrapper">
-          <div className="rise-card ris-card-1">
-            <p className="rise-card-heading">reawaken</p>
+        <div className="ignite-cards-wrapper">
+          <div className="ignite-card ignite-card-1">
+            <p className="rise-card-heading">illuminate</p>
             <p className="rise-card-description">
-              Reawaken Vedic Wisdom for Modern Life Restore and recontextualise
-              ancient Indic knowledge—rituals, cosmology, wellness, and
-              philosophy—making it relevant, practical, and universal.
+              Illuminate a New Spiritual World Order Inspire global awakening
+              through Sūrya-Saṁskṛti—a radiant culture of clarity, cosmic
+              rhythm, and universal Dharma.
             </p>
           </div>
-          <div className="rise-card ris-card-2">
-            <p className="rise-card-heading">INTEGRATE</p>
+          <div className="ignite-card ignite-card-2">
+            <p className="rise-card-heading">GROW</p>
             <p className="rise-card-description">
-              Integrate diverse streams of Indian philosophical thought
-              (Advaita, Sāṃkhya, Tantra, etc.), along with spiritual leaders and
-              practices, into a unified knowledge system that harmonises inner
-              consciousness with scientific inquiry through dialogue, education,
-              and research.
+              Grow Dharma-centred consciousness through USHAAYATAN—a living
+              sanctuary where scholars, seekers, and innovators come together to
+              advance Sanātana wisdom and reawaken civilisational light.
             </p>
           </div>
-          <div className="rise-card ris-card-3">
-            <p className="rise-card-heading">STRENGTHEN</p>
+          <div className="ignite-card ignite-card-3">
+            <p className="rise-card-heading">NURTURE</p>
             <p className="rise-card-description">
-              Strengthen Global Dhārmic Citizenship Build a participatory
-              platform where individuals worldwide connect through Dharma—beyond
-              religion, geography, and ideology.
+              Nurture a Participatory Knowledge Society Build a decentralised
+              ecosystem that encourages inner growth and collective
+              responsibility across geographies.
             </p>
           </div>
-          <div className="rise-card ris-card-4">
-            <p className="rise-card-heading">ESTABLISH</p>
+          <div className="ignite-card ignite-card-4">
+            <p className="rise-card-heading">integrate</p>
             <p className="rise-card-description">
-              Establish Bhārat as Viśva Guru Lead a civilisational renaissance
-              by positioning India as the epicentre of global thought, research,
-              and spiritual leadership.
+              Integrate Indian Knowledge Systems, Ethics, Ecology, and Culture
+              Unify the core strands of Bhāratīya wisdom—spiritual ecology,
+              Dhārmic governance, aesthetic culture, and ethical living—into a
+              dynamic civilisational whole for global relevance.
+            </p>
+          </div>
+          <div className="ignite-card ignite-card-5">
+            <p className="rise-card-heading">transform</p>
+            <p className="rise-card-description">
+              Transform Consciousness Through Vedic Wisdom Enable deep personal
+              and societal transformation by reconnecting with the foundational
+              truths of Dharma.
+            </p>
+          </div>
+          <div className="ignite-card ignite-card-6">
+            <p className="rise-card-heading">empower</p>
+            <p className="rise-card-description">
+              Empower Bhārat as Viśva Guru Position India as the epicentre of
+              civilisational rebirth—leading by knowledge, compassion, and
+              spiritual authority.
             </p>
           </div>
         </div>
