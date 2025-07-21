@@ -16,6 +16,8 @@ import gurukulIcon from "../../assets/Learning 6.png";
 import donateCard1 from "../../assets/image 94.png";
 import donateCard2 from "../../assets/image 92.png";
 import donateBtn from "../../assets/Group 223.png";
+import rigvedaImg from "../../assets/Group 224.png";
+import ushaLogo from "../../assets/USA New Logo 1 2.png";
 import { useNavigate } from "react-router-dom";
 import Footer from "../../Layout/Footer";
 
@@ -37,7 +39,7 @@ const UshaDonation = () => {
         </div>
       </div>
       <div className="uni-container">
-        <p>
+        <p className="body-first-text">
           With your generous donation, enjoy full access to USHA's premium
           offerings . Your support empowers the preservation and propagation of
           India's timeless wisdom.
@@ -71,6 +73,37 @@ const UshaDonation = () => {
             and early invitations to all our events
           </p>
         </div>
+        <img className="donate-usha-logo22" src={ushaLogo} alt="" />
+        <img className="rigveda-img" src={rigvedaImg} alt="" />
+        <p className="food-heading">
+          Food is the highest gift; yet knowledge surpasses it. Food satisfies
+          for a moment; knowledge for life.
+        </p>
+        <p className="honour-heading">honouring our</p>
+        <p className="invisible-heading2">invisible inheritance</p>
+        <p className="usha-donate-text">
+          In today’s fast-paced, hyper-connected world, many of us yearn for a
+          sense of deeper purpose—something that transcends material
+          achievement. According to Hindu philosophy, each of us is born with
+          three sacred debts: to the Divine (Deva ṛṇa), to the Sages (Ṛṣi ṛṇa),
+          and to our Ancestors (Pitṛ ṛṇa). While family traditions help us
+          honour our forebears, the debts to the Divine and to the Rishis invite
+          us to give back to the larger spiritual and cultural heritage that has
+          quietly shaped our lives.
+        </p>
+        <p className="usha-donate-text">
+          The USHA platform offers you a way to respond to these timeless
+          calls—subtly, sincerely, and in step with the modern world. Whether
+          it's supporting temple conservation, funding Vedic education, enabling
+          Sanskrit digitisation, or nurturing Dharma-based learning spaces, your
+          contribution becomes an act of silent gratitude.
+        </p>
+        <p className="usha-donate-text">
+          By choosing to engage, you’re not just giving—you’re participating in
+          the renewal of a shared civilisational legacy. In doing so, the sacred
+          debts we owe are not just repaid, but reborn into a future that
+          remembers.
+        </p>
         <div className="donation-cards-wrapper">
           <div className="donation-card">
             <img className="donate-card-img" src={donateCard1} alt="" />
@@ -98,7 +131,9 @@ const UshaDonation = () => {
                 <span> Vedic Research</span>
               </p>
               <p className="donate-card-desc">
-                Empower the rediscovery of ancient wisdom through Vedic research. Your donation fuels knowledge, preservation, and spiritual awakening across generations.
+                Empower the rediscovery of ancient wisdom through Vedic
+                research. Your donation fuels knowledge, preservation, and
+                spiritual awakening across generations.
               </p>
               <button className="donate-card-btn">
                 Donate Now!

@@ -1,4 +1,4 @@
-.usha-donation{
+.usha-donation {
   background-color: #fff;
 }
 .donation-banner {
@@ -66,7 +66,7 @@
   flex-direction: column;
 }
 .donate-card-body {
-  background-color: #EEEDED;
+  background-color: #eeeded;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   padding: 30px 50px;
@@ -82,6 +82,13 @@
 .donate-card-desc {
   margin: 20px 0;
   color: #8b8b8b;
+}
+.body-first-text {
+  font-family: "sora", sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 60%;
 }
 .donate-card-btn {
   display: flex;
@@ -101,4 +108,32 @@
 }
 .donate-card-btn img {
   width: 120px;
+}
+.donate-usha-logo22 {
+}
+
+.food-heading {
+  font-family: "cinzel", serif;
+  text-align: center;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 51%;
+}
+.usha-donate-text {
+  font-family: "sora", sans-serif;
+  text-align: justify;
+  margin: 20px 0;
+}
+.honour-heading {
+  font-family: "cinzel", serif;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 50px;
+}
+.invisible-heading2 {
+  font-family: "cinzel", serif;
+  text-align: center;
+  font-size: 70px;
 }
