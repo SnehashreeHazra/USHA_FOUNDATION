@@ -16,6 +16,7 @@ import gurukulIcon from "../../assets/Learning 6.png";
 import donateCard1 from "../../assets/image 94.png";
 import donateCard2 from "../../assets/image 92.png";
 import donateBtn from "../../assets/Group 223.png";
+import donateBtn2 from "../../assets/Group 197.png";
 import rigvedaImg from "../../assets/Group 224.png";
 import ushaLogo from "../../assets/USA New Logo 1 2.png";
 import { useNavigate } from "react-router-dom";
@@ -199,6 +200,14 @@ const UshaDonation = () => {
             <img src={viewMoreBtn} alt="" />
           </button>
         </div>
+        <p className="empower-heading">Empower Sanatan Dharma</p>
+        <p className="empowering-desc">
+          With your institutional support and gain full access to USHA’s premium
+          knowledge base, events, and exclusive offerings.
+        </p>
+        <button className="empower-donate">
+          Donate Now! <img src={donateBtn2} alt="" />
+        </button>
         <div className="partners">
           <p className="research-areas-heading1">Our Chief Patrons</p>
           <div className="partners-div">

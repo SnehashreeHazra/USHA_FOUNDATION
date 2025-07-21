@@ -137,3 +137,35 @@
   text-align: center;
   font-size: 70px;
 }
+.empower-heading {
+  font-family: "sora", sans-serif;
+  font-size: 55px;
+  color: #a35b13;
+  font-weight: 600;
+  margin-top: 50px;
+
+  text-align: center;
+}
+.empowering-desc {
+  text-align: center;
+  font-family: "sora", sans-serif;
+  font-size: 20px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.empower-donate {
+  font-family: "sora", sans-serif;
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+  border: 1px solid #4a4a4a;
+  border-radius: 20px;
+  padding: 5px 15px;
+  column-gap: 10px;
+  font-size: 15px;
+}
+.empower-donate img {
+  width: 50px;
+}
