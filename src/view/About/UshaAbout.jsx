@@ -259,7 +259,7 @@ const UshaAbout = () => {
           This is not a project. It is a movement. A civilisational renaissance.
           A spiritual re-architecture of humanity.
         </p>
-        <div className="donate-now-btn">
+        <div className="donate-now-btn" onClick={() => navigate('/usha-donate')}>
           Donate Now For <span>USHAAYATAN</span> <img src={preyerImg} alt="" />
         </div>
         <img className="donate-usha-logo" src={ushaLogo} alt="" />
@@ -297,7 +297,7 @@ const UshaAbout = () => {
           Let us build USHA. Let us become USHA. The Universal Spiritual Human
           Awakening.
         </p>
-        <button className="join-awakening-btn">
+        <button className="join-awakening-btn" style={{marginBottom:'80px'}}>
           <span>Join Our Movement</span> <img src={brownArrow} alt="" />
         </button>
 

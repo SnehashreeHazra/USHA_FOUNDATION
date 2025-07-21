@@ -20,8 +20,8 @@ const UshaDonation = () => {
       <div className="donation-banner">
         <div className="uni-container about-container0">
           <div className="mission-why-usha-btn">
-            <span onClick={() => navigate("/usha-mission")}>Donate</span>{" "}
-            <span className="active">Membership</span>
+            <span className="active">Donate</span>{" "}
+            <span onClick={() => navigate("/usha-membership")}>Membership</span>
           </div>
           <p className="donate-for-our">Donate for Our</p>
           <p className="invisible-heading">INVISIBLE INHERITANCE</p>
