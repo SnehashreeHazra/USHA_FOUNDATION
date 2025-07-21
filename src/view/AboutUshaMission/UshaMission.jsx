@@ -2,12 +2,15 @@ import React from "react";
 import "./UshaMission.css";
 import yellowArrow from "../../assets/Group 194.png";
 import yellowArrow2 from "../../assets/Group 196.png";
-import rigvedaImg from "../../assets/Group 195.png";
-import preyerImg from "../../assets/Group 197.png";
 import brownArrow from "../../assets/Group 190.png";
-import ushaLogo from "../../assets/USA New Logo 2.png";
 import ushaReseachIcon from "../../assets/Research 5.png";
 import ushaGrantsIcon from "../../assets/noun-grant-7067920 1.png";
+import streamIcon from "../../assets/OTT & live Icon 9.png";
+import sparksIcon from "../../assets/Reels 1.png";
+import insightsIcon from "../../assets/Blogging 1.png";
+import dialogueIcon from "../../assets/Podcast 1.png";
+import socialIcon from "../../assets/Feed_ 1 1.png";
+import academyIcon from "../../assets/Learning 6.png";
 import ushaInternshipIcon from "../../assets/noun-internship-7182787 2.png";
 import globalTank from "../../assets/noun-job-interview-3611889 1.png";
 
@@ -161,6 +164,54 @@ const UshaMission = () => {
 
         <div className="usha-institute-div">
           <div className="usha-institute-div-heading">
+            <p>USHA Vedic Knowledge Repository & Retelling</p>
+          </div>
+          <div className="usha-ins-body1_1">
+            <div className="usha-ins-topics">
+              <img src={streamIcon} alt="" /> <p>USHA Stream</p>
+            </div>
+            <div className="usha-ins-topics">
+              <img src={sparksIcon} alt="" /> <p>USHA Sparks</p>
+            </div>
+            <div className="usha-ins-topics">
+              <img src={insightsIcon} alt="" /> <p>USHA Insights</p>
+            </div>
+            <div className="usha-ins-topics">
+              <img src={dialogueIcon} alt="" /> <p>USHA Dialogue</p>
+            </div>
+            <div className="usha-ins-topics">
+              <img src={socialIcon} alt="" /> <p>USHA Social</p>
+            </div>
+            <div className="usha-ins-topics">
+              <img src={academyIcon} alt="" /> <p>USHA Academy</p>
+            </div>
+          </div>
+          <p className="usha-ins-desc1">
+            A multi-format ecosystem to bring ancient Indic wisdom into
+            mainstream consciousness. The repository retells and reinterprets
+            scriptures, rituals, cosmology, and philosophy through engaging
+            digital formats for global audiences. Contributions from diverse
+            voices are welcomed to enrich the collective narrative.
+          </p>
+          <p className="indicative-heading">Indicative Themes</p>
+          <div className="usha-ins-body2">
+            <div className="usha-ins-btn">
+              Vedic Economics, Sustainability, Fulfilment
+            </div>
+            <div className="usha-ins-btn">
+              Vedic cosmology and quantum physics
+            </div>
+            <div className="usha-ins-btn">
+              Dhārmic governance and Ram Rājya frameworks
+            </div>
+            <div className="usha-ins-btn">
+              Civilisational memory, Śilpaśāstra, and ecology
+            </div>
+          </div>
+        </div>
+
+        <div className="usha-institute-div">
+          <div className="usha-institute-div-heading">
             <p>USHA Institute of Vedic Research</p>
           </div>
           <div className="usha-ins-body1">
@@ -199,18 +250,22 @@ const UshaMission = () => {
             </div>
           </div>
         </div>
-        <p>
+        <p className="usha-mission-body-text" style={{ marginTop: "20px" }}>
           USHA is powered by donations and membership, not profits. Every
           contribution builds a repository of wisdom, funds research, and
           strengthens our collective civilisational identity.
         </p>
-        <p>
+        <p className="usha-mission-body-text">
           In a world divided by identity, ideology, and ignorance, USHA is the
           new dawn—radiating light, clarity, unity, and action.
         </p>
-        <p>Let us awaken—not to division, but to Dharma.</p>
-        <p>Let us rise—not as followers, but as light-bearers.</p>
-        <button className="join-awakening-btn">
+        <p className="usha-mission-body-text" style={{ marginBottom: "0px" }}>
+          Let us awaken—not to division, but to Dharma.
+        </p>
+        <p className="usha-mission-body-text" style={{ marginBottom: "0px" }}>
+          Let us rise—not as followers, but as light-bearers.
+        </p>
+        <button className="join-awakening-btn" style={{ marginBottom: "80px" }}>
           <span>Join Our Movement</span> <img src={brownArrow} alt="" />
         </button>
 

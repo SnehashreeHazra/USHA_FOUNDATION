@@ -147,7 +147,7 @@
   column-gap: 20px;
   font-family: "Sora", sans-serif;
   margin-top: 50px;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   font-size: 13px;
 }
 .join-awakening-btn span {
