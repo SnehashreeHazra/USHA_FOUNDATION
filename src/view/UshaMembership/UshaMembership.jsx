@@ -90,7 +90,40 @@ const UshaMembership = () => {
               <span>USHA Originals Contents</span>
             </div>
           </div>
-          <div className="pricing-div"></div>
+          <div className="popular-pricing-div">
+            <p className="price-most-popular">Most Popular</p>
+            <div className="price-inner-div">
+              <div className="free-plan-div1">
+                <p>Premium Plan</p> <img src={brownArrow} alt="" />
+              </div>
+              <p className="pricing-big-text">Divyajñānam</p>
+              <p className="pricing-small-text">
+                Unlock exclusive insights and advanced features with USHA
+                Premium Membership.
+              </p>
+              <button className="pricing-sign-up-btn">Upgrade your plan</button>
+              <div className="social-feed-connect feed-brown">
+                <img src={smalltick} alt="" /> <span>Social Feed Connect</span>
+              </div>
+              <div className="social-feed-connect feed-brown">
+                <img src={smalltick} alt="" /> <span>Messaging</span>
+              </div>
+              <div className="social-feed-connect feed-brown">
+                <img src={smalltick} alt="" />{" "}
+                <span>Books Marketplace Curate</span>
+              </div>
+              <div className="social-feed-connect feed-brown">
+                <img src={smalltick} alt="" /> <span>Blogs (Articles)</span>
+              </div>
+              <div className="social-feed-connect feed-brown">
+                <img src={smalltick} alt="" /> <span>Gurukul Access</span>
+              </div>
+              <div className="social-feed-connect feed-brown">
+                <img src={smalltick} alt="" />{" "}
+                <span>USHA Originals Contents</span>
+              </div>
+            </div>
+          </div>
           <div className="pricing-div">
             <div className="free-plan-div">
               <p>Group/Enterprise Plan</p> <img src={greyArrow} alt="" />
@@ -123,10 +156,21 @@ const UshaMembership = () => {
             </div>
           </div>
         </div>
-        <p>
+        <p className="all-plans-text">
           All plans are paid upfront. The monthly rate reflects the total plan
           price divided by the number of months in your plan.
         </p>
+
+        <div className="trusted-users">
+          <p className="trusted-user-heading">
+            Trusted by <span>Users Worldwide</span>
+          </p>
+          <div className="trusted-users-cards-wrapper">
+            <div className="trusted-user-card"></div>
+            <div className="trusted-user-card"></div>
+            <div className="trusted-user-card"></div>
+          </div>
+        </div>
       </div>
       <Footer />
     </div>

@@ -18,7 +18,7 @@
 .pricing-plans-divs {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   margin: 80px 0px 40px 0px;
 }
 .pricing-div {
@@ -26,9 +26,29 @@
   max-width: 32%;
   min-width: 32%;
   border: 2px solid #000;
-  border-radius: 15px;
+  border-radius: 20px;
   padding: 30px 20px;
   font-family: "sora", sans-serif;
+}
+.popular-pricing-div {
+  width: 100%;
+  max-width: 32%;
+  min-width: 32%;
+  background-color: #a35b13;
+  border-radius: 20px;
+  padding: 20px 10px 10px 10px;
+  font-family: "sora", sans-serif;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.price-most-popular {
+  color: #fff;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.price-inner-div {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px 20px;
 }
 .free-plan-div {
   display: flex;
@@ -41,6 +61,19 @@
   font-weight: 600;
 }
 .free-plan-div img {
+  width: 15px;
+}
+.free-plan-div1 {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+.free-plan-div1 p {
+  color: #a35b13;
+  font-size: 22px;
+  font-weight: 600;
+}
+.free-plan-div1 img {
   width: 15px;
 }
 .pricing-big-text {
@@ -93,4 +126,29 @@
 }
 .feed-grey span {
   color: #9f9f9f;
+}
+.all-plans-text {
+  font-family: "sora", sans-serif;
+  text-align: center;
+  color: #929292;
+  margin-bottom: 80px;
+}
+.trusted-users {
+  margin-bottom: 50px;
+}
+.trusted-user-heading {
+  text-align: center;
+  color: #a4a4a4;
+  font-family: "sora", sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+}
+.trusted-user-heading span {
+  color: #a35b13;
+}
+.trusted-users-cards-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
 }
