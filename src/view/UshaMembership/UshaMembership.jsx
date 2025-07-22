@@ -185,15 +185,41 @@ const UshaMembership = () => {
           <div className="price-special-right">
             <div className="plans-div">
               <div>
-                <p>Yearly</p>
-                <p>Billed yearly</p>
+                <p className="yearly-heading">Monthly</p>
+                <p className="yearly-subheading">Billed yearly</p>
               </div>
               <div>
-                <div>
-                  <p>₹149</p>
-                  <p>₹99</p>
+                <div className="plans-div1">
+                  <p className="plans-div1-1">₹149</p>
+                  <p className="plans-div1-2">₹99</p>
                 </div>
-                <p>(per month)</p>
+                <p className="per-month-text">(per month)</p>
+              </div>
+            </div>
+            <div className="plans-div">
+              <div>
+                <p className="yearly-heading">Quarterly</p>
+                <p className="yearly-subheading">Billed yearly</p>
+              </div>
+              <div>
+                <div className="plans-div1">
+                  <p className="plans-div1-1">₹169</p>
+                  <p className="plans-div1-2">₹119</p>
+                </div>
+                <p className="per-month-text">(per month)</p>
+              </div>
+            </div>
+            <div className="plans-div">
+              <div>
+                <p className="yearly-heading">Monthly</p>
+                <p className="yearly-subheading">Billed yearly</p>
+              </div>
+              <div>
+                <div className="plans-div1">
+                  <p className="plans-div1-1">₹149</p>
+                  <p className="plans-div1-2">₹99</p>
+                </div>
+                <p className="per-month-text">(per month)</p>
               </div>
             </div>
           </div>
