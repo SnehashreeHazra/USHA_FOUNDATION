@@ -1,13 +1,13 @@
 .mission-body-text {
   font-family: "sora", sans-serif;
   text-align: center;
-  width: 70%;
+  width: 65%;
   margin: 50px auto;
 }
 .mission-types {
   width: 100%;
-  max-width: 70%;
-  min-width: 70%;
+  max-width: 65%;
+  min-width: 65%;
   margin: 0 auto;
   margin-top: 80px;
   display: flex;
