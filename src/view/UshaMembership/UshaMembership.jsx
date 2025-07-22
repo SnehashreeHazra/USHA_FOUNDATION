@@ -13,6 +13,7 @@ import smalltick from "../../assets/Tick 22.png";
 import smallcross from "../../assets/Cross 1.png";
 import starIcon from "../../assets/Star 1.png";
 import userImg from "../../assets/User Icon 2.png";
+import bigTickIcon from "../../assets/Tick 18.png";
 import subscribeBtn from "../../assets/Group 190.png";
 import { useNavigate } from "react-router-dom";
 import Footer from "../../Layout/Footer";
@@ -183,7 +184,9 @@ const UshaMembership = () => {
             </div>
           </div>
           <div className="price-special-right">
-            <div className="plans-div">
+            <div className="plans-div00 ">
+              <div className="popular-badge">Most Popular</div>
+              <img className="check-circle" src={bigTickIcon} alt="" />
               <div>
                 <p className="yearly-heading">Monthly</p>
                 <p className="yearly-subheading">Billed yearly</p>
