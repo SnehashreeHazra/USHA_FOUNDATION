@@ -149,6 +149,56 @@
 .trusted-users-cards-wrapper {
   display: flex;
   justify-content: space-between;
+  /* align-items: center; */
+  margin: 50px 0px 80px 0px;
+}
+.trusted-user-card {
+  width: 100%;
+  max-width: 32%;
+  min-width: 32%;
+  display: flex;
+  flex-direction: column;
+  font-family: "sora", sans-serif;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.trusted-card-head {
+  background-color: #a35b13;
+  display: flex;
   align-items: center;
-  margin-top: 50px;
+  column-gap: 10px;
+  padding: 40px 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: #fff;
+}
+.trusted-user-img {
+  background-color: #fff;
+  /* padding: 1px; */
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trusted-user-img img {
+  width: 70px;
+}
+.user-name {
+  font-size: 22px;
+  font-weight: 600;
+}
+.trusted-card-body {
+  padding: 30px 40px;
+}
+.stars-div {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+.stars-div img {
+  width: 20px;
+}
+.trusted-card-body-text {
+  color: #8b8b8b;
+  margin: 20px 0px 40px 0px;
 }

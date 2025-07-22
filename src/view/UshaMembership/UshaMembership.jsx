@@ -11,6 +11,8 @@ import greyArrow from "../../assets/Arrow 42.png";
 import brownArrow from "../../assets/Arrow 45.png";
 import smalltick from "../../assets/Tick 22.png";
 import smallcross from "../../assets/Cross 1.png";
+import starIcon from "../../assets/Star 1.png";
+import userImg from "../../assets/User Icon 2.png";
 import { useNavigate } from "react-router-dom";
 import Footer from "../../Layout/Footer";
 
@@ -166,9 +168,77 @@ const UshaMembership = () => {
             Trusted by <span>Users Worldwide</span>
           </p>
           <div className="trusted-users-cards-wrapper">
-            <div className="trusted-user-card"></div>
-            <div className="trusted-user-card"></div>
-            <div className="trusted-user-card"></div>
+            <div className="trusted-user-card">
+              <div className="trusted-card-head">
+                <div className="trusted-user-img">
+                  <img src={userImg} alt="" />
+                </div>
+                <div>
+                  <p className="user-name">Puban Ganguly</p>{" "}
+                  <p className="user-desc">Member</p>
+                </div>
+              </div>
+              <div className="trusted-card-body">
+                <div className="stars-div">
+                  <img src={starIcon} alt="" />
+                  <img src={starIcon} alt="" />
+                  <img src={starIcon} alt="" />
+                  <img src={starIcon} alt="" />
+                  <img src={starIcon} alt="" />
+                </div>
+                <p className="trusted-card-body-text">
+                  A wonderful initiative reviving ancient wisdom. Truly grateful
+                  to be part of this movement.
+                </p>
+              </div>
+            </div>
+            <div className="trusted-user-card">
+              <div className="trusted-card-head">
+                <div className="trusted-user-img">
+                  <img src={userImg} alt="" />
+                </div>
+                <div>
+                  <p className="user-name">Jason Snitch</p>{" "}
+                  <p className="user-desc">Member</p>
+                </div>
+              </div>
+              <div className="trusted-card-body">
+                <div className="stars-div">
+                  <img src={starIcon} alt="" />
+                  <img src={starIcon} alt="" />
+                  <img src={starIcon} alt="" />
+                  <img src={starIcon} alt="" />
+                </div>
+                <p className="trusted-card-body-text">
+                  Authentic, insightful, and inspiring. A must-join for anyone
+                  passionate about Sanatan Dharma and Vedic knowledge
+                </p>
+              </div>
+            </div>
+            <div className="trusted-user-card">
+              <div className="trusted-card-head">
+                <div className="trusted-user-img">
+                  <img src={userImg} alt="" />
+                </div>
+                <div>
+                  <p className="user-name">Santosh Davis</p>{" "}
+                  <p className="user-desc">Member</p>
+                </div>
+              </div>
+              <div className="trusted-card-body">
+                <div className="stars-div">
+                  <img src={starIcon} alt="" />
+                  <img src={starIcon} alt="" />
+                  <img src={starIcon} alt="" />
+                  <img src={starIcon} alt="" />
+                  <img src={starIcon} alt="" />
+                </div>
+                <p className="trusted-card-body-text">
+                  Impressed by the research quality and cultural depth. This
+                  platform deserves global recognition and support.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
