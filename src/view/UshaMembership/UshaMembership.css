@@ -1,3 +1,6 @@
+.usha-membership {
+  background-color: #fff;
+}
 .mission-body-text {
   font-family: "sora", sans-serif;
   text-align: center;
@@ -201,4 +204,60 @@
 .trusted-card-body-text {
   color: #8b8b8b;
   margin: 20px 0px 40px 0px;
+}
+.price-special-offer-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "sora", sans-serif;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.price-special-left {
+  width: 100%;
+  max-width: 40%;
+  min-width: 40%;
+}
+.price-special-right {
+  width: 100%;
+  max-width: 45%;
+  min-width: 45%;
+}
+.left-offer-div {
+  background-color: #F4B301;
+  padding: 10px 25px;
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+  width: 250px;
+  text-align: center;
+}
+.unlock-heading {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.unlock-heading2 {
+  font-size: 27px;
+  font-weight: 600;
+}
+.unlock-heading3 {
+  color: #9D9D9D;
+  font-size: 18px;
+  margin: 10px 0;
+}
+.unlock-heading3 span{
+  color: #a35b13;
+  font-weight: 600;
+}
+.price-subscribe-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  padding: 8px 12px;
+  columns: 30px;
+  width: 350px;
+  cursor: pointer;
+  margin-top: 30px;
 }

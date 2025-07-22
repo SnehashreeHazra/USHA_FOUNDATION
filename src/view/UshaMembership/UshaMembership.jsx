@@ -13,6 +13,7 @@ import smalltick from "../../assets/Tick 22.png";
 import smallcross from "../../assets/Cross 1.png";
 import starIcon from "../../assets/Star 1.png";
 import userImg from "../../assets/User Icon 2.png";
+import subscribeBtn from "../../assets/Group 190.png";
 import { useNavigate } from "react-router-dom";
 import Footer from "../../Layout/Footer";
 
@@ -162,6 +163,41 @@ const UshaMembership = () => {
           All plans are paid upfront. The monthly rate reflects the total plan
           price divided by the number of months in your plan.
         </p>
+
+        <div className="price-special-offer-div">
+          <div className="price-special-left">
+            <div className="left-offer-div">
+              <p>USHA Annual 30% Off</p>
+            </div>
+            <p className="unlock-heading">
+              Unlock the complete spiritual journey
+            </p>
+            <p className="unlock-heading2">
+              USHA Originals, courses, community, and more.
+            </p>
+            <p className="unlock-heading3">
+              Get started as low as <span>₹4/day</span>
+            </p>
+            <div className="price-subscribe-btn">
+              <p>Subscribe to yearly plan</p> <img src={subscribeBtn} alt="" />
+            </div>
+          </div>
+          <div className="price-special-right">
+            <div className="plans-div">
+              <div>
+                <p>Yearly</p>
+                <p>Billed yearly</p>
+              </div>
+              <div>
+                <div>
+                  <p>₹149</p>
+                  <p>₹99</p>
+                </div>
+                <p>(per month)</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div className="trusted-users">
           <p className="trusted-user-heading">
