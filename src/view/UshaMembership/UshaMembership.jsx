@@ -61,37 +61,67 @@ const UshaMembership = () => {
 
         <div className="pricing-plans-divs">
           <div className="pricing-div">
-            <div>
+            <div className="free-plan-div">
               <p>Free Plan</p> <img src={greyArrow} alt="" />
             </div>
-            <p>Muktajñānam</p>
-            <p>
+            <p className="pricing-big-text">Muktajñānam</p>
+            <p className="pricing-small-text">
               Enjoy powerful spiritual tools and features with USHA’s free tier.
             </p>
-            <button>Sign up for Free</button>
-            <div>
+            <button className="pricing-sign-up-btn">Sign up for Free</button>
+            <div className="social-feed-connect feed-brown">
               <img src={smalltick} alt="" /> <span>Social Feed Connect</span>
             </div>
-            <div>
+            <div className="social-feed-connect feed-brown">
               <img src={smalltick} alt="" /> <span>Messaging</span>
             </div>
-            <div>
+            <div className="social-feed-connect feed-brown">
               <img src={smalltick} alt="" />{" "}
               <span>Books Marketplace Curate</span>
             </div>
-            <div>
+            <div className="social-feed-connect feed-grey">
               <img src={smallcross} alt="" /> <span>Blogs (Articles)</span>
             </div>
-            <div>
+            <div className="social-feed-connect feed-grey">
               <img src={smallcross} alt="" /> <span>Gurukul Access</span>
             </div>
-            <div>
+            <div className="social-feed-connect feed-grey">
               <img src={smallcross} alt="" />{" "}
               <span>USHA Originals Contents</span>
             </div>
           </div>
           <div className="pricing-div"></div>
-          <div className="pricing-div"></div>
+          <div className="pricing-div">
+            <div className="free-plan-div">
+              <p>Group/Enterprise Plan</p> <img src={greyArrow} alt="" />
+            </div>
+            <p className="pricing-big-text">Sanghajñānam</p>
+            <p className="pricing-small-text">
+              Customizable tools, dedicated support, and scalable solutions for
+              institutions or collectives.
+            </p>
+            <button className="pricing-contact-btn">Contact Us</button>
+            <div className="social-feed-connect feed-brown">
+              <img src={smalltick} alt="" /> <span>Social Feed Connect</span>
+            </div>
+            <div className="social-feed-connect feed-brown">
+              <img src={smalltick} alt="" /> <span>Messaging</span>
+            </div>
+            <div className="social-feed-connect feed-brown">
+              <img src={smalltick} alt="" />{" "}
+              <span>Books Marketplace Curate</span>
+            </div>
+            <div className="social-feed-connect feed-brown">
+              <img src={smalltick} alt="" /> <span>Blogs (Articles)</span>
+            </div>
+            <div className="social-feed-connect feed-brown">
+              <img src={smalltick} alt="" /> <span>Gurukul Access</span>
+            </div>
+            <div className="social-feed-connect feed-brown">
+              <img src={smalltick} alt="" />{" "}
+              <span>USHA Originals Contents</span>
+            </div>
+          </div>
         </div>
         <p>
           All plans are paid upfront. The monthly rate reflects the total plan

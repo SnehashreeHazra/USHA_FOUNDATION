@@ -21,8 +21,76 @@
   align-items: center;
   margin: 80px 0px 40px 0px;
 }
-.pricing-div{
+.pricing-div {
   width: 100%;
   max-width: 32%;
   min-width: 32%;
+  border: 2px solid #000;
+  border-radius: 15px;
+  padding: 30px 20px;
+  font-family: "sora", sans-serif;
+}
+.free-plan-div {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+.free-plan-div p {
+  color: #9c9c9c;
+  font-size: 22px;
+  font-weight: 600;
+}
+.free-plan-div img {
+  width: 15px;
+}
+.pricing-big-text {
+  color: #000;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.pricing-small-text {
+  color: #585858;
+  margin: 10px 0;
+  font-size: 15px;
+}
+.pricing-sign-up-btn {
+  width: 100%;
+  background-color: #a35b13;
+  padding: 12px 20px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  margin: 15px 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.pricing-contact-btn {
+  width: 100%;
+  background-color: #cfcfcf;
+  padding: 12px 20px;
+  border-radius: 10px;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  margin: 15px 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.social-feed-connect {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin: 10px 0;
+}
+.social-feed-connect img {
+  width: 20px;
+}
+.feed-brown span {
+  color: #a35b13;
+}
+.feed-grey span {
+  color: #9f9f9f;
 }
