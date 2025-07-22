@@ -7,6 +7,10 @@ import socialIcon from "../../assets/Feed_ 1 1.png";
 import ushaReseachIcon from "../../assets/Research 5.png";
 import insightsIcon from "../../assets/Blogging 1.png";
 import gurukulIcon from "../../assets/Learning 6.png";
+import greyArrow from "../../assets/Arrow 42.png";
+import brownArrow from "../../assets/Arrow 45.png";
+import smalltick from "../../assets/Tick 22.png";
+import smallcross from "../../assets/Cross 1.png";
 import { useNavigate } from "react-router-dom";
 import Footer from "../../Layout/Footer";
 
@@ -48,10 +52,50 @@ const UshaMembership = () => {
             <img src={ushaReseachIcon} alt="" /> <p>Research</p>
           </div>
         </div>
+
         <p className="mission-body-text">
           Whether you're just beginning or deepening your journey, there's a
           space for you. Every soul travels at its own pace. Let USHA walk with
           you.
+        </p>
+
+        <div className="pricing-plans-divs">
+          <div className="pricing-div">
+            <div>
+              <p>Free Plan</p> <img src={greyArrow} alt="" />
+            </div>
+            <p>Muktajñānam</p>
+            <p>
+              Enjoy powerful spiritual tools and features with USHA’s free tier.
+            </p>
+            <button>Sign up for Free</button>
+            <div>
+              <img src={smalltick} alt="" /> <span>Social Feed Connect</span>
+            </div>
+            <div>
+              <img src={smalltick} alt="" /> <span>Messaging</span>
+            </div>
+            <div>
+              <img src={smalltick} alt="" />{" "}
+              <span>Books Marketplace Curate</span>
+            </div>
+            <div>
+              <img src={smallcross} alt="" /> <span>Blogs (Articles)</span>
+            </div>
+            <div>
+              <img src={smallcross} alt="" /> <span>Gurukul Access</span>
+            </div>
+            <div>
+              <img src={smallcross} alt="" />{" "}
+              <span>USHA Originals Contents</span>
+            </div>
+          </div>
+          <div className="pricing-div"></div>
+          <div className="pricing-div"></div>
+        </div>
+        <p>
+          All plans are paid upfront. The monthly rate reflects the total plan
+          price divided by the number of months in your plan.
         </p>
       </div>
       <Footer />

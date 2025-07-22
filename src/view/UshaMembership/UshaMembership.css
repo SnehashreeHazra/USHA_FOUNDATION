@@ -15,3 +15,14 @@
   justify-content: space-between;
   font-family: "sora", sans-serif;
 }
+.pricing-plans-divs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px 0px 40px 0px;
+}
+.pricing-div{
+  width: 100%;
+  max-width: 32%;
+  min-width: 32%;
+}
