@@ -24,6 +24,7 @@ import donationformImg from "../../assets/a-a-YDEIw7IZEbU-unsplash 1.png";
 import ushaLogo from "../../assets/USA New Logo 1 2.png";
 import { useNavigate } from "react-router-dom";
 import Footer from "../../Layout/Footer";
+import DonationBill from "./DonationBill";
 
 const UshaDonation = () => {
   useEffect(() => {
@@ -356,6 +357,8 @@ const UshaDonation = () => {
           </div>
         </div>
       )}
+
+      <DonationBill />
     </>
   );
 };
