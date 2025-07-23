@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./UshaMembership.css";
 import yellowArrow from "../../assets/Group 194.png";
 import originalIcon from "../../assets/OTT & live Icon 8 2.png";
@@ -17,11 +17,13 @@ import bigTickIcon from "../../assets/Tick 18.png";
 import subscribeBtn from "../../assets/Group 190.png";
 import { useNavigate } from "react-router-dom";
 import Footer from "../../Layout/Footer";
+import YearlyplanBill from "./YearlyplanBill";
 
 const UshaMembership = () => {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
+  const [showYearBill, setShowYearBill] = useState(false)
   const navigate = useNavigate();
   return (
     <div className="usha-membership">
@@ -184,11 +186,11 @@ const UshaMembership = () => {
             </div>
           </div>
           <div className="price-special-right">
-            <div className="plans-div00 ">
+            <div className="plans-div00 " onClick={()=>setShowYearBill(true)}>
               <div className="popular-badge">Most Popular</div>
               <img className="check-circle" src={bigTickIcon} alt="" />
-              <div>
-                <p className="yearly-heading">Monthly</p>
+              <div >
+                <p className="yearly-heading">Yearly</p>
                 <p className="yearly-subheading">Billed yearly</p>
               </div>
               <div>
@@ -308,6 +310,7 @@ const UshaMembership = () => {
         </div>
       </div>
       <Footer />
+      {showYearBill && <YearlyplanBill />}
     </div>
   );
 };

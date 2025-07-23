@@ -31,7 +31,7 @@ const UshaDonation = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
   const [showModal, setShowModal] = useState(false);
-  const [showDonateBill, setShowDonateBill] = useState(false)
+  const [showDonateBill, setShowDonateBill] = useState(false);
   const navigate = useNavigate();
   return (
     <>
@@ -314,7 +314,10 @@ const UshaDonation = () => {
                   <p>Enter Your Preferred Amount</p>
                   <input type="text" placeholder="Your Email" />
                 </div>
-                <div className="form-submit-btn" onClick={() => setShowDonateBill(true)}>
+                <div
+                  className="form-submit-btn"
+                  onClick={() => setShowDonateBill(true)}
+                >
                   <p>Donate</p> <img src={brownArrow} alt="" />
                 </div>
               </div>
