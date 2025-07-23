@@ -321,7 +321,7 @@ const UshaDonation = () => {
                 <img src={donationformImg} alt="" />
               </div>
             </div>
-            <p>Frequently asked questions</p>
+            <p className="freq-asked-question">Frequently asked questions</p>
             <div className="frequently-questions-wrapper">
               <div className="freq-left">
                 <p>Is my donation secure?</p>
@@ -330,11 +330,11 @@ const UshaDonation = () => {
                 <p>How to cancel recurring donation?</p>
               </div>
               <div className="freq-right">
-                <p>
+                <p className="freq-right-heading">
                   Absolutely. The security and confidentiality of your
                   information is our highest priority.
                 </p>
-                <p>
+                <p className="freq-right-desc">
                   We use industry-standard SSL (secure socket layer) technology
                   to protect your information and provide a safe and secure
                   environment for online donations. We will not sell, trade or
