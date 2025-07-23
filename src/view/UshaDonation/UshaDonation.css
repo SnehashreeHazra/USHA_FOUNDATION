@@ -389,8 +389,6 @@
   padding-left: 40px;
 }
 
-
-
 /* ***************Donation Bill CSS*************** */
 
 .donation-bill-modal {
@@ -415,4 +413,50 @@
   max-width: 60%;
   min-width: 60%;
   padding: 50px;
+}
+.donation-bill-back {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+.donation-bill-back p {
+  color: #808080;
+}
+.donation-bill-back img {
+  width: 20px;
+}
+.your-account {
+  color: #878787;
+  margin-top: 30px;
+  font-size: 30px;
+}
+.donate-person-email {
+  font-size: 30px;
+  color: #000;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.donation-bill {
+  margin-top: 50px;
+  color: #000;
+  font-size: 30px;
+  font-weight: 500;
+}
+.total-amount-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #8b8b8b;
+}
+.discount-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #47a025;
 }
