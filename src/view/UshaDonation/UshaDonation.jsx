@@ -269,12 +269,12 @@ const UshaDonation = () => {
                     <p>First Name</p>
                     <input type="text" placeholder="First Name" />
                   </div>
-                  <div>
+                  <div className="form-group-div1">
                     <p>Last Name</p>
                     <input type="text" placeholder="Last Name" />
                   </div>
                 </div>
-                <div>
+                <div className="email-input">
                   <p>Email id</p>
                   <input type="text" placeholder="Your Email" />
                 </div>
