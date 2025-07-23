@@ -15,7 +15,7 @@ const DonationBill = () => {
         </div>
         <p className="your-account">Your Account:</p>
         <p className="donate-person-email">pragyan.gupta@gmail.com</p>
-        <p className="donation-bill">Donation Bill</p>
+        <p className="donation-bill-heading">Donation Bill</p>
         <div className="total-amount-div">
           <p>Total Amount</p>
           <p>₹2,001.00</p>
@@ -28,28 +28,28 @@ const DonationBill = () => {
           <p>Subtotal</p>
           <p>₹1,900.00</p>
         </div>
-        <p>GST (18%)</p>
-        <div>
+        <p className="gst">GST (18%)</p>
+        <div className="total-div">
           <p>Total</p>
           <p>₹1,900.00</p>
         </div>
-        <p>Select a payment method</p>
-        <p>To avoid payment failure, do noy use a VPN.</p>
-        <div>
-          <div>
-            <img src="" alt="" /> <img src="" alt="" />
+        <p className="select-text">Select a payment method</p>
+        <p className="avoid-text">
+          To avoid payment failure, do noy use a VPN.
+        </p>
+        <div className="upi-pay">
+          <div className="upi-pay-div1">
+            <img src={upiImg} alt="" /> <p>UPI & Cards</p>
           </div>
-          <div>
-            <img src="" alt="" /> <img src="" alt="" />
+          <div className="upi-pay-div1">
+            <img src={razorPay} alt="" /> <img src={arrow} alt="" />
           </div>
         </div>
-        <div>
-          <div>
-            <img src="" alt="" /> <p>Credit & Debit Cards</p>
+        <div className="upi-pay">
+          <div className="upi-pay-div1">
+            <img src={creditCardImg} alt="" /> <p>Credit & Debit Cards</p>
           </div>
-          <div>
-            <img src="" alt="" />{" "}
-          </div>
+          <img src={arrow} alt="" />{" "}
         </div>
       </div>
     </div>
