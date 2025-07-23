@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./UshaDonation.css";
 import yellowArrow from "../../assets/Group 194.png";
 import viewMoreBtn from "../../assets/Group 219.png";
+import brownArrow from "../../assets/Group 190.png";
 import partnerImg1 from "../../assets/dummy-logo-5b 1.png";
 import partnerImg2 from "../../assets/aven 1.png";
 import partnerImg3 from "../../assets/amara 1.png";
@@ -273,9 +274,69 @@ const UshaDonation = () => {
                     <input type="text" placeholder="Last Name" />
                   </div>
                 </div>
+                <div>
+                  <p>Email id</p>
+                  <input type="text" placeholder="Your Email" />
+                </div>
+                <div className="form-group">
+                  <div>
+                    <p>Country</p>
+                    <input type="text" placeholder="Type Here" />
+                  </div>
+                  <div>
+                    <p>Phone No.</p>
+                    <div>
+                      <div>
+                        <p>+91</p>
+                      </div>
+                      <input type="text" placeholder="Last Name" />
+                    </div>
+                  </div>
+                </div>
+                <p>Donation Amount</p>
+                <div>
+                  <div>1001</div>
+                  <div>2001</div>
+                  <div>5001</div>
+                  <div>10001</div>
+                  <div>20001</div>
+                  <div>30001</div>
+                </div>
+                <p>or</p>
+                <div>
+                  <p>Enter Your Preferred Amount</p>
+                  <input type="text" placeholder="Your Email" />
+                </div>
+                <div>
+                  <p>Donate</p> <img src={brownArrow} alt="" />
+                </div>
               </div>
               <div className="donation-form-right">
                 <img src={donationformImg} alt="" />
+              </div>
+            </div>
+            <p>Frequently asked questions</p>
+            <div className="frequently-questions-wrapper">
+              <div className="freq-left">
+                <p>Is my donation secure?</p>
+                <p>Is my donation tax-deductible?</p>
+                <p>Do I get a receipt?</p>
+                <p>How to cancel recurring donation?</p>
+              </div>
+              <div className="freq-right">
+                <p>
+                  Absolutely. The security and confidentiality of your
+                  information is our highest priority.
+                </p>
+                <p>
+                  We use industry-standard SSL (secure socket layer) technology
+                  to protect your information and provide a safe and secure
+                  environment for online donations. We will not sell, trade or
+                  share your personal information with anyone else, nor send
+                  donor mailings on behalf of other organizations, and we will
+                  only share personal information if you have given us specific
+                  permission to do so.
+                </p>
               </div>
             </div>
           </div>
