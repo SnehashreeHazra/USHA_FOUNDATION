@@ -199,7 +199,7 @@
   width: 100%;
   max-width: 90%;
   min-width: 90%;
-  padding: 50px 40px;
+  padding: 50px;
   /* position: absolute; */
 }
 .usha-donation-div1 {
@@ -217,4 +217,25 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.donation-form-left {
+  width: 100%;
+  max-width: 65%;
+  min-width: 65%;
+}
+.donation-form-right {
+  width: 100%;
+  max-width: 30%;
+  min-width: 30%;
+}
+.donation-form-right img {
+  width: 100%;
+  height: 100%;
+}
+.form-group-div1 input {
+  width: 100%;
+  border: 1px solid #c2c2c2;
+  padding: 15px 20px;
+  color: #acacac;
+  border-radius: 15px;
 }

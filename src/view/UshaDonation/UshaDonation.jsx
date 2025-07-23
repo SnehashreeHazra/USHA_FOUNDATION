@@ -265,7 +265,7 @@ const UshaDonation = () => {
             <div className="form-wrapper">
               <div className="donation-form-left">
                 <div className="form-group">
-                  <div>
+                  <div className="form-group-div1">
                     <p>First Name</p>
                     <input type="text" placeholder="First Name" />
                   </div>
