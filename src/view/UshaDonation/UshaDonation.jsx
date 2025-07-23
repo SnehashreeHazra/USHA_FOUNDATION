@@ -289,13 +289,13 @@ const UshaDonation = () => {
                     <p>Country</p>
                     <input type="text" placeholder="Type Here" />
                   </div>
-                  <div>
+                  <div className="phone-no">
                     <p>Phone No.</p>
-                    <div>
-                      <div>
+                    <div className="phone-input">
+                      <div className="phone-input1">
                         <p>+91</p>
                       </div>
-                      <input type="text" placeholder="Last Name" />
+                      <input type="text" placeholder="Type Here" />
                     </div>
                   </div>
                 </div>
@@ -324,10 +324,18 @@ const UshaDonation = () => {
             <p className="freq-asked-question">Frequently asked questions</p>
             <div className="frequently-questions-wrapper">
               <div className="freq-left">
-                <p>Is my donation secure?</p>
-                <p>Is my donation tax-deductible?</p>
-                <p>Do I get a receipt?</p>
-                <p>How to cancel recurring donation?</p>
+                <div className="freq-left-div1">
+                  <div className="left-separate"></div>
+                  <p>Is my donation secure?</p>
+                </div>
+                <p className="left-second-question">
+                  Is my donation tax-deductible?
+                </p>
+
+                <p className="left-second-question">Do I get a receipt?</p>
+                <p className="left-second-question">
+                  How to cancel recurring donation?
+                </p>
               </div>
               <div className="freq-right">
                 <p className="freq-right-heading">

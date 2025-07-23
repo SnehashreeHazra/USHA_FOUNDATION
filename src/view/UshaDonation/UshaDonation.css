@@ -255,6 +255,7 @@
   padding: 15px 20px;
   color: #acacac;
   border-radius: 15px;
+  outline: none;
 }
 .email-input {
   margin: 15px 0;
@@ -265,6 +266,7 @@
   padding: 15px 20px;
   color: #acacac;
   border-radius: 15px;
+  outline: none;
 }
 .email-input p {
   color: #6b6868;
@@ -276,6 +278,36 @@
   margin-bottom: 8px;
   font-size: 14px;
   margin-top: 20px;
+}
+.phone-no p {
+  color: #6b6868;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+.phone-input {
+  display: flex;
+  align-items: center;
+  width: 95%;
+}
+.phone-input1 {
+  background-color: #c2c2c2;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 10px;
+  color: #414141;
+  font-weight: 600;
+}
+.phone-input input {
+  outline: none;
+  border: 1px solid #c2c2c2;
+  padding: 15px 20px;
+  color: #acacac;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  outline: none;
 }
 .donation-div {
   display: flex;
@@ -340,7 +372,19 @@
   margin-top: 15px;
   font-size: 14px;
 }
-.freq-left p {
-  margin: 40px 0;
-  padding-left: 30px;
+.freq-left-div1 {
+  /* padding: 20px 0; */
+  display: flex;
+  align-items: center;
+  column-gap: 35px;
+  margin-bottom: 15px;
+}
+.left-separate {
+  background-color: #a35b13;
+  width: 6px;
+  height: 50px;
+}
+.left-second-question {
+  padding: 20px 0;
+  padding-left: 40px;
 }
