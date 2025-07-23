@@ -331,5 +331,19 @@
   width: 45px;
 }
 
-
 /* ***********Yearly Plan CSS************* */
+
+.yearly-div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.yearly-plan {
+  color: #000;
+  font-weight: 600;
+  font-size: 20px;
+}
+.billed-year {
+  color: #000;
+  font-size: 20px;
+}

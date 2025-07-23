@@ -15,9 +15,12 @@ const YearlyplanBill = () => {
         </div>
         <p className="your-account">Your Account:</p>
         <p className="donate-person-email">pragyan.gupta@gmail.com</p>
-        <p className="donation-bill-heading">Donation Bill</p>
+        <div className="yearly-div">
+          <p className="yearly-plan">Yearly Plan</p>
+          <p className="billed-year">Billed Yearly</p>
+        </div>
         <div className="total-amount-div">
-          <p>Total Amount</p>
+          <p>Yearly Total</p>
           <p>₹2,001.00</p>
         </div>
         <div className="discount-div">
