@@ -393,6 +393,26 @@
 
 /* ***************Donation Bill CSS*************** */
 
+.donation-bill-modal {
+  background: rgba(255, 255, 255, 0.1); /* light glass effect */
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 30px;
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+  font-family: "sora", sans-serif;
+  position: absolute;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+}
 .donation-bill {
-  
+  margin: 0 auto;
+  background-color: #fff;
+  width: 100%;
+  max-width: 60%;
+  min-width: 60%;
+  padding: 50px;
 }
