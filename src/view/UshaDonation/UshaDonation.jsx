@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./UshaDonation.css";
 import yellowArrow from "../../assets/Group 194.png";
 import viewMoreBtn from "../../assets/Group 219.png";
@@ -18,6 +18,8 @@ import donateCard2 from "../../assets/image 92.png";
 import donateBtn from "../../assets/Group 223.png";
 import donateBtn2 from "../../assets/Group 197.png";
 import rigvedaImg from "../../assets/Group 224.png";
+import backArrow from "../../assets/Arrow 78.png";
+import donationformImg from "../../assets/a-a-YDEIw7IZEbU-unsplash 1.png";
 import ushaLogo from "../../assets/USA New Logo 1 2.png";
 import { useNavigate } from "react-router-dom";
 import Footer from "../../Layout/Footer";
@@ -26,6 +28,8 @@ const UshaDonation = () => {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
+  const [showModal, setShowModal] = useState(false);
+
   const navigate = useNavigate();
   return (
     <div className="usha-donation">
@@ -118,7 +122,10 @@ const UshaDonation = () => {
                 content that preserves and promotes Sanatan Dharma for future
                 generations. Donate generously.
               </p>
-              <button className="donate-card-btn">
+              <button
+                className="donate-card-btn"
+                onClick={() => setShowModal(true)}
+              >
                 Donate Now!
                 <img src={donateBtn} alt="" />
               </button>
@@ -136,7 +143,10 @@ const UshaDonation = () => {
                 research. Your donation fuels knowledge, preservation, and
                 spiritual awakening across generations.
               </p>
-              <button className="donate-card-btn">
+              <button
+                className="donate-card-btn"
+                onClick={() => setShowModal(true)}
+              >
                 Donate Now!
                 <img src={donateBtn} alt="" />
               </button>
@@ -244,6 +254,33 @@ const UshaDonation = () => {
           </button>
         </form>
       </div>
+      {showModal && (
+        <div className="donation-modal-overlay">
+          <div className="usha-donation-form">
+            <div className="usha-donation-div1">
+              <img src={backArrow} alt="" />
+              <p>Donation Details</p>
+            </div>
+            <div className="form-wrapper">
+              <div className="donation-form-left">
+                <div className="form-group">
+                  <div>
+                    <p>First Name</p>
+                    <input type="text" placeholder="First Name" />
+                  </div>
+                  <div>
+                    <p>Last Name</p>
+                    <input type="text" placeholder="Last Name" />
+                  </div>
+                </div>
+              </div>
+              <div className="donation-form-right">
+                <img src={donationformImg} alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       <Footer />
     </div>

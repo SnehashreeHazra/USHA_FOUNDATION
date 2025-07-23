@@ -1,5 +1,6 @@
 .usha-donation {
   background-color: #fff;
+  position: relative;
 }
 .donation-banner {
   background-image: url("../../assets/Indian Flag Colour 2.png");
@@ -178,4 +179,42 @@
 }
 .empower-donate img {
   width: 50px;
+}
+.donation-modal-overlay{
+  background: rgba(255, 255, 255, 0.1); /* light glass effect */
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 30px;
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+   font-family: 'sora', sans-serif;
+   
+   width: 100%;
+}
+.usha-donation-form {
+ position: absolute;
+  background-color: #fff;
+  width: 100%;
+  max-width: 90%;
+  min-width: 90%;
+  padding: 50px 40px;
+  /* position: absolute; */
+}
+.usha-donation-div1 {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+.usha-donation-div1 p{
+  color: #808080;
+}
+.usha-donation-div1 img{
+  width: 20px;
+}
+.form-wrapper {
+  display: flex;
+  justify-content: space-between;
+
 }
