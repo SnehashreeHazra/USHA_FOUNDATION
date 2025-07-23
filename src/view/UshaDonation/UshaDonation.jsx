@@ -33,6 +33,8 @@ const UshaDonation = () => {
 
   const navigate = useNavigate();
   return (
+    <>
+
     <div className="usha-donation">
       <div className="donation-banner">
         <div className="uni-container about-container0">
@@ -255,7 +257,11 @@ const UshaDonation = () => {
           </button>
         </form>
       </div>
-      {showModal && (
+      
+
+      <Footer />
+    </div>
+    {showModal && (
         <div className="donation-modal-overlay">
           <div className="usha-donation-form">
             <div className="usha-donation-div1">
@@ -279,7 +285,7 @@ const UshaDonation = () => {
                   <input type="text" placeholder="Your Email" />
                 </div>
                 <div className="form-group">
-                  <div>
+                  <div className="form-group-div1">
                     <p>Country</p>
                     <input type="text" placeholder="Type Here" />
                   </div>
@@ -293,14 +299,14 @@ const UshaDonation = () => {
                     </div>
                   </div>
                 </div>
-                <p>Donation Amount</p>
-                <div>
-                  <div>1001</div>
-                  <div>2001</div>
-                  <div>5001</div>
-                  <div>10001</div>
-                  <div>20001</div>
-                  <div>30001</div>
+                <p className="donation-amount">Donation Amount</p>
+                <div className="donation-div">
+                  <div className="donation-price">1001</div>
+                  <div className="donation-price">2001</div>
+                  <div className="donation-price">5001</div>
+                  <div className="donation-price">10001</div>
+                  <div className="donation-price">20001</div>
+                  <div className="donation-price">30001</div>
                 </div>
                 <p>or</p>
                 <div>
@@ -342,9 +348,7 @@ const UshaDonation = () => {
           </div>
         </div>
       )}
-
-      <Footer />
-    </div>
+    </>
   );
 };
 
