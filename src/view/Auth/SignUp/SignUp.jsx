@@ -58,13 +58,13 @@ const SignUp = () => {
 
             <div className="form-group" style={{ marginTop: "20px" }}>
               <div className="first-name-input">
-                <img src={phoneLogo} alt="" />
+                <img className="phone-logo" src={phoneLogo} alt="" />
                 <div className="separate-div"></div>
                 <input type="text" placeholder="Phone Number" />
               </div>
               <div className="first-name-input">
-                <img src={downBtn} alt="" />
-                <div className="separate-div"></div>
+                <img className="down-logo" src={downBtn} alt="" />
+                {/* <div className="separate-div"></div> */}
                 <input type="text" placeholder="Country Name" />
               </div>
             </div>

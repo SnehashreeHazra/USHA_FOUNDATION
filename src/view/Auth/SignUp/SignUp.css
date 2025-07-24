@@ -148,3 +148,10 @@
   font-family: "sora", sans-serif;
   cursor: pointer;
 }
+.phone-logo {
+  width: 25px !important;
+}
+.down-logo {
+  width: 12px !important;
+  /* padding-left: 5px; */
+}
