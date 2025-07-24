@@ -76,7 +76,26 @@
   text-align: center;
 }
 
-.first-name-input {
+.first-name-input2 {
+  width: 35%;
+  padding: 10px 10px;
+  border: 1px solid #b2b2b2;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  border-radius: 15px;
+}
+.first-name-input1 {
+  width: 62%;
+  padding: 10px 10px;
+  border: 1px solid #b2b2b2;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  border-radius: 15px;
+}
+.first-name-input{
+  width: 100%;
   padding: 10px 10px;
   border: 1px solid #b2b2b2;
   display: flex;
@@ -88,6 +107,28 @@
   width: 30px;
 }
 .first-name-input input {
+  border: none;
+  outline: none;
+  color: #adadad;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 15px;
+}
+.first-name-input1 img {
+  width: 30px;
+}
+.first-name-input1 input {
+  border: none;
+  outline: none;
+  color: #adadad;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 15px;
+}
+.first-name-input2 img {
+  width: 30px;
+}
+.first-name-input2 input {
   border: none;
   outline: none;
   color: #adadad;
@@ -113,6 +154,10 @@
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
+}
+.view-password {
+  width: 20px !important;
+  cursor: pointer;
 }
 .already {
   text-align: center;

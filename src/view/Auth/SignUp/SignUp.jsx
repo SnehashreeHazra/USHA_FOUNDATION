@@ -6,6 +6,7 @@ import emailLogo from "../../../assets/Msg Icon 2.png";
 import passwordLogo from "../../../assets/noun-key-5633618 3.png";
 import phoneLogo from "../../../assets/Voice Call 3.png";
 import downBtn from "../../../assets/Polygon 3.png";
+import passwordView from "../../../assets/Vector.png"
 import { NavLink, useNavigate } from "react-router-dom";
 
 const SignUp = () => {
@@ -36,12 +37,12 @@ const SignUp = () => {
 
           <div className="signup-form-body2">
             <div className="form-group">
-              <div className="first-name-input">
+              <div className="first-name-input1">
                 <img src={userLogo} alt="" />
                 <div className="separate-div"></div>
                 <input type="text" placeholder="First Name" />
               </div>
-              <div className="first-name-input">
+              <div className="first-name-input2">
                 {/* <img src={userLogo} alt="" />
                   <div className="separate-div"></div> */}
                 <input type="text" placeholder="Last Name" />
@@ -57,12 +58,12 @@ const SignUp = () => {
             </div>
 
             <div className="form-group" style={{ marginTop: "20px" }}>
-              <div className="first-name-input">
+              <div className="first-name-input1">
                 <img className="phone-logo" src={phoneLogo} alt="" />
                 <div className="separate-div"></div>
                 <input type="text" placeholder="Phone Number" />
               </div>
-              <div className="first-name-input">
+              <div className="first-name-input2">
                 <img className="down-logo" src={downBtn} alt="" />
                 {/* <div className="separate-div"></div> */}
                 <input type="text" placeholder="Country Name" />
@@ -76,6 +77,7 @@ const SignUp = () => {
               <img src={passwordLogo} alt="" />
               <div className="separate-div"></div>
               <input type="text" placeholder="Password" />
+              <img className="view-password" src={passwordView} alt="" />
             </div>
 
             <div
@@ -85,6 +87,7 @@ const SignUp = () => {
               <img src={passwordLogo} alt="" />
               <div className="separate-div"></div>
               <input type="text" placeholder="Confirm Password" />
+              <img className="view-password" src={passwordView} alt="" />
             </div>
           </div>
           <p className="already">Already have an Account!</p>
