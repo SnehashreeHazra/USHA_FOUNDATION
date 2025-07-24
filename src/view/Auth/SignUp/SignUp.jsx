@@ -5,7 +5,7 @@ import userLogo from "../../../assets/User Icon 2.png";
 import emailLogo from "../../../assets/Msg Icon 2.png";
 import passwordLogo from "../../../assets/noun-key-5633618 3.png";
 import phoneLogo from "../../../assets/Voice Call 3.png";
-import downBtn from "../../../assets/Polygon 2.png";
+import downBtn from "../../../assets/Polygon 3.png";
 import { NavLink, useNavigate } from "react-router-dom";
 
 const SignUp = () => {
@@ -87,12 +87,17 @@ const SignUp = () => {
               <input type="text" placeholder="Confirm Password" />
             </div>
           </div>
-          <p className="already">
-            Already have an Account! Please{" "}
-            <NavLink to="/login" onClick={() => navigate("/login")}>
-              Log In
-            </NavLink>
-          </p>
+          <p className="already">Already have an Account!</p>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              margin: "10px 0",
+            }}
+          >
+            <button className="bottom-signin-btn">Sign In</button>
+          </div>
           <p className="privacy-policy">
             By signing up, I accept the USHA <span>Terms & Conditions</span>{" "}
             <br />
