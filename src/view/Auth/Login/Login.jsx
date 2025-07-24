@@ -5,6 +5,8 @@ import userLogo from "../../../assets/User Icon 2.png";
 import emailLogo from "../../../assets/Msg Icon 2.png";
 import passwordLogo from "../../../assets/noun-key-5633618 3.png";
 import phoneLogo from "../../../assets/Voice Call 3.png";
+import facebook from "../../../assets/Facebook-Free-PNG 1.png"
+import google from "../../../assets/Diseno-sin-titulo-9 1.png"
 // import downBtn from "../../../assets/Polygon 3.png";
 import { useNavigate } from "react-router-dom";
 
@@ -36,16 +38,20 @@ const Login = () => {
               Universal Spiritual Human Awakening
             </p>
           </div>
+          <p className="log-in-text">Log In to stay connected</p>
           <div className="signup-form-body2">
             <div className="first-name-input" style={{ width: "100%" }}>
               <img src={userLogo} alt="" />
               <div className="separate-div"></div>
-              <input type="text" placeholder="First Name" />
+              <input
+                type="text"
+                placeholder="User Name or Email or Phone Number"
+              />
             </div>
 
             <div
               className="first-name-input"
-              style={{ width: "100%", marginTop: "20px" }}
+              style={{ width: "100%", marginTop: "30px" }}
             >
               <img src={passwordLogo} alt="" />
               <div className="separate-div"></div>
@@ -68,6 +74,16 @@ const Login = () => {
               Sign Up
             </span>
           </p>
+          <div className="social-div">
+            <div className="facebook-div">
+              <img src={facebook} alt="" />
+              <span>Login with your Facebook Account</span>
+            </div>
+            <div className="facebook-div">
+              <img src={google} alt="" />
+              <span>Login with your Google Account</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .signup-form {
@@ -15,6 +16,7 @@
   border-radius: 20px;
   height: auto;
   margin: 80px 0;
+ 
 }
 
 .signup-form-header {
@@ -40,7 +42,7 @@
 }
 .sign-up-heading {
   color: #8d8d8d;
-  font-family: "Poppins", sans-serif;
+  font-family: "sora", sans-serif;
   font-size: 22px;
 }
 .signup-btn {
@@ -58,22 +60,24 @@
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   padding-bottom: 50px;
+  padding: 20px 60px;
 }
 .signup-body-head {
   text-align: center;
-  padding: 50px 0px;
-  border-bottom: 1px solid #585454;
+  padding: 20px 0px 40px 0px;
+  border-bottom: 1px solid #CFCFCF;
 }
 .signup-body-head img {
   width: 80px;
 }
 .usha-foundation {
-  font-size: 25px;
+  font-size: 28px;
   text-align: center;
 }
 .usha-foundation-subheading {
   text-align: center;
 }
+
 .first-name-input {
   padding: 10px 10px;
   border: 1px solid #b2b2b2;
@@ -88,7 +92,10 @@
 .first-name-input input {
   border: none;
   outline: none;
-  color: #b2b2b2;
+  color: #ADADAD;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 15px;
 }
 .separate-div {
   width: 1px; /* thinner for a cleaner vertical line */
@@ -97,7 +104,7 @@
   margin: 0 8px;
 }
 .signup-form-body2 {
-  padding: 40px 60px;
+  /* padding: 40px 60px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -125,7 +132,7 @@
 }
 .already span {
   color: #1a52b4;
-  font-weight: 500;
+  font-weight: 600;
 }
 .privacy-policy span {
   color: #1a52b4;
