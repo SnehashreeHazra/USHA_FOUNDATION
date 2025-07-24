@@ -33,7 +33,7 @@ const SignUp = () => {
               Universal Spiritual Human Awakening
             </p>
           </div>
-          
+
           <div className="signup-form-body2">
             <div className="form-group">
               <div className="first-name-input">

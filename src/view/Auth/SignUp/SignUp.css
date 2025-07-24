@@ -5,7 +5,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .signup-form {
@@ -16,7 +15,6 @@
   border-radius: 20px;
   height: auto;
   margin: 80px 0;
- 
 }
 
 .signup-form-header {
@@ -65,7 +63,7 @@
 .signup-body-head {
   text-align: center;
   padding: 20px 0px 40px 0px;
-  border-bottom: 1px solid #CFCFCF;
+  border-bottom: 1px solid #cfcfcf;
 }
 .signup-body-head img {
   width: 80px;
@@ -92,7 +90,7 @@
 .first-name-input input {
   border: none;
   outline: none;
-  color: #ADADAD;
+  color: #adadad;
   width: 100%;
   padding-left: 10px;
   font-size: 15px;

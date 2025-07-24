@@ -5,8 +5,8 @@ import userLogo from "../../../assets/User Icon 2.png";
 import emailLogo from "../../../assets/Msg Icon 2.png";
 import passwordLogo from "../../../assets/noun-key-5633618 3.png";
 import phoneLogo from "../../../assets/Voice Call 3.png";
-import facebook from "../../../assets/Facebook-Free-PNG 1.png"
-import google from "../../../assets/Diseno-sin-titulo-9 1.png"
+import facebook from "../../../assets/Facebook-Free-PNG 1.png";
+import google from "../../../assets/Diseno-sin-titulo-9 1.png";
 // import downBtn from "../../../assets/Polygon 3.png";
 import { useNavigate } from "react-router-dom";
 
@@ -74,7 +74,7 @@ const Login = () => {
               Sign Up
             </span>
           </p>
-          <div className="social-div">
+          <div className="register-social-div">
             <div className="facebook-div">
               <img src={facebook} alt="" />
               <span>Login with your Facebook Account</span>

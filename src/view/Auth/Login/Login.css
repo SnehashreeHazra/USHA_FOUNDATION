@@ -8,8 +8,28 @@
   color: #989898;
 }
 .log-in-text {
-  color: #ADADAD;
+  color: #adadad;
   margin: 30px 0;
   text-align: center;
   font-family: "sora", sans-serif;
+}
+.register-social-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "sora", sans-serif;
+  margin: 50px 0px 30px 0px;
+}
+.facebook-div {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  padding: 5px 15px;
+  font-size: 12px;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 30px;
+}
+.facebook-div img {
+  width: 35px;
 }
